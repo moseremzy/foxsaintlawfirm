@@ -12,8 +12,8 @@ import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
-import ESG from "../assets/profile-pictures/ESG.png"
-import Copyright from "../assets/profile-pictures/Copyright.png"
+import esg from "../assets/profile-pictures/esg.png"
+import copyright from "../assets/profile-pictures/copyright.png"
 
 export const locations = [
   {label: "Lagos", href: "#"},
@@ -111,15 +111,25 @@ export const practiceAreas = [
 
 export const explore = [
   {
-    image : <ESG />, 
-    text : "Environmental, Social, and Governance (ESG) and Data Protection: A Nexus"
+    image :esg, 
+    text : "Environmental, Social, and Governance (ESG) and Data Protection: A Nexus",
+    href : "#"
   },
   {
-    image : <Copyright />,
-    text : "Copyright in the Age of Artificial Intelligence (AI): Legal Implications and Emerging Issues"
+    image : esg,
+    text : "Copyright in the Age of Artificial Intelligence (AI): Legal Implications and Emerging Issues",
+    href : "#"
   },
-  {},
-  {},
+  {
+    image : esg,
+    text : "Major Highlights of the Investments and Securities Act, 2025: A New Dawn for Nigeria's Capital Market",
+    href : "#"
+  },
+  {
+    image : esg,
+    text : "Women's Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
+    href : "#"
+  },
 ]
 
 

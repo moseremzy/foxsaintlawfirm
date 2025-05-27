@@ -1,10 +1,11 @@
 import React from "react";
-import ESG from '../assets/profile-pictures/ESG.png'
+import esg from '../assets/profile-pictures/esg.png'
+import { explore } from "../constants";
 
 const Insight = () => {
   return (
-    <div>
-    <div className="bg-gradient-to-r from-[#222268] to-[#16163F] h-fit pt-20 pb-10 px-5 flex flex-col justify-between gap-5 w-fit md:flex-row md:items-center lg:py-20">
+    <div className="bg-gradient-to-r from-[#222268] to-[#16163F]">
+    <div className="h-fit pt-20 pb-10 px-5 flex flex-col justify-between gap-5 w-fit md:flex-row md:items-center lg:py-20">
       
         <section className="flex flex-col gap-10 h-fit justify-center items-start md:w-[70%] lg:w-[65%]">
         <article className="flex flex-col gap-6">
@@ -24,9 +25,18 @@ const Insight = () => {
        
     </div > 
 
-    <div className="p-5">
-    <img src={ESG} alt="" />
-    </div>
+    <ul className="flex flex-col px-5 pb-20 font-semibold list-none md:flex-row gap-7">
+
+      {explore.map((item,index)=>(
+        <li key={index} className="flex flex-col pt-0 py-7">
+          <a href={item.href}>
+          <img src={item.image} alt="" className="rounded"/>
+          <p>{item.text}</p>  
+          </a>
+        </li>
+      ))}
+
+    </ul>
     
     </div>
   );
