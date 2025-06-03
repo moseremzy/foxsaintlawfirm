@@ -5,7 +5,7 @@ import { explore } from "../constants";
 const Insight = () => {
   return (
     <div className="bg-gradient-to-r from-[#222268] to-[#16163F]">
-    <div className="h-fit pt-20 pb-10 px-5 flex flex-col justify-between gap-5 w-fit md:flex-row md:items-center lg:py-20">
+    <div className="h-fit pt-20 pb-7 px-5 flex flex-col justify-between gap-5 w-fit md:flex-row md:items-center lg:py-20">
       
         <section className="flex flex-col gap-10 h-fit justify-center items-start md:w-[70%] lg:w-[65%]">
         <article className="flex flex-col gap-6">
@@ -30,7 +30,7 @@ const Insight = () => {
       {explore.map((item,index)=>(
         <li key={index} className="flex flex-col pt-0 py-7">
           <a href={item.href}>
-          <img src={item.image} alt="" className="rounded"/>
+          <img src={item.image} alt="" className="rounded h-75 w-full md:w-fit md:h-fit"/>
           <p>{item.text}</p>  
           </a>
         </li>

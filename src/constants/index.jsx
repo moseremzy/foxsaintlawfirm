@@ -13,7 +13,11 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 import esg from "../assets/profile-pictures/esg.png"
-import copyright from "../assets/profile-pictures/copyright.png"
+import womensInheritanceRights from "../assets/profile-pictures/womensInheritanceRights.png"
+import copyrightlaw from "../assets/profile-pictures/copyrightlaw.png"
+import logo from "../assets/logo.png"
+import investmentsandsecurities from "../assets/profile-pictures/investmentsandsecurities.png"
+
 
 export const locations = [
   {label: "Lagos", href: "#"},
@@ -116,24 +120,40 @@ export const explore = [
     href : "#"
   },
   {
-    image : esg,
+    image : copyrightlaw,
     text : "Copyright in the Age of Artificial Intelligence (AI): Legal Implications and Emerging Issues",
     href : "#"
   },
   {
-    image : esg,
+    image : investmentsandsecurities,
     text : "Major Highlights of the Investments and Securities Act, 2025: A New Dawn for Nigeria's Capital Market",
     href : "#"
   },
   {
-    image : esg,
+    image : womensInheritanceRights,
     text : "Women's Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
     href : "#"
   },
 ]
 
+export const foothead = [
+  {
+    logo : logo, 
+    head : "ALLIANCE LAW FIRM",
+    text : "We are a full-service law firm with a depth of proven experience and expertise in diverse areas of the law."
+  }
+]
 
 
+export const intouch = [
+  {
+    label: 'Head Office:', 
+    address : "Alliance House, 71 Ademola Street, SW Ikoyi, Lagos, Nigeria",
+    contact : "phone :", 
+    number : "+234-9060003017",
+    href: "#"
+  }
+]
 
 export const testimonials = [
   {
