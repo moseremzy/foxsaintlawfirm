@@ -26,14 +26,14 @@ export const locations = [
 ]
 
 export const navItems = [
-  { label: "Home", href: "#" },
-  { label: "About Us", href: "#" },
-  { label: "Practice Areas", href: "#" },
-  { label: "Our Team", href: "#" },
-  { label: "Insights", href: "#" },
-  { label: "Firm News", href: "#" },
-  { label: "Careers", href: "#" },
-  { label: "Contact Us", href: "#" },
+  { label: "Home", path: "/" },
+  { label: "About Us", path: "/about" },
+  { label: "Practice Areas", path: "/practice" },
+  { label: "Our Team", path: "/team" },
+  { label: "Insights", path: "/insights" },
+  { label: "Firm News", path: "/news" },
+  { label: "Careers", path: "/careers" },
+  { label: "Contact Us", path: "/contact" },
 ];
 
 export const contacts = [

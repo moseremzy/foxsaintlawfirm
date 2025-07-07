@@ -1,5 +1,6 @@
 import {Menu, X, Instagram,Linkedin,Facebook} from 'lucide-react';
 import {useState} from 'react';
+import {Link} from 'react-router-dom';
 import React from 'react';
 import logo from '../assets/logo.png';
 import {navItems} from '../constants'
@@ -85,7 +86,7 @@ const Navbar = () => {
                 <ul className='hidden md:text-md lg:flex mx-auto space-x-12 text-md font-semibold'>
                     {navItems.map((item,index)=>(
                         <li key={index} className='hover:text-orange-500'>
-                            <a href={item.href}>{item.label}</a>
+                            <Link to={item.path}>{item.label}</Link>
                         </li>
                     ))}
                 </ul>
@@ -102,7 +103,7 @@ const Navbar = () => {
                         <ul className='flex flex-col items-center'>
                             {navItems.map((item,index)=>(
                                 <li key={index} className={`py-4 ${index === 0 ? 'text-orange-500': 'text-black'}`}>
-                                    <a className='hover:text-orange-300' href={item.href}>{item.label}</a>
+                                    <Link className='hover:text-orange-300' to={item.path}>{item.label}</Link>
                                 </li>
                             ))}
                         </ul>
