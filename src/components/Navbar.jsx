@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className=" bg-[#16163F] sticky top-0 z-50 backdrop-blur-lg border-b border-indigo-950/80">
 
         {/* nav content container 1  */}
-        <div className="container1 mx-auto relative text-sm px-6">
+        <div className="container1 mx-auto relative text-sm px-6 lg:px-20 lg:py-1">
             <div className='md:hidden flex flex-row justify-between items-center'>
 
                 <div className='socialHandles text-sm bg-indigo-950 flex flex-row py-2 space-x-2.5'>
@@ -72,7 +72,7 @@ const Navbar = () => {
         </div>
 
         {/* nav content container 2 */}
-        <div className="container2 bg-amber-50 text-indigo-950 px-6 mx-auto relative text-sm">
+        <div className="container2 bg-amber-50 text-indigo-950 px-6 mx-auto relative text-sm lg:text-[17px] lg:py-2">
 
             {/* content items container  */}
             <div className=" flex justify-between gap-20 items-center">
@@ -103,7 +103,7 @@ const Navbar = () => {
                         <ul className='flex flex-col items-center'>
                             {navItems.map((item,index)=>(
                                 <li key={index} className={`py-4 ${index === 0 ? 'text-orange-500': 'text-black'}`}>
-                                    <Link className='hover:text-orange-300' to={item.path}>{item.label}</Link>
+                                    <Link className='hover:text-orange-300' to={item.path} onClick={() => setMobileMenuOpen(false)} >{item.label}</Link>
                                 </li>
                             ))}
                         </ul>

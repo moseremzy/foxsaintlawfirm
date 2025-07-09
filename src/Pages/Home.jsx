@@ -5,6 +5,7 @@ import Newsbar from '../components/Newsbar'
 import About from '../components/About'
 import Practice from '../components/Practice'
 import Insight from '../components/Insight'
+import Team from '../components/Team'
 import Footer from '../components/Footer'
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Newsbar />
       <About />
       <Practice />
+      <Team />
       <Insight />
     </div>
   )

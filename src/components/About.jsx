@@ -4,15 +4,15 @@ import { ChevronRight } from 'lucide-react'
 
 const About = () => {
   return (
-    <div className='flex flex-col md:flex-row lg:flex-row h-fit text-indigo-950'>
+    <div className='flex flex-col h-full md:flex-row lg:flex-row md:h-130 text-indigo-950'>
       <img
         src={user1}
         alt=""
-        className='block md:hidden w-full object-cover'
+        className='block md:hidden w-full md:size-fit object-cover'
       />
       <section className='bg-gradient-to-l from-orange-400 to-orange-300 flex flex-col gap-10 p-6 w-full justify-center items-start md:hidden lg:hidden'>
         <h1 className='text-3xl font-semibold lg:w-md'>Decades of Providing Premium Legal Service</h1>
-        <p className='font-semibold lg:px-20 text-xl'>
+        <p className='font-semibold text-xl lg:px-20 lg:text-sm'>
           Alliance Law Firm harnesses its skilled workforce and advanced
           technology to deliver exceptional legal service. Our team
           consists of industry-recognized partners, consultants, and 

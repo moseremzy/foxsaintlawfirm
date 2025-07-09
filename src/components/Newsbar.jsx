@@ -18,7 +18,7 @@ const Newsbar = () => {
   }, []);
 
   return (
-    <div className='sticky top-[100px] z-40 bg-gradient-to-r from-blue-800 to-blue-950 h-16 w-full flex items-center justify-center overflow-hidden'>
+    <div className='sticky top-[100px] lg:top-[125px] z-40 bg-gradient-to-r from-blue-800 to-blue-950 h-16 w-full flex items-center justify-center overflow-hidden'>
 
       <div
         className={`text-white text-lg text-center font-semibold transition-all duration-500 transform ${

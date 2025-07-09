@@ -6,12 +6,12 @@ const Hero = () => {
     <hero>
       <div className="w-full h-fit flex-column items-center justify-center bg-gradient-to-r from-[#0f1136b0] to-[#242874b0]">
         <section className="flex flex-col items-center justify-center">
-          <section className="flex flex-col gap-14 justify-center items-center py-15 lg:mt-10">
+          <section className="flex flex-col gap-4 justify-center items-center py-15 lg:mt-10">
             <span className=" flex items-center justify-center text-center mx-auto font-mono size-full w-full tracking-wider lg:text-xl">
               YOUR TRUSTED LEGAL PARTNER
             </span>
 
-            <span className="text-center mx-auto px-10 text-4xl font-sans lg:text-5xl w-full max-w-[800px]">
+            <span className="text-center mx-auto px-10 text-4xl font-sans lg:text-6xl w-full max-w-[1000px]">
               Navigating the Complex Legal Landscapes
             </span>
           </section>
@@ -49,7 +49,7 @@ const Hero = () => {
 
                   {/* Show vertical divider only on large screens */}
                   {index < trackRecords.length - 1 && (
-                    <div className="hidden lg:block w-px h-12 bg-black mx-4"></div>
+                    <div className="hidden lg:block w-px h-12 bg-gray-500 mx-4"></div>
                   )}
                 </li>
               ))}
