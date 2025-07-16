@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { newsMessages } from '../constants'; // Update path as needed
+import React, { useEffect, useState } from "react";
+import { newsMessages } from "../constants"; // Update path as needed
 
 const Newsbar = () => {
   const [index, setIndex] = useState(0);
@@ -18,11 +18,10 @@ const Newsbar = () => {
   }, []);
 
   return (
-    <div className='sticky top-[100px] lg:top-[125px] z-40 bg-gradient-to-r from-blue-800 to-blue-950 h-16 w-full flex items-center justify-center overflow-hidden'>
-
+    <div className="sticky top-[100px] lg:top-[125px] z-40 bg-gradient-to-r from-blue-800 to-blue-950 h-16 w-full flex items-center justify-center overflow-hidden">
       <div
-        className={`text-white text-lg text-center font-semibold transition-all duration-500 transform ${
-          visible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
+        className={`text-white text-sm lg:text-lg text-center font-semibold transition-all duration-500 transform ${
+          visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
         }`}
       >
         {newsMessages[index]}
