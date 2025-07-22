@@ -1,14 +1,14 @@
 import React from "react";
-import user1 from "../assets/profile-pictures/user1.jpg";
+import lawyer from "../assets/profile-pictures/lawyer.jpg";
 import { ChevronRight } from "lucide-react";
 
 const About = () => {
   return (
     <div className="flex flex-col h-full md:flex-row lg:flex-row md:h-130 text-indigo-950">
       <img
-        src={user1}
+        src={lawyer}
         alt=""
-        className="block md:hidden w-full md:size-fit object-cover"
+        className="block md:hidden w-full md:size-fit h-[400px] object-cover"
       />
       <section className="bg-gradient-to-l from-orange-400 to-orange-300 flex flex-col gap-10 p-6 w-full justify-center items-start md:hidden lg:hidden">
         <h1 className="text-3xl font-semibold lg:w-md">
@@ -45,13 +45,13 @@ const About = () => {
           mix of expertise and decades of experience in corporate commercial
           transactions and advanced dispute resolution.
         </p>
-        <a href="#" className="inline-flex items-center gap-1 font-semibold">
+        <a href="#" className="inline-flex items-center gap-1 font-semibold animate-pulse">
           Learn More About Us <ChevronRight className="w-4 h-4" />
         </a>
       </section>
 
       <img
-        src={user1}
+        src={lawyer}
         alt=""
         className="hidden md:block md:w-1/2 lg:w-1/2 object-cover"
       />

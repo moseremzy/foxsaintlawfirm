@@ -1,9 +1,14 @@
 import React from 'react'
+import AboutBanner from '../components/AboutBanner'
+import AboutData from '../components/AboutData'
+import AboutIdentity from '../components/AboutIdentity'
 
 const About = () => {
   return (
-    <div className='bg-red-500 text-white h-screen flex flex-row items-center justify-center'>
-      <span>Welcome to About Page</span>
+    <div className='text-indigo-950 h-fit flex flex-col'>
+     <AboutBanner/>
+     <AboutData/>
+     <AboutIdentity/>
     </div>
   )
 }

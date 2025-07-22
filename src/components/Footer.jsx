@@ -23,7 +23,7 @@ const Footer = () => {
               alt="Alliance Logo"
               className="w-14 h-14 object-contain"
             />
-            <h2 className="text-3xl font-semibold lg:text-[22px]">
+            <h2 className="text-[26px] font-semibold lg:text-[22px]">
               ALLIANCE LAW FIRM
             </h2>
           </div>
@@ -45,7 +45,7 @@ const Footer = () => {
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {practiceAreas.slice(0, 8).map((item, index) => (
               <li key={index}>
-                <a href={item.href} className="hover:text-amber-400 text-md">
+                <a href={item.href} className="none active:text-purple-500 md:hover:text-amber-400 text-md md:active:text-purple-500">
                   {item.text}
                 </a>
               </li>
@@ -62,7 +62,7 @@ const Footer = () => {
                 <p className="font-semibold mb-5">{item.label}</p>
                 <p className="mb-4">{item.address}</p>
                 <p className="mb-2">{item.contact}</p>
-                <a href={item.href} className="hover:text-amber-400">
+                <a href={item.href} className="none active:text-purple-500 md:hover:text-amber-400">
                   {item.number}
                 </a>
               </li>

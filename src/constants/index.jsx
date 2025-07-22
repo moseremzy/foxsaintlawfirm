@@ -6,7 +6,7 @@ import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 import { Phone, Mail, MapPinCheck, ChevronRight} from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
+import lawyer from "../assets/profile-pictures/lawyer.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
 import user3 from "../assets/profile-pictures/user3.jpg";
 import user4 from "../assets/profile-pictures/user4.jpg";
@@ -17,6 +17,7 @@ import womensInheritanceRights from "../assets/profile-pictures/womensInheritanc
 import copyrightlaw from "../assets/profile-pictures/copyrightlaw.png"
 import logo from "../assets/logo.png"
 import investmentsandsecurities from "../assets/profile-pictures/investmentsandsecurities.png"
+
 
 
 export const locations = [
@@ -154,3 +155,27 @@ export const intouch = [
     href: "#"
   }
 ]
+
+export const aboutData = [
+  {
+    section: "VISION",
+    title: "Striving for Excellence",
+    description:
+      "Delivering exceptional legal solutions that exceed our clients’ expectations and upholding the highest standards of professionalism, integrity, and innovation in all endeavors.",
+  },
+  {
+    section: "MISSION",
+    title: "Innovating Legal Solutions",
+    description:
+      "Provide high-quality legal services with professionalism and efficiency by utilizing a skilled workforce and cutting-edge technology to achieve optimal results for clients.",
+  },
+  {
+    section: "CORE VALUES",
+    title: "The Heart of Our Practice",
+    description:
+      "We are committed to upholding integrity, trust, confidentiality, professionalism, dynamism, and teamwork in all aspects of our practice.",
+  },
+]
+
+
+
