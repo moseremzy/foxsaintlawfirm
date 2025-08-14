@@ -1,9 +1,10 @@
 import React from 'react'
+import InsightBanner from '../components/InsightBanner'
 
 const Insights = () => {
   return (
-    <div className='bg-purple-600 h-screen flex flex-row items-center justify-center'>
-      <h1>Welcome to Insights Page</h1>
+    <div  className='text-indigo-950 h-fit flex flex-col'>
+      <InsightBanner/>
     </div>
   )
 }

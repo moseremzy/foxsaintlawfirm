@@ -1,10 +1,12 @@
 import React from 'react'
+import TeamBanner from '../components/TeamBanner'
+
 
 const Team = () => {
   return (
-    <div className='bg-green-400 h-screen flex flex-row items-center justify-center'>
-      <h1>Welcome to Team Page</h1>
-    </div>
+     <main className="flex flex-col w-full h-fit text-indigo-950">
+      <TeamBanner />
+    </main>
   )
 }
 

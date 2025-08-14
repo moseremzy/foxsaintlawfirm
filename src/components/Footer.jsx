@@ -5,16 +5,16 @@ import { intouch } from "../constants";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="bg-indigo-950">
       {/* CTA Bar */}
-      <div className="w-full py-5 bg-amber-500 text-center text-md font-semibold md:text-xl lg:py-8 lg:text-2xl">
+      <div className="w-full py-5 bg-gradient-to-l from-[#f79f1d] to-[#f59e1b] text-center text-md font-semibold md:text-xl lg:py-8 lg:text-2xl">
         <a href="#" className="hover:underline">
           Need help? Let us know how we can help you
         </a>
       </div>
 
       {/* Footer Content */}
-      <div className="max-w-7xl mx-auto px-5 py-8 lg:py-10 flex flex-col md:flex-row gap-10">
+      <div className="max-w-7xl mx-auto px-5 py-8 lg:py-16 flex flex-col md:flex-row gap-10">
         {/* Company Info */}
         <div className="space-y-2 flex-col justify-center">
           <div className="flex items-center gap-3 lg:gap-1">
@@ -27,7 +27,7 @@ const Footer = () => {
               ALLIANCE LAW FIRM
             </h2>
           </div>
-          <p className="text-[15px] mb-7 lg:w-[280px] lg:text-[15px] ">
+          <p className="text-[14px] mb-7 lg:w-[280px] lg:text-[15px] ">
             We are a full-service law firm with a depth of proven experience and
             expertise in diverse areas of the law.
           </p>
@@ -41,11 +41,11 @@ const Footer = () => {
 
         {/* Practice Areas */}
         <div className="flex flex-col">
-          <h2 className="font-bold text-2xl mb-4">Practice Areas</h2>
+          <p className="font-bold text-xl mb-4">Practice Areas</p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {practiceAreas.slice(0, 8).map((item, index) => (
               <li key={index}>
-                <a href={item.href} className="none active:text-purple-500 md:hover:text-amber-400 text-md md:active:text-purple-500">
+                <a href={item.href} className="none active:text-purple-500 text-[14px] md:hover:text-amber-400 text-md md:active:text-purple-500">
                   {item.text}
                 </a>
               </li>
@@ -55,7 +55,7 @@ const Footer = () => {
 
         {/* Get In Touch */}
         <div className="flex flex-col">
-          <h2 className="font-bold text-2xl mb-4">Get in Touch</h2>
+          <p className="font-bold text-xl mb-4">Get in Touch</p>
           <ul className="space-y-14 text-md">
             {intouch.map((item, index) => (
               <li key={index} className="flex-col justify-between">

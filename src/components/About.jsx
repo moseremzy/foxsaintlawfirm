@@ -1,16 +1,13 @@
 import React from "react";
 import lawyer from "../assets/profile-pictures/lawyer.jpg";
 import { ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom"
 
 const About = () => {
   return (
     <div className="flex flex-col h-full md:flex-row lg:flex-row md:h-130 text-indigo-950">
-      <img
-        src={lawyer}
-        alt=""
-        className="block md:hidden w-full md:size-fit h-[400px] object-cover"
-      />
-      <section className="bg-gradient-to-l from-orange-400 to-orange-300 flex flex-col gap-10 p-6 w-full justify-center items-start md:hidden lg:hidden">
+      <img src={lawyer} alt="" className="block md:hidden w-full md:size-fit h-[400px] object-cover"/>
+      <section className="bg-gradient-to-r from-neutral-50 to-gray-300 flex flex-col gap-10 p-6 w-full justify-center items-start md:hidden lg:hidden">
         <h1 className="text-3xl font-semibold lg:w-md">
           Decades of Providing Premium Legal Service
         </h1>
@@ -23,16 +20,14 @@ const About = () => {
           mix of expertise and decades of experience in corporate commercial
           transactions and advanced dispute resolution.
         </p>
-        <a
-          href="#"
-          className="inline-flex items-center gap-1 font-semibold animate-pulse hover:text-white"
-        >
+        
+        <Link to="/about" className="inline-flex items-center gap-1 font-semibold animate-pulse hover:text-orange-400">
           Learn More About Us <ChevronRight className="w-4 h-4" />
-        </a>
+        </Link>
       </section>
 
       {/* reversed medium to larg display  */}
-      <section className="hidden md:flex md:w-1/2 bg-gradient-to-r from-purple-300 to-purple-400 flex-col gap-7 px-20 w-full justify-center items-start lg:w-1/2">
+      <section className="hidden md:flex md:w-1/2 bg-gradient-to-r from-neutral-50 to-gray-300 flex-col gap-7 px-20 w-full justify-center items-start lg:w-1/2">
         <h1 className="text-3xl font-semibold lg:w-md">
           Decades of Providing Premium Legal Service
         </h1>
@@ -45,9 +40,9 @@ const About = () => {
           mix of expertise and decades of experience in corporate commercial
           transactions and advanced dispute resolution.
         </p>
-        <a href="#" className="inline-flex items-center gap-1 font-semibold animate-pulse">
+        <Link to="/about" className="inline-flex items-center gap-1 font-semibold animate-pulse hover:text-orange-400">
           Learn More About Us <ChevronRight className="w-4 h-4" />
-        </a>
+        </Link>
       </section>
 
       <img

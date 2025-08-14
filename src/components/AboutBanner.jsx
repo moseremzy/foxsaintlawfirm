@@ -9,11 +9,13 @@ const AboutBanner = () => {
         backgroundImage: `url(${bannerImage})`,
       }}
     >
-      <h2 className="text-4xl md:text-6xl">About Us</h2>
+      <section className='mt-[-40px] flex flex-col text-center md:text-start gap-5'>
+        <h2 className="text-4xl md:text-6xl">About Us</h2>
       <p className="w-fit text-[16px] md:text-[19px] md:w-[550px]  text-indigo-950 text-center md:text-start">
         We are a Full-Service Law firm with a depth of proven experience and
         expertise in diverse areas of the law
       </p>
+      </section>
     </section>
   );
 };

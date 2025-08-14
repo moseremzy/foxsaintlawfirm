@@ -17,7 +17,7 @@ const Insight = () => {
         </section>
 
         <section>
-          <button className="bg-orange-500 w-45 py-3 rounded-3xl text-sm font-semibold">
+          <button className="bg-gradient-to-l from-orange-400 to-[#eb873b] w-45 py-3 rounded-3xl text-sm font-semibold">
             EXPLORE INSIGHTS
           </button>
         </section>
