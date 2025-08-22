@@ -1,20 +1,20 @@
 import React from 'react'
-import allianceBanner from '../../../assets/profile-pictures/acsl.png'
+import Privacyimg from '../../../assets/profile-pictures/privacy.png'
 
-const AllianceBanner = () => {
+const PrivacyBanner = () => {
   return (
     <section
               className="h-[250px] md:h-[200px] bg-cover bg-center flex flex-col gap-3 items-center md:items-start justify-center px-5 md:px-20"
-              style={{ backgroundImage: `url(${allianceBanner})` }}
+              style={{ backgroundImage: `url(${Privacyimg})` }}
             >
               <div className="mt-[-50px] flex flex-col gap-5 text-center md:text-left">
                 <h1 
-                className="text-4xl md:text-[58px] font-semibold"
+                className="text-4xl md:text-6xl font-semibold"
                 style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}
-                >Alliance Corporate Secretaries Limited (ACSL)</h1>
+                >Privacy & Data Protection</h1>
               </div>
             </section>
   )
 }
 
-export default AllianceBanner
+export default PrivacyBanner
