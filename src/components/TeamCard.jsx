@@ -2,7 +2,7 @@ import React from "react";
 import user2 from "../assets/profile-pictures/user2.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
-const Team = () => {
+const TeamCard = () => {
   return (
     <div className="bg-gradient-to-l from-orange-300 to-[#eb873b] flex flex-col h-fit md:flex-row md:h-1/2">
       <section className="bg-purple-500 flex flex-row lg:w-[106%]">
@@ -31,4 +31,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default TeamCard;
