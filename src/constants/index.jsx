@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPinCheck, ChevronRight, Section} from "lucide-react";
+import { Phone, Mail, MapPinCheck, ChevronRight, Linkedin} from "lucide-react";
 import esg from "../assets/profile-pictures/esg.png"
 import womensInheritanceRights from "../assets/profile-pictures/womensInheritanceRights.png"
 import copyrightlaw from "../assets/profile-pictures/copyrightlaw.png"
@@ -16,6 +16,43 @@ import bnkf from "../assets/profile-pictures/bnkf.png"
 import smdlap from "../assets/profile-pictures/smdlap.png"
 import ttpp from "../assets/profile-pictures/ttpp.png"
 import idrbracrp from "../assets/profile-pictures/idrbracrp.png"
+import ucheMp from "../assets/profile-pictures/uche7.jpg"
+import mp2 from "../assets/profile-pictures/mp2.jpg"
+import mp3 from "../assets/profile-pictures/mp3.jpg"
+import mp4 from "../assets/profile-pictures/mp4.jpeg"
+import mp5 from "../assets/profile-pictures/mp5.jpg"
+import mp6 from "../assets/profile-pictures/mp6.jpeg"
+import APJoshakt from "../assets/profile-pictures/APJoshakt.jpg"
+import ap from "../assets/profile-pictures/ap.jpg"
+import d1 from "../assets/profile-pictures/d1.jpeg"
+import d2 from "../assets/profile-pictures/d2.jpeg"
+import d3 from "../assets/profile-pictures/d3.jpeg"
+import d4 from "../assets/profile-pictures/d4.jpeg"
+import d5 from "../assets/profile-pictures/d5.jpeg"
+import d6 from "../assets/profile-pictures/d6.jpg"
+import d7 from "../assets/profile-pictures/d7.jpeg"
+import ma2 from "../assets/profile-pictures/ma2.jpeg"
+import ma3 from "../assets/profile-pictures/ma3.jpeg"
+import sa1 from "../assets/profile-pictures/sa1.jpeg"
+import ea1 from "../assets/profile-pictures/ea1.jpg"
+import ea2 from "../assets/profile-pictures/ea2.jpeg"
+import ea3 from "../assets/profile-pictures/ea3.jpeg"
+import as1 from "../assets/profile-pictures/as1.jpeg"
+import as2 from "../assets/profile-pictures/as2.jpeg"
+import as3 from "../assets/profile-pictures/as3.jpg"
+import as5 from "../assets/profile-pictures/as5.jpeg"
+import as7 from "../assets/profile-pictures/as7.jpeg"
+import as8 from "../assets/profile-pictures/as8.jpeg"
+import as9 from "../assets/profile-pictures/as9.jpeg"
+import as10 from "../assets/profile-pictures/as10.jpeg"
+import as12 from "../assets/profile-pictures/as12.jpeg"
+import as13 from "../assets/profile-pictures/as13.jpeg"
+import as15 from "../assets/profile-pictures/as15.jpeg"
+import as16 from "../assets/profile-pictures/as16.jpeg"
+import as17 from "../assets/profile-pictures/as17.jpeg"
+import as18 from "../assets/profile-pictures/as18.jpeg"
+import as19 from "../assets/profile-pictures/as19.jpg"
+import as20 from "../assets/profile-pictures/as20.jpeg"
 
 export const locations = [
   {label: "Lagos", href: "#"},
@@ -145,52 +182,52 @@ export const practiceAreas = [
   {
     icon: <ChevronRight />, 
     text:'Alliance Corporate Secretaries Limited (ACSL)',
-    href: '#'
+    path: "/practice/alliance",
   },
   {
     icon: <ChevronRight />,
     text:'Banking & Finance',
-    href: '#'
+    path: "/practice/banking-finance",
   },
   {
     icon: <ChevronRight />,
     text:'Corporate and Commercial Practice',
-    href: '#'
+    path: "/practice/corporate",
   },
   {
     icon: <ChevronRight />,
     text:'Dispute Resolution Practice',
-    href: '#'
+    path: "/practice/dispute-resolution",
   },
   {
     icon: <ChevronRight />,
     text:'Energy, Extractive Industry and Power Practice',
-    href: '#'
+    path: "/practice/energy-extractive",
   },
   {
     icon: <ChevronRight />,
     text:'Intellectual Property, Media, Entertainment and Technology Practice',
-    href: '#'
+    path: "/practice/ip-media-tech",
   },
   {
     icon: <ChevronRight />,
     text:'Privacy and Data Protection',
-    href: '#'
+    path: "/practice/privacy",
   },
   {
     icon: <ChevronRight />,
     text:'Shipping, Maritime Legal Advisory Practice Group',
-    href: '#'
+    path: "/practice/shipping-maritime",
   },
   {
     icon: <ChevronRight />,
     text:'Tax and Transfer Pricing Practice',
-    href: '#'
+    path: "/practice/tax-transfer",
   },
   {
     icon: <ChevronRight />,
     text:'Insolvency, Debt Recovery, Business Rescue And Corporate Restructuring Practice',
-    href: '#'
+    path: "/practice/insolvency-restructuring",
   },
 ]
 
@@ -584,17 +621,6 @@ export const ShpngData = [
   }
 ]
 
-// export const TtppData = [
-//   {
-//     title:"INTRODUCTION",
-//     description:`Alliance Law Firm is a commercial law firm with a strong foundation in tax advisory, litigation, transfer pricing, and audit/dispute resolution services that are insightful, creative and designed to protect each client’s business interests. We understand that the current trend of global transparency and exchange of information amongst tax authorities in the world requires that successful businesses seek out the assistance of well-informed tax advisers who understand their businesses and are ready to provide responsive and pragmatic advice that will meet their needs and at the same time comply with tax laws.`,
-//     text1: `Our tax lawyers are renowned for precise and commercially informed advice on all applicable tax laws, international tax treaties, double taxation agreements, multi-lateral instruments, OECD guidelines, etc. Our team ensures that the needs of our clients are met and that the provisions of relevant tax laws are complied with. Our clients benefit from a comprehensive suite of services involving domestic and international/cross-border tax advisory, tax planning, transfer pricing, transaction tax management, operational model optimisation, tax compliance, tax audit/investigation support, and tax dispute resolution. Also, we are frequently engaged to represent our clients in discussions and negotiations with both Federal and State tax authorities. Alliance Law Firm is ranked amongst the top-performing tax firms in the world in the ITR World Tax 2024 Firm Rankings.`,
-//     text2: ``,
-//     text3: ``,
-//   }
-// ]
-
-// index.jsx (or a separate data.js file if you prefer)
 export const TtppData = [
   {
     title: "Introduction",
@@ -757,19 +783,374 @@ export const otherPracticeAreas = [
   {
     title: "Other Practice Areas",
     areas: [
-      { name: "Corporate & Commercial Practice" },
-      { name: "Energy, Extractive Industry & Power Practice" },
-      { name: "Intellectual Property, Media, Entertainment & Technology Practice" },
-      { name: "Tax and Transfer Pricing Practice" },
-      { name: "Shipping, Maritime Legal Advisory Practice" },
-      { name: "Dispute Resolution Practice" },
-      { name: "Alliance Corporate Secretaries Limited (ACSL)" },
-      { name: "Banking & Finance" },
-      { name: "Insolvency Property, Media, Entertainment and Technology Practice" },
-      { name: "Privacy & Data Protection" },
+      { name: "Corporate & Commercial Practice",
+        path: "/practice/corporate",
+       },
+      { name: "Energy, Extractive Industry & Power Practice",
+        path: "/practice/energy-extractive",
+       },
+      { name: "Intellectual Property, Media, Entertainment & Technology Practice",
+        path: "/practice/ip-media-tech",
+       },
+      { name: "Tax and Transfer Pricing Practice",
+        path: "/practice/tax-transfer",
+       },
+      { name: "Shipping, Maritime Legal Advisory Practice",
+        path: "/practice/shipping-maritime",
+       },
+      { name: "Dispute Resolution Practice",
+        path: "/practice/dispute-resolution",
+       },
+      { name: "Alliance Corporate Secretaries Limited (ACSL)",
+        path: "/practice/alliance",
+       },
+      { name: "Banking & Finance",
+        path: "/practice/banking-finance",
+       },
+      { name: "Insolvency Property, Media, Entertainment and Technology Practice",
+        path: "/practice/insolvency-restructuring",
+       },
+      { name: "Privacy & Data Protection",
+        path: "/practice/privacy",
+       },
     ],
   },
 ];
+
+export const TeamInfo =[
+  {
+    section: "PARTNERS",
+    members: [
+      {
+        image: ucheMp,
+        name: "Uche Val Obi, SAN",
+        role: "Managing Partner",
+        linkedin: <Linkedin />,
+        email: <Mail />,
+        path: "#",
+       },
+      {
+        image: mp3,
+        name: "Danbello Na’adiyalle",
+        role: "Partner",
+        linkedin: <Linkedin />,
+        email: <Mail />,
+        path: "#",
+      },
+      {
+        image: mp2,
+        name: "Isaac Uche Obi",
+        role: "Partner",
+        linkedin: <Linkedin />,
+        email: <Mail />,
+        path: "#",
+      },
+      {
+        image: APJoshakt, 
+        name: "Dr. Michael Agamah",
+        role: "Partner",
+        linkedin: <Linkedin />,
+        email: <Mail />,
+        path: "#",
+      },
+      {
+        image: mp4,
+        name: "Suleiman Yunusa",
+        role: "Partner",
+        linkedin: <Linkedin />,
+        email: <Mail />,
+        path: "#",
+      },
+      {
+        image: mp5,
+        name: "Theresa Ochelia",
+        role: "Partner",
+        linkedin: <Linkedin />,
+        email: <Mail />,
+        path: "#",
+      },
+      {
+        image: mp6,
+        name: "Gabriel O. Onojason",
+        role: "Partner",
+        linkedin: <Linkedin />,
+        email: <Mail />,
+        path: "#",
+      }
+    ]
+    },
+    {
+      section: "ASSOCIATE PARTNERS",
+      members: [
+        {
+          image:ap, 
+          name: "Joshua Akhator",
+          role: "Associate Partner",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        
+      ]
+    },
+    {
+      section: "DIRECTORS",
+      members: [
+       {
+          image:d5, 
+          name: "Blessing Ajunwo-Choko",
+          role: "Director",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:d6, 
+          name: "Johnson Agwu",
+          role: "Director",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:d4,
+          name: "Dr. Ngozi Chinwa Ole",
+          role: "Director",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:d7, 
+          name: "David Chijioke Maduka",
+          role: "Director",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+      ]
+    },
+    {
+      section: "MANAGING ASSOCIATES",
+      members: [
+        {
+          image:ma3, 
+          name: "Mohammed Sanusi",
+          role: "Managing Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:d1, 
+          name: "Ayo Olaifa",
+          role: "Managing Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:ma2, 
+          name: "Chiemeka Edwin Choko",
+          role: "Managing Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+      ]
+    },
+    {
+      section: "SENIOR ASSOCIATES",
+      members: [
+        {
+          image:sa1, 
+          name: "John Ibe",
+          role: "Senior Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:d3, 
+          name: "Lilian Adat",
+          role: "Senior Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+      ]
+    },
+    {
+      section: "EXECUTIVE ASSOCIATES",
+      members: [
+        {
+          image:ea1, 
+          name: "Adedoyin Fadare",
+          role: "Executive Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:ea2, 
+          name: "Simbiat Okwilague",
+          role: "Executive Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:ea3, 
+          name: "Chibuzoh Ogbenna",
+          role: "Executive Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+      ]
+    },
+    {
+      section: "ASSOCIATES",
+      members: [
+        {
+          image:d2, 
+          name: "Anastasia Edward",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as1, 
+          name: "Ahmed Sani",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as2, 
+          name: "Afam Chukuka",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as3, 
+          name: "Celestine Ogbonnaya",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as8, 
+          name: "Kikelomo Adeoye",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as5, 
+          name: "Omoerere Erhuen",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as7, 
+          name: "Kelechi Njaka",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as9, 
+          name: "Faith Omole",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as13, 
+          name: "Victoria Asiegbu",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image: as15, 
+          name: "Atake Anthonia",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image: as16, 
+          name: "Adizua Vianney",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image: as12, 
+          name: "Oji Obah",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image: as17, 
+          name: "Chinazom Ndefo",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image: as10, 
+          name: "Joshua Uchechukwu Olewu",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image: as18, 
+          name: "Daniel Anagu",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image:as20, 
+          name: "Seledi Abbey",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+        {
+          image: as19, 
+          name: "Oreoluwa Olu-David",
+          role: "Associate",
+          linkedin: <Linkedin />,
+          email: <Mail />,
+          path: "#",
+        },
+      ]
+    }
+]
 
 
 export const explore = [
