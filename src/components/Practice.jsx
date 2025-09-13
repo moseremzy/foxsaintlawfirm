@@ -1,6 +1,7 @@
 import React from "react";
 import lawfiles from "../assets/profile-pictures/lawfiles2h.png";
 import { practiceAreas } from "../constants";
+import { Link } from "react-router-dom";
 
 const Practice = () => {
   return (
@@ -19,13 +20,13 @@ const Practice = () => {
                 key={index}
                 className="flex flex-col py-3 text-lg justify-center active:text-purple-500 items-start border-b border-gray-300 w-full last:border-b-0"
               >
-                <a
-                  href={item.href}
+                <Link 
+                  to={item.path}
                   className="flex flex-row items-center gap-2"
                 >
                   <span className="text-amber-500">{item.icon}</span>
                   <span>{item.text}</span>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -49,13 +50,13 @@ const Practice = () => {
                 key={index}
                 className="flex flex-col py-3 text-lg justify-center items-start border-b border-gray-300 w-120 last:border-b-0"
               >
-                <a
+                <Link to={item.path}
                   href={item.href}
                   className="flex flex-row items-center gap-2"
                 >
                   <span className="text-amber-500">{item.icon}</span>
                   <span className="hover:text-amber-300 active:text-purple-500">{item.text}</span>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
