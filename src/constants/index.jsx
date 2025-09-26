@@ -55,6 +55,9 @@ import as17 from "../assets/profile-pictures/as17.jpeg"
 import as18 from "../assets/profile-pictures/as18.jpeg"
 import as19 from "../assets/profile-pictures/as19.jpg"
 import as20 from "../assets/profile-pictures/as20.jpeg"
+import msi1 from "../assets/profile-pictures/msi1.jpeg"
+import alan1 from "../assets/profile-pictures/alan1.webp"
+import Esquire from "../assets/profile-pictures/Esquire2.jpg"
 
 export const locations = [
   {label: "Lagos", href: "#"},
@@ -69,7 +72,7 @@ export const navItems = [
   { label: "Our Team", path: "/team" },
   { label: "Insights", path: "/insights" },
   { label: "Firm News", path: "/news" },
-  { label: "Careers", path: "/careers" },
+  // { label: "Careers", path: "/careers" },
   { label: "Contact Us", path: "/contact" },
 ];
 
@@ -823,7 +826,7 @@ export const TeamCardInfo = [
   {
     img1: user6,
     img2: user2,
-    header: "OUT TEAM",
+    header: "OUR TEAM",
     description: "Specialists in Diverse Legal Diciplines",
     text: "Introducing our outstanding team of legal professionals, each possessing extensive expertise across various jurisdictions and practice areas.",
     path: "/Team",
@@ -2534,31 +2537,234 @@ export const InsightInfo = [
     image : womensInheritanceRights,
     text : "Women's Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
     date: "May 5, 2025",
-    path: "/practice/corporate",
+    path: "/insights/may05_2025",
   },
 ]
-
+export const ExploreCard = [
+  {
+    header : "INSIGHTS",
+    description : "Learn from our deep perception on important legal issues happening around the globe.",
+    section : "EXPLORE INSIGHTS",
+    path: "/insights"
+  }
+]
 export const explore = [
   {
     image :esg, 
     text : "Environmental, Social, and Governance (ESG) and Data Protection: A Nexus",
-    href : "#"
+    path : "/insights/"
   },
   {
     image : copyrightlaw,
     text : "Copyright in the Age of Artificial Intelligence (AI): Legal Implications and Emerging Issues",
-    href : "#"
+    path : "/insights/"
   },
   {
     image : investmentsandsecurities,
     text : "Major Highlights of the Investments and Securities Act, 2025: A New Dawn for Nigeria's Capital Market",
-    href : "#"
+    path : "/insights/"
   },
   {
     image : womensInheritanceRights,
     text : "Women's Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
-    href : "#"
+    path : "/insights/may05_2025"
   },
+]
+
+export const womensRightInfo = [
+  {
+    header: "Women’s Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
+    date: "April 7, 2025 | By ALF",
+    image:as3, 
+    name: "Celestine Ogbonnaya",
+    role: "Associate",
+    content: `
+INTRODUCTION:
+
+Gender discrimination remains an agelong issue that is presently receiving the attention of the world community. The position of women in law and society has attracted public interest and generated public discourse in recent times, the central issue being the elimination of obstacles to equality of male and female human beings.[1] Male hegemony and Nigerian’s institutionalised system of patriarchy have also contributed to the discrimination of women in both the private and public spheres of life.[2] This ugly trend continues to fester despite the provisions of the Constitution of the Federal Republic of Nigeria, 1999 (As Amended) ("The Constitution") and other international instruments that protects the rights of women around the world. The customary laws of most ethnic groups in Nigeria have also contributed to this problem. This is especially from the point of view of most people who claim to be traditional apologists and keepers of the cultural heritage. The civil societies and some international organizations such as the United Nations, the European union, and the African Union have also demonstrated concern and intensified effort through community sensitization and awareness campaigns against gender inequality in Nigeria. Gender discrimination has negatively impacted women’s access to education, health, political and economic opportunities in Nigeria. The objective of this article is, therefore, to examine the rights of women to claim their rightful share of property as provided under the Constitution. This article will also dissect the position of these rights under our customary laws vis – a – vis the attitude of our Courts on the subject matter.
+
+WHAT GENDER DISCRIMINATION IS:
+
+Article 1 of the United Nations “Convention on the Elimination of all forms of Discrimination Against Women (CEDAW) 1979 defines Gender discrimination as:
+
+“Any distinction, exclusion or restriction made on the basis of gender which has the effect or purpose of impairing or nullifying the recognition, enjoyment or exercise by women, irrespective of their marital status, on a basis of equality of men and women, of human rights and fundamental freedoms in the political, economic, social, cultural, civil or any other field”.
+
+The Black’s Law Dictionary, Tenth Edition which was further re-echoed by the Court of Appeal in the case of NMCN v. Adesina[3] defined Discrimination as:
+
+“Differential treatment, especially a failure to treat all persons equally when no reasonable distinction can be found between those favoured and those not favoured”
+
+Gender disparity happens when persons are treated negatively or unequally based on their sex. It includes limited access to education, jobs, and healthcare; unequal pay; sexual harassment; and a lot more.[4] It is a form of segregation that occurs when people are treated according to their gender or sex. Put differently, Gender discrimination entails treating equals unequally based on the consideration of sex.
+
+TYPES OF GENDER DISCRIMINATION:
+
+Gender discrimination can be perpetrated through the instrument of legislation (Laws) or regular practice of the people.
+
+DE JURE DISCRIMINATION:
+
+The term “De jure” is a Latin word which means “according to the law.” This type of discrimination is based on instruments of the law. It is the process of using legislation as a tool to enforce gender inequality in the society. Simply put, it is the segregation of people according to the law of the land. In Nigeria, there are many statutory and customary laws that subjugate women and the girl child. Sadly, some of these laws and customs have been supported by our courts in several instances.
+
+In the case of Akinnubi v. Akinnubi[5] (1997) 2NWLR (Pt. 486) 144 On Status of a widow vis-a-vis the husband’s estate under Yoruba native law and custom, the Supreme Court held thus:
+
+“It is a well – settled rule of native law and custom of the Yoruba that a wife is not entitled to her husband’s property. Indeed, under Yoruba native law, a widow under an intestacy is regarded as part of the estate of her late husband to be administered or inherited by the deceased’s family, could neither be entitled to apply for a grant of letters of administration nor appointed as co-administratrix of her late husband’s property. In the instant case, there is no disagreement on the type of marriage which was contracted between the 1st respondent”
+
+The above case gave credence to gender discrimination and bias against women using the instrument of law. The court even went further to hold that a widow is an object of inheritance under the Yoruba customary law. It was a sad reality that the native law was not rebuked for its repugnancy element by the apex court despite the provisions of the Constitution.
+
+In Nigeria, there are many discriminatory laws against women. For instance, under the Labour Act,[6] a woman cannot be hired for a night shift in a public or private industrial placement. Women are also prohibited from taking employment under ground.[7] The Police Act[8] also prohibits women from seeking enlistment in the Nigerian Police Force. A woman police officer who desires to marry must first apply in writing to the Commissioner of police for the state command in which she is serving, requesting permission to marry and must give the name, address and occupation of the person she intends to marry.[9] Also, under the Nigerian Drug Law Enforcement Agency (NDLEA) Order,[10] female applicants must be unmarried at the point of entry and shall upon enlistment remain unmarried for a period of not less than two years. Under the Penal Code, sexual intercourse by a man with his own wife is not rape if she has attained puberty.[11] This is irrespective of her consent or not. Unfortunately, these laws have not been challenged for failing the repugnancy test.
+
+DE FACTO DISCRIMINATION:
+
+De facto discrimination occurs when discriminatory practices are prevalent and observed by the majority of the people. It occurs as a result of the practice of the people in the society. Unlike the de jure discrimination, De facto discrimination does not have the force of the law. This type of segregation is based on cultural heritage and practice of the people that have been recognized over time. For instance, some married women are not allowed by their husbands to work or do business for some reasons best known to them. Women are not also allowed to wear masquerade or climb trees in most ethnic groups. Female genital mutilation remains yet another harmful cultural practice that negatively affect the right of a girl child. The preference of training male children in school and keeping their female counterparts at home for domestic chores is a practice that can be classified as a de facto discrimination. In the industrial and employment sector, there are some specific jobs and roles which are the exclusive preserve of the men.
+
+WOMEN’S INHERITANCE RIGHTS UNDER THE CUSTOMARY LAW:
+
+Under the Yoruba native law, when a man dies intestate, his property is shared in equal proportion among the wives. This is usually done in strips. The second stage of the division involves the further sharing of the property among the children of each wife of the deceased husband regardless of their gender or sex. This promotes fairness and gender equality among the children of a deceased man. However, disputes may likely arise owing to the proportional distribution method among children of each wife. It can be said that the Yoruba customary law is liberal in terms of inheritance right among the children of a deceased person. However, it is very unfortunate and sad to note that under the Yoruba native law, wives are not entitled to the estate of their late husbands except it can be proven that the asset was given to them during the lifetime of their husbands. In other words, the liberalism approach in the equal division of a man’s property among his surviving children irrespective of their sex does not extend to his wife.
+
+Similarly, under the Igbo customary law, male children are valued more than their female counterparts in the inheritance of their deceased father’s estate. Unlike the Yoruba native custom, male children get more property than the females. Additionally, widows are not entitled to their late husband’s estate, in most cases, they only retain the house and a portion of land. The extent of the inheritance is at best a possessory and not proprietary right. This practice is hinged on the understanding that inheritance rights follow blood, and widows are not blood relatives of their deceased husbands. The Igbo native law recognizes the legitimate status of children more than the wives.
+
+The Islamic law recognizes the rights of women to inherit their late husband’s estate though in a limited scope. The wife is entitled to a 1/4 of the late husband’s property if the marriage produced no children and 1/8 of the property if the marriage produced children. There are three levels of inheritance rights under the Islamic law. These categories ensure the consideration and recognition of the various levels of family relationships in the Islamic succession.
+
+GENDER EQUALITY PROVISIONS IN THE 1999 CONSTITUTION
+
+Section 42 of the Constitution provides for Right to freedom from discrimination as follows:
+
+A citizen of Nigeria of a particular community, ethnic group, place of origin, sex, religion or political opinion shall not, by reason only that he is such a person –
+
+a). be subjected either expressly by, or in the practical application of, any law in force in Nigeria or any law in force in Nigeria or any executive or administrative action of the government to disabilities or restrictions to which citizens of Nigeria of other communities, ethnic groups, places of origin, sex, religious or political opinions are not made subject; or
+
+b). be accorded either expressly by, or in the practical application of, any law in force in Nigeria or any such executive or administrative action, any privilege or advantage that is not accorded to citizens of Nigeria of other communities, ethic groups, places of origin, sex, religious or political opinions.
+
+No citizen of Nigeria shall be subjected to any disability or deprivation merely by reason of the circumstances of his birth.”
+
+The above provisions guarantees equality among the citizens of Nigeria. In other words, by those provisions no citizen should be sidelined on the premise of their sex or any reason whatsoever. It guarantees equal treatment for the entire citizens of Nigeria irrespective of gender. Thus, no discrimination can be made either by law or executive action against any particular set of persons. Additionally, the Constitution[12] further guarantees the right of every citizen to acquire and own immovable property anywhere in Nigeria. By a combined reading of the above sections, it can be seen that the Constitution protects and guarantees women’s rights of inheritance. The Constitution is the supreme law of Nigeria and prevails over every other law[13] and, therefore, are expected to draw inspiration from it.
+
+THE ATTITUDE OF COURTS TOWARDS GENDER DISCRIMINATION IN NIGERIA.
+
+Over the years, Nigerian courts have delivered some landmark judgments on women’s inheritance rights as enshrined in the Constitution. This development has contributed towards the country’s effort in ensuring equality of rights among citizens. Some of the judgments have come hard on some native laws and customs that have discriminatory elements and biases against women.
+
+In Mojekwu v. Mojekwu[14] the Appeal Court per Niki Tobi, JCA (as he then was) on whether “Oli ekpe” customary law of succession is consistent with the rules of equity held as follows:
+
+“We need not travel all the way to Beijing to know that some of our customs, including the Nnewi “Oli-ekpe” custom relied upon by the appellant are not consistent with our civilised world in which we all live today, including the appellant. In my humble view, it is the monopoly of God to determine the sex of a baby and not the parents.
+
+Although the scientific world disagrees with this divine truth, I believe that God, the Creator of human being, is also the final authority of who should be male and female. Accordingly, for a custom or customary law to discriminate against a particular sex is to say the least an affront on the Almighty God Himself. Let nobody do such a thing. On my part, I have no difficulty in holding that the “Oli-ekpe” custom of Nnewi, is repugnant to natural justice, equity and good conscience.”
+
+The position of the Court of Appeal in the above case was further reiterated in the case of Muojekwu v. Ejikeme.[15] On the issue of the validity of “Nrachi” customary ceremony of Nnewi, Fabiyi, JCA at pages 422-423, paras. G-C, held as follows:                   
+
+“I must express the point here by which I will continue to stand that human nature, in its most ‘exuberant prime and infinite telepathy’ cannot support the idea that a woman can take the place of a man and be procreating for her father via a mundane custom. She stays in the father’s house and cannot marry for the rest of her life even if she sees an honest man who loves her. I cannot, and do not believe that the society, as it is presently constituted, will for long acquiesce, in a conclusion so ludicrous, ridiculous, unrealistic and merciless more especially as we march on into the next millennium. 
+
+The polity, as presently constituted, cannot, in my view, contain what Nrachi custom stands for. It is not neat. It is an antithesis to that which is wholesome and forward looking. It cannot, and should not, be allowed to rear its ugly head any longer. It should die a natural death and be buried. The custom is perfidious and the petrifying odour smells to high heavens. It is an old time custom. And, ‘behold, the old order must change and become new’. 
+
+I strongly feel that Nrachi custom is no longer worthy of application with modern day trends. It is no doubt repugnant and contrary to natural justice, equity and good conscience”. 
+
+The above cases are to the effect that any rule of customary law and practice which discriminates against a particular gender is antithesis to natural justice, equity and good conscience. The evidential right of every citizen as provided under the Evidence Act[16] was invoked to protect the freedom of women to give evidence in court. The Court of Appeal in Alajemba Uke & Albert Iro[17] on whether a woman can give testimony in land matters under the Nneato Nnewi custom held that any custom and tradition that deprives a woman of her constitutionally guaranteed rights is otiose.
+
+In the same vein, the Courts have also relied on the provision of section 43 of the Constitution which guaranteed the freedom to own and acquire immovable property anywhere in Nigeria to protect the rights of women. In Asika v. Atuanya[18] where the bone of contention was the right of female members of a family to inherit equally the landed property of their deceased father, the Appeal Court per Thomas, JCA held thus:
+
+“The provisions of sections 42 and 43 of the Constitution of the Federal Republic of Nigeria, 1999 prohibit discrimination against women in whatever dimension. The Constitution is the grundnorm that can not be subjected to any custom, especially where same is being resisted. Here, the appellants are co-beneficiaries under a will with the respondent to share their late father’s property, no custom can discriminate against the appellant”.
+
+At this point it is instructive to reproduce the position of the law regarding the right of married women to own personal property. The Married Women’s Property Act[19] provides thus:
+
+“A married woman shall, in accordance with the provisions of this Act be capable of acquiring, holding and disposing by will or otherwise, of any real or personal property as her separate property, in a manner as if she were a femme sole (i.e a Spinster or a woman without a husband) without the intervention of any trustee.” (Emphasis supplied)
+
+The Appeal Court in Aderounmu v. Aderounmu[20] relied on the Married Women’s Property Law Cap. 71 of Oyo State which is in pari materia with the referenced Act. Here, the bone of contention before the court was whether a married woman was capable of acquiring, holding, and disposing personal property. The Court in its wisdom granted the order directing the husband to vacate the property belonging to the wife as a personal property. He was also asked to hand over to the wife the Landrover Jeep also belonging to the wife. The decision was a turning point for the protection of women’s right to own and keep personal property in their own names.
+
+THE CASE OF UKEJE V. UKEJE[21]
+
+The fact of the case is that on the 27th day of December 1981, Lazarus Ogbonnaya Ukeje a native of Umuahia in the old Imo State died intestate. He had assets in Lagos State and for most of his life was resident in Lagos State. The 1st Appellant got married to the deceased on the 13th of December 1956. There are four children of the marriage. The respondent is one of the four. After Lazarus Ogbonnaya Ukeje died, the 1st and 2nd Appellants (mother and son) obtained letters of administration for and over the deceased’s estate.
+
+On being aware of this development, the Plaintiff /Respondent filed an action in court wherein she claimed to be a daughter of the deceased and by virtue of that fact had a right to partake in the sharing of her deceased father’s estate. Her claims before a Lagos State High Court were for five (5) reliefs. Pleadings were filed and exchanged.
+
+The respondent as Plaintiff testified and called her mother as a second witness. Thirteen witnesses gave evidence for the defence. Thirty-four documents were admitted as exhibits. These included the birth certificate of the Respondent showing that she is a daughter of the deceased L.O. Ukeje, family photographs of the Respondent and her deceased father and a guarantor from the deceased L.O. Ukeje filled for the respondent acknowledging that he was the father of the respondent.
+
+The trial court in its judgment found that the Plaintiff /Respondent is a daughter of L.O. Ukeje (deceased) and proceeded to grant reliefs 2,3 and 4. As regards relief 5, the trial court ordered the 1st and 2nd Appellants to hand over the administration of the estate to the Administrator-General pending when the deceased children would choose 3 or 4 of them to apply for fresh letters of administration.
+
+The Appellants were aggrieved with the judgment of the trial court and appealed to the Court of Appeal which dismissed their appeal. The Appellants again were dissatisfied with the judgement of the Court of Appeal and they appealed to the Supreme Court.
+
+The Supreme Court per Rhodes-Vivour, JSC (as he then was) on the constitutionality of Igbo customary law which disentitles a female child from partaking in her deceased father’s estate held thus:
+
+“No matter the circumstances of the birth of a female child, she is entitled to an inheritance from her late father’s estate. Consequently, the Igbo customary law which disentitles a female child from partaking in her deceased father’s estate is in breach of section 42(1) and (2) of the Constitution of the Federal Republic of Nigeria, 1999, a fundamental rights provision guaranteed to every Nigerian. The said discriminatory customary law is void as it conflicts with section 42(1) and (2) of the Constitution. (P. 408, paras. C-E”
+
+The decision in Ukeje v. Ukeje (Supra) was a turning point on the protection and enforcement of women’s inheritance rights in Nigeria. This landmark case also reinforced the constitutional provisions on the rights against discrimination. Sadly, however, despite the above decision of the apex Court, discrimination against women remains unabated in many states in Nigeria, especially among the Ibos and Esans. This is so because the practice is so entrenched, and the women who are the victims are often so poor and helpless and lack the means to approach the courts for the enforcement of their rights. In most of our societies, therefore, male children are often treated specially, and until a couple has at least one male child, even when they have daughters, they become restless and miserable as if they have no child at all.
+
+CONCLUSION:
+
+The effect of gender disparity in Nigeria can never be overemphasised. Most often than not the affected women have limited or no access to formal education and health-care services. Sometimes, they go through severe psychological disorders, leading to feelings of worthlessness and depression. In some instances, women go through sexual and domestic abuses in the hands of their male counterparts. It is therefore the recommendation of this author that laws should be enacted by the National Assembly and State Houses of Assemblies to eliminate the discrimination practices against women in Nigeria and to put machineries in place for enforcements of such laws as was the case in Osu Caste system in Igbo land, where the defunct Eastern Nigerian House of Assembly rose to the occasion by passing a law titled “Eastern Nigerian Law No. 1956” which abolished the practice in the region. I therefore hold the strong view that same can be done in the instant case. Furthermore, everyone should be involved in the Campaign against gender disparity in Nigeria.
+
+FOOTNOTES
+
+[1] Osita Nnamani Ogbu Human Rights Law And Practice in Nigeria (Snaap Press Ltd., Enugu) 2013 page 387.
+
+[2] Yinka Olomojobi H uman Rights And Civil Liberties in Nigeria (Princeton & Associates Publishing Co. Ltd. Lagos) 2018
+
+[3] (2016) LPELR-40610 (CA)
+
+[4] https://www.humanrightscareers.com/issues/what-is-gender-discrimination/ Accessed 13th February, 2025.
+
+[5] (1997) 2 NWLR (Pt. 486) 144
+
+[6] Section 55(1) of the Labour Act
+
+[7] Section 56 (1) of the Labour Act
+
+[8] Section 127 of the Police Act
+
+[9] Section 124 of the Police Act
+
+[10] Section Article 5(1) of the NDLEA Order 2002
+
+[11] Section 282 of the Penal Code
+
+[12] Section 43, CFRN, 1999 (As Amended).
+
+[13] Section 1(1) & (3), CFRN, 1999 (As Amended).
+
+[14] (1997) 7 NWLR (Pt.512) 283
+
+[15] (2000) 5 NWLR (Pt. 657) 402
+
+[16] Section 175 of the Evidence Act (2023 as amended)
+
+[17] (1989) 2 NWLR (Pt. 10 4) 373 SC
+
+[18] (2008) 7 NWLR (Pt. 1117) 484 at 518
+
+[19] Section 1
+
+[20] (2003) 2 NWLR (Pt. 803)
+
+[21] (2014) 11 NWLR (Pt. 1418)
+    `
+  }
+];
+
+
+
+export const firmnewscard = [
+  
+  {
+    image: Esquire,
+    section: `Alliance Law Firm wins Banking and Finance Team of the year and Dispute Resolution Team of the year at The 2021 Esquire Legal Awards`,
+    date : 'November 7, 2024',
+  },
+  {
+    image: alan1,
+    section: `ALAN 2020 First Quarter Learning Session: “Law Firm Project Management & Facility Management”`,
+    date : 'November 8, 2020',
+  },
+  {
+    image: msi1,
+    section: `Our Managing Partner, Uche Val Obi SAN, speaking at the ongoing MSI Global Alliance Conference in Madrid, Spain`,
+    date : 'October 25, 2018',
+  },
+]
+
+export const contactinfo = [
+  {
+    interest : 'INTERESTED IN CONTACTING THE',
+    team : 'ALLIANCE TEAM?',
+    description : `Thank you for your interest in contacting our firm. Please complete the form below and upload a valid government-issued identification. Upon review of your submission, a member of our legal team will reach out to you regarding the next steps.`,
+    text : 'If you encounter any difficulties submitting the form, you may alternatively send your identification directly to us via email at careers@alliancelawfirm.ng',
+    form: 'CONTACT FORM',
+  }
 ]
 
 export const foothead = [

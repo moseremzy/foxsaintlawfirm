@@ -4,7 +4,7 @@ import InsightData from '../components/InsightData'
 
 const Insights = () => {
   return (
-    <div  className='text-indigo-950 h-fit flex flex-col'>
+    <div  className='bg-white text-indigo-950 h-fit flex flex-col'>
       <InsightBanner/>
       <InsightData/>
     </div>

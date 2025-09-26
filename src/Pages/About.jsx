@@ -6,7 +6,7 @@ import AboutAwards from '../components/AboutAwards'
 
 const About = () => {
   return (
-    <div className='text-indigo-950 bg-white h-fit flex flex-col'>
+    <div className='bg-white text-indigo-950 h-fit flex flex-col'>
      <AboutBanner/>
      <AboutData/>
      <AboutIdentity/>

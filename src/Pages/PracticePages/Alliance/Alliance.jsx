@@ -4,7 +4,7 @@ import AllianceData from './AllianceData'
 
 const Alliance = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full bg-white'>
       <AllianceBanner />
       <AllianceData />
     </div>

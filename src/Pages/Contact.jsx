@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactData from '../components/ContactData'
 
 const Contact = () => {
   return (
-    <div className='bg-orange-500 flex flex-col h-screen items-center justify-center'>
-      <h1>Welcome to the Contact Page</h1>
+    <div className='bg-white h-fit flex flex-col'>
+      <ContactData/>
     </div>
   )
 }

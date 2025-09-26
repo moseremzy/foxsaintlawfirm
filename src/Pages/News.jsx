@@ -1,9 +1,12 @@
 import React from 'react'
+import FirmNewsBanner from '../components/FirmNewsBanner'
+import FirmNewsData from '../components/FirmNewsData'
 
 const News = () => {
   return (
-    <div className='bg-gray-600 h-screen flex flex-row items-center justify-center'>
-      <h1>Welcome to News Page</h1>
+    <div className='bg-white h-fit flex flex-col gap-10'>
+      <FirmNewsBanner/>
+      <FirmNewsData/>
     </div>
   )
 }

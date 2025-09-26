@@ -4,7 +4,7 @@ import BankingData from './BankingData'
 
 const Banking = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full bg-white'>
       <BankingBanner />
       <BankingData />
     </div>

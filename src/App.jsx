@@ -19,7 +19,9 @@ import Shipping from './Pages/PracticePages/Shipping/Shipping.jsx'
 import Tatp from './Pages/PracticePages/Tax/Tatp.jsx'
 import Insolvency from './Pages/PracticePages/Insolvency/Insolvency.jsx'
 import Team from './Pages/Team.jsx'
+import WomenRights from './Pages/InsightsPages/May05_2025/WomenRights.jsx'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 const App = () => {
   return (
@@ -27,6 +29,7 @@ const App = () => {
       <Navbar />
       <Navbar2 />
 
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -48,6 +51,8 @@ const App = () => {
         <Route path='/practice/shipping-maritime' element={<Shipping />} />
         <Route path='/practice/tax-transfer' element={<Tatp />} />
         <Route path='/practice/insolvency-restructuring' element={<Insolvency />} />
+        {/* { insight pages routes - all lowercase} */}
+        <Route path='/insights/may05_2025' element={<WomenRights />} />
       </Routes>
 
       <Footer />

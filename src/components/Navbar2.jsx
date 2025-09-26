@@ -61,7 +61,7 @@ const Navbar2 = () => {
                   </div>
                 </div>
                 {mobileDrawerOpen && (
-                  <div className="fixed right-0 my-0 z-20 bg-amber-50 text-black font-semibold text-[15px] w-full px-12 py-3 flex flex-col items-center lg:hidden animate-slideDown">
+                  <div className="absolute top-full left-0 z-20 bg-amber-50 text-black font-semibold text-[15px] w-full px-12 py-3 flex flex-col items-center lg:hidden animate-slideDown">
                     <ul className="flex flex-col items-center">
                       {navItems.map((item, index) => (
                         <li

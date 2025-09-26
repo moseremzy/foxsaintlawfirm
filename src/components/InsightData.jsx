@@ -16,7 +16,7 @@ const InsightData = () => {
               alt={item.text}
               className="w-full h-48 object-cover"
             />
-            <div className="p-4 flex flex-col gap-2">
+            <div className="h-full p-4 flex flex-col gap-2">
               <p className="text-gray-800 text-lg font-medium">{item.text}</p>
               <span className="text-sm text-gray-500">{item.date}</span>
             </div>
