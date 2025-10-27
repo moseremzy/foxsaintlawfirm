@@ -11,7 +11,7 @@ const TatpBanner = () => {
               className="text-4xl md:text-[48px] font-semibold"
               style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.8)" }}
             >
-              Alliance Law Firm Tax Practice Profile
+              Fox Saint Law Firm Tax Practice Profile
             </h1>
           </div>
         </section>

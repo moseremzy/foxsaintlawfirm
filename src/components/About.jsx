@@ -12,11 +12,11 @@ const About = () => {
           Decades of Providing Premium Legal Service
         </h1>
         <p className="font-semibold text-lg lg:px-20 lg:text-sm">
-          Alliance Law Firm harnesses its skilled workforce and advanced
+          Fox Saint Law Firm harnesses its skilled workforce and advanced
           technology to deliver exceptional legal service. Our team consists of
           industry-recognized partners, consultants, and lawyers who operate
-          from three key commercial centers in Lagos, Abuja, and Port Harcourt,
-          Nigeria. We offer value-added legal service, drawing from a diverse
+          from three key commercial centers in China, Australia, and United States. 
+          We offer value-added legal service, drawing from a diverse
           mix of expertise and decades of experience in corporate commercial
           transactions and advanced dispute resolution.
         </p>
@@ -32,11 +32,11 @@ const About = () => {
           Decades of Providing Premium Legal Service
         </h1>
         <p className="font-semibold lg:text-xl">
-          Alliance Law Firm harnesses its skilled workforce and advanced
+          Fox Saint Law Firm harnesses its skilled workforce and advanced
           technology to deliver exceptional legal service. Our team consists of
           industry-recognized partners, consultants, and lawyers who operate
-          from three key commercial centers in Lagos, Abuja, and Port Harcourt,
-          Nigeria. We offer value-added legal service, drawing from a diverse
+          from three key commercial centers in China, Australia, and United States.
+          We offer value-added legal service, drawing from a diverse
           mix of expertise and decades of experience in corporate commercial
           transactions and advanced dispute resolution.
         </p>

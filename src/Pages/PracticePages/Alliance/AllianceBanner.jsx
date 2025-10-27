@@ -11,7 +11,7 @@ const AllianceBanner = () => {
                 <h1 
                 className="text-4xl md:text-[58px] font-semibold"
                 style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}
-                >Alliance Corporate Secretaries Limited (ACSL)</h1>
+                >Fox Saint Corporate Secretaries Limited (FSCSL)</h1>
               </div>
             </section>
   )

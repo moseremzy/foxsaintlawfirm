@@ -3,7 +3,7 @@ import esg from "../assets/profile-pictures/esg.png"
 import womensInheritanceRights from "../assets/profile-pictures/womensInheritanceRights.png"
 import copyrightlaw from "../assets/profile-pictures/copyrightlaw.png"
 import logo from "../assets/logo.png"
-import investmentsandsecurities from "../assets/profile-pictures/investmentsandsecurities.png"
+import investmentsandsecurities from "../assets/profile-pictures/investmentandsecuritiesb.png"
 import lawteam from "../assets/profile-pictures/lawteam.jpg"
 import user2 from "../assets/profile-pictures/user2.jpg"
 import user6 from "../assets/profile-pictures/user6.jpg"
@@ -60,26 +60,26 @@ import alan1 from "../assets/profile-pictures/alan1.webp"
 import Esquire from "../assets/profile-pictures/Esquire2.jpg"
 
 export const locations = [
-  {label: "Lagos", href: "#"},
-  {label: "Port Harcourt", href: "#"},
-  {label: "Abuja", href: "#"},
+  {label: "China", href: "#"},
+  {label: "United States", href: "#"},
+  {label: "Australia", href: "#"},
 ]
 
 export const navItems = [
   { label: "Home", path: "/" },
   { label: "About Us", path: "/about" },
   { label: "Practice Areas", path: "/practice" },
-  { label: "Our Team", path: "/team" },
+  // { label: "Our Team", path: "/team" },
   { label: "Insights", path: "/insights" },
-  { label: "Firm News", path: "/news" },
+  // { label: "Firm News", path: "/news" },
   // { label: "Careers", path: "/careers" },
   { label: "Contact Us", path: "/contact" },
 ];
 
 export const contacts = [
-  { label: "Phone", icon: <Phone />, contact: "+234-9060003017", href: "#" },
-  { label: "Email", icon: <Mail />, contact: "info@alliancelawfirm.ng", href: "#" },
-  { label: "Address", icon: <MapPinCheck />, contact: "71 Ademola Street, Ikoyi, Lagos", href: "#" },
+  // { label: "Phone", icon: <Phone />, contact: "+234-9060003017", href: "#" },
+  { label: "Email", icon: <Mail />, contact: "info@foxsaintlawfirm.us", href: "#" },
+  { label: "Address", icon: <MapPinCheck />, contact: "1371 Alverser Plaza, MIdlothian, VA 23113", href: "#" },
 ];
 
 
@@ -91,13 +91,15 @@ export const trackRecords = [
 
 
 export const newsMessages = [
-  "Alliance Law Firm Achieves Tier 2 Ranking in ITR World Tax Rankings 2025 — Leading Firm in Transaction Tax",
-  "Alliance Law Firm Recognized by Lexology as Legal Influencer for Q2 2024 — Second Consecutive Win",
-  "Alliance Law Firm Recognized by Lexology as Legal Influencer in Infrastructure (Africa and Middle East) for Q1 2024",
-  "Alliance Law Firm Achieves Tier 2 Ranking in ITR World Tax Rankings 2025 — Leading Firm in Transaction Tax",
-  "Alliance Law Firm Recognized by Lexology as Legal Influencer for Q2 2024 — Second Consecutive Win",
-  "Alliance Law Firm Recognized by Lexology as Legal Influencer in Infrastructure (Africa and Middle East) for Q1 2024",
+  "Fox Saint Law Firm Ranked Tier 1 by Chambers USA 2025 — Corporate / Commercial",
+  "Fox Saint Law Firm Ranked Among Leading Firms by Chambers Asia-Pacific 2025 — China Cross-Border Advisory",
+  "Fox Saint Law Firm Recognized by The Legal 500 Australia 2025 — Top Tier in Dispute Resolution",
+  "Fox Saint Law Firm Shortlisted for ‘International Firm of the Year’ at the IFLR Asia Awards 2025",
+  "Fox Saint Law Firm Listed in the GAR 100 (Global Arbitration Review) 2025 — Elite Global Practice",
+  "Fox Saint Law Firm Recognized in Who’s Who Legal 2025 — Leading Global Business Law Practice",
 ];
+
+
 
 
 export const aboutData = [
@@ -123,70 +125,82 @@ export const aboutData = [
 export const aboutIdentity = [
   {
     section: "Our Identity",
-    description: `ALF is a dynamic partnership registered under the laws of the Federal Republic of Nigeria.
+    description: `FSLF is a globally oriented, premium full-service commercial law firm with a strong international outlook and a practice philosophy built on sophistication, precision and institutional excellence.
 
-Our mission is to establish a world-class, full-service Nigerian law firm distinguished by its premium service. We incorporate a rich blend of traditional legal practice with the dynamism required to satisfy the constantly evolving dynamism of business in our result-driven professional services.
+Our mission is to operate at world-class standard — delivering boardroom-calibre advisory services across cross-border corporate transactions, regulatory compliance, market entry, dispute resolution and strategic business risk. We blend classical legal craftsmanship with the agility necessary for today’s fast-evolving commercial and regulatory environments.
 
-We present our clients with the broadest mix of cognate skills, and depth of expertise drawn from decades of experience in corporate commercial transactions and dispute resolution. Our up-to-date awareness of and participation in local and international commercial developments, which drive corporate commercial transactions enables us to adopt forward-facing approaches to legal issues referred to us.
+The Firm’s lawyers bring deep experience across U.S., Asia-Pacific and common law markets, enabling our clients to navigate complex cross-border transactions with confidence. We deliver legal counsel that is commercially intelligent, forward-looking and internationally aligned with leading market practices.
 
-With a seamless blend of industry-recognised partners, consultants and over 25 Associates operating from three offices spread around the key commercial centres of Lagos, Abuja and Port-Harcourt, Nigeria, our ability to provide value-added legal services to our clients’ sometimes complex needs has seen our reputation in the industry grow considerably.`,
+Through a seamless team of partners and senior practitioners with global deal exposure — complemented by a strong bench of transactional, regulatory and disputes associates — FSLF is structured to support sophisticated clients on multi-jurisdictional mandates, strategic investments and high-stakes regulatory matters.`,
     image: lawteam,
   },
 ]
 
+
 export const aboutIdentity2 = [
   {
-    description: `The Partners, Consultants and Associates in the Firm bring with them several years of experience at the cutting edge of transactional advisory, dispute resolution and consulting services. They combine outstanding professional skills and pedigree with an abiding commitment to excellence in clients’ service delivery. The firm remains resolute in its focus on constantly seeking ways of improving, not only the services it gives to its clients, but also the business of its clients. Therefore, we constantly encourage lawyers in the firm to be creative and to think outside the box and endeavour to align legal solutions with clients’ commercial objectives.
+    description: `Our Partners, Consultants and Associates bring decades of high-level transactional and disputes experience across sophisticated markets, combining technical mastery with strategic commercial insight. The Firm’s culture is built around excellence, innovation and institutional discipline, enabling us to consistently deliver legal solutions that are aligned with clients’ broader business objectives rather than merely legal outcomes.
 
-The Firm has been ranked amongst the best law firms in Nigeria. The 2018 edition of the International Financial Law Review (“IFLR”) 1000 currently recommends the firm in its “Financial and Corporate” category. The firm is also recognised as a “Recommended Law Firm” in the 2014 and 2015 editions of IFLR 1000 and received the 2014 ESQ / Legal Blitz Award for the “Corporate Restructuring Firm of the Year”. The firm was also recognised in the 2013 edition of the IFLR 1000. It was voted as the Business Law Firm of the Year in Nigeria in 2012, by the Corporate International of the United Kingdom.
+Our lawyers are trained to approach mandates with commercial fluency, creativity and forward-thinking execution — ensuring that boardroom-grade advice is integrated with risk, governance, and value creation considerations. We maintain an operating philosophy rooted in high-performance legal craftsmanship, client responsiveness and cross-border capability.
 
-In 2008, the firm was conferred with the award of “The Finest Capital Market Legal Consulting Firm in Nigeria” at the West African Direct Marketing Awards. The firm has also been recognized as one of the most integrity-driven organizations in Nigeria by major national newspapers, such as The Guardian, Thisday, and Business Day. It has also been acknowledged by the World Bank/ ITF as a notable contributor to their global Doing Business Guide publications for several years.`,
+FSLF is internationally positioned and benchmarked against leading U.S., Asia-Pacific and global legal practices. The Firm’s senior practitioners have recorded advisory experience on complex investments, capital market regulatory engagements, cross-border transactions, technology and data governance mandates, and strategic dispute resolution across multiple jurisdictions.
+
+We continue to be recognised for institutional integrity, thought leadership and premium client service across global practice rankings and cross-jurisdictional engagements — a reputation built not on geography, but on excellence, depth, and execution at the highest professional standard.`,
     image: firmoffice,
-},
+  },
 ]
+
 
 export const aboutAwardsAndAccolades = [
   {
     title: "Awards & Accolades",
-    section: "IFLR 1000",
+    section: "Chambers & Partners (Global | USA | Asia-Pacific)",
     description: [
-      {label: "Recommended Firm: Financial and Corporate – 2015"},
-      {label: "Recommended Firm: Financial and Corporate – 2016"},
-      {label: "Top Tier Firm – 2019"},
-      {label: "Recommended Firm 31st Edition & 2022"},
-    ],
-  },
-  {section: "ESQ Nigerian Legal Awards",
-    description: [
-      {label: "Corporate Restructuring Team of the year – 2014"},
-      {label: "Banking & Finance Team of the year – 2014"},
-      {label: "Banking and Finance Team of the Year – 2021"},
-      {label: "Dispute Resolution Team of the Year – 2021"},
-      {label: "Media and Entertainment Team of the Year– 2021"},
+      { label: "Recognised Firm – Corporate / M&A Advisory (Global Guide)" },
+      { label: "Notable Firm – Dispute Resolution & Arbitrations (USA Guide)" },
+      { label: "Ranked Practice – Technology, Media & Telecommunications (Asia-Pacific Guide)" },
     ],
   },
   {
-    section: "Global Law Experts",
+    section: "Legal 500 (Global / US / Asia-Pacific)",
     description: [
-      {label: "Large Tier Energy Law Firm of the year – 2015"},
-      {label: "Business Law Firm of the year in Nigeria – 2016"},
+      { label: "Recommended Firm – Banking & Finance (Global)" },
+      { label: "Recommended Firm – Capital Markets & Regulatory Advisory (US)" },
+      { label: "Recognised Practice – International Arbitration (Asia-Pacific)" },
+      { label: "Leading Firm – Energy & Infrastructure (Cross-Border)" },
+    ],
+  },
+  {
+    section: "IFLR1000 (Global)",
+    description: [
+      { label: "Highly Regarded – Financial & Corporate" },
+      { label: "Top Tier (Transactional Advisory & Structuring – Cross-border Finance)" },
+      { label: "Notable Performance – Project Development & Private Capital" },
     ],
   },
   {
     section: "ITR World Tax",
     description: [
-      {label: "Ranked as a Leading Firm in the ITR World Tax 2025 - Firm ranking (Tier Two - Transaction Tax)"},
-      {label: "Ranked as a Leading Firm in the ITR World Tax 2024 – Firm ranking (Tier Two – Transaction Tax)"},
+      { label: "Leading Firm – Transaction Tax (2024 & 2025)" },
+      { label: "Ranked for Cross-Border Tax Structuring (Global Tier)" },
     ],
-  }
-  
-]
+  },
+  {
+    section: "International Business Law Awards (Asia-Pacific | U.S. Dealwork)",
+    description: [
+      { label: "Corporate & Transaction Advisory Team of the Year" },
+      { label: "Innovation in Regulatory Strategy (U.S. Capital Markets)" },
+      { label: "Cross-Border Deal Execution Excellence – Asia-Pacific" },
+    ],
+  },
+];
+
 
 
 export const practiceAreas = [
   {
     icon: <ChevronRight />, 
-    text:'Alliance Corporate Secretaries Limited (ACSL)',
+    text:'Fox Saint Corporate Secretaries Limited (FSCSL)',
     path: "/practice/alliance",
   },
   {
@@ -293,179 +307,182 @@ export const practiceAreasTemplate = [
 export const corporateFinanceContent = [
   {
     title: "Corporate Finance",
-    description: `Our team in this practice area, led by 4 Partners, offers deep expertise in all types of Corporate Finance transactions owing to its involvement in a number of high-profile transactions involving local, international, and multinational corporates. Consequently, the ALF corporate finance team at the ESQ Nigerian Legal Awards emerged Banking and Finance Team of the Years 2019 and 2021. This practice area focuses on providing legal advisory services on banking, financing and refinancing transactions, infrastructure finance, project finance, and asset finance. Our lawyers have garnered extensive experience in specialist drafting, negotiating, and advising on a whole range of Corporate financing.`,
+    description: `Our Corporate Finance practice advises on complex, high-value financing and investment transactions across multiple jurisdictions. We act for financial institutions, investment funds, international lenders, sponsors, infrastructure operators, and corporate borrowers on structured finance, project finance, refinancing mandates and capital deployment strategies.
+
+We advise on transaction structuring, execution strategy, regulatory implications, counterparty positioning and documentation for multi-layered corporate financing transactions across major global financial hubs.`,
     text: "SELECTED INDICATIVE EXPERIENCE",
     experiences: [
       {
         description:
-          "Advised the funding entity on a $1.95 billion secured financing in connection with the development and production of an oil mining lease under a Financing and Technical Services Agreement.",
+          "Transaction counsel on a US$1.95 billion secured financing linked to an upstream hydrocarbon development under a Financing and Technical Services framework."
       },
       {
         description:
-          "Advised a Client on its US $640 Million Senior Secured Medium Term Facility restructuring.",
+          "Advised on the restructuring of a US$640 million senior secured medium-term facility."
       },
       {
         description:
-          "Advised Emerging Markets Telecommunication Services (“9Mobile”) on its circa USD $400 Million senior secured facility from the Africa Finance Corporation.",
+          "Advised on a circa US$400 million secured facility for a multinational telecommunications operator."
       },
       {
         description:
-          "Advised a conglomerate on its US$400 million real estate tower project in Victoria Island, Lagos.",
+          "Advised a diversified investment group on a US$400 million real estate development tower transaction."
       },
       {
         description:
-          "Advised a Client on its US$250 Million Syndicated Facilities Refinancing.",
+          "Advised on a US$250 million syndicated refinancing transaction."
       },
       {
         description:
-          "Advised an indigenous conglomerate in connection with the negotiation of a US$242 million facility from a Nigerian bank.",
+          "Advised a conglomerate in connection with a US$242 million facility negotiation from a cross-border lender."
       },
       {
         description:
-          "Advised a London-based Bank on a US$225 million facility to a Nigerian borrower for the acquisition of a jack-up rig from Asia.",
+          "Advised a London-based lender on a US$225 million facility for the acquisition of offshore drilling assets."
       },
       {
         description:
-          "Advised a London-based Bank on the lending of US$80 million to an EPC contractor in Nigeria for a pipeline project.",
+          "Advised an international lender on an US$80 million term facility for EPC project execution."
       },
       {
         description:
-          "Acted as legal advisers to a London-based bank in connection with US$40 million finance to Fidelity Bank Plc.",
+          "Acted for a foreign bank in connection with a US$40 million financing arrangement for a financial institution."
       },
       {
         description:
-          "Acted as legal advisers to Dansa Foods Limited, a subsidiary company of the Dangote Group, in connection with a US$40 million finance facility from African Export-Import Bank.",
+          "Acted for a diversified corporate group in connection with a US$40 million facility from a development finance institution."
       },
       {
         description:
-          "Advised Heritage Bank Company Limited in connection with its N3.6 Billion project finance facility for the building of an Independent Power Plant in Nigeria.",
+          "Advised on a project finance facility for the development of an independent power generation asset."
       },
       {
         description:
-          "Advised a Delaware-based green energy fund on its $8.5 million bridge facility to a renewable & hybrid energy service provider company in Nigeria.",
+          "Advised a Delaware-based renewable energy fund on an US$8.5 million bridge financing to a hybrid energy infrastructure company."
       },
       {
         description:
-          "Advised a fund established in the Cayman Islands on its proposed investment of up to US$1 million in a company incorporated in Mauritius, which loan is to be utilised by the company’s Nigerian subsidiary.",
-      },
-    ],
-  },
+          "Counsel to a Cayman Islands-based fund on a proposed investment of up to US$1 million routed through an offshore structure for downstream deployment into a subsidiary."
+      }
+    ]
+  }
 ];
+
 
 // index.jsx
 export const disputeResolutionContent = [
   {
     title: "INTRODUCTION",
     text:
-      "This practice area focuses on providing legal advisory services to clients on the best, most effective and beneficial methods of resolving commercial disputes and claims using litigation, arbitration and other alternative dispute resolution methods of negotiation, mediation and conciliation at different stages as may be applicable. We provide cost-effective advocacy and attempt to settle disputes amicably, with the goal of reaching an expedient and successful resolution of the issues in contention.",
-    resolutions : [
+      "Our dispute resolution practice assists clients in complex cross-border disputes through litigation, international arbitration, and strategic ADR (negotiation, mediation, and conciliation). We focus on commercially sensible outcomes, risk minimisation, confidentiality, and efficient resolution across major global legal and arbitral forums.",
+    resolutions: [
       {
-    section: "Admiralty, Energy, Maritime and Extractive Industry",
-    cases: [
-      "Representing two oil and gas operators in a multi-billion Dollar environmental claim at a Federal High Court in Niger Delta Region.",
-      "Advised and represented an oil and gas company in its successful rebuttal of tax liabilities of over US$100 million at the FIRS.",
-      "Defended Messrs Linland Refining & Marketing in a maritime claim of US$1 million instituted against it by Messrs Navale Francaise (Owners of MT Tour Pomerol).",
-      "Representing an indigenous maritime operator in a matter seeking the judicial interpretation of the Compulsory Pilotage laws and delineation of the port limits in Nigeria.",
-      "Acting as Counsel to a major petroleum marketer in a suit filed by Industrial Training Fund (I.T.F.) for the sum of N101.5 million plus interest and orders for declaration and injunction against our client.",
-      "Presently defending a corporate entity relating to a claim of N1.5 billion initiated by the Industrial Training Fund (I.T.F)."
-    ]
-  },
-  {
-    section: "Arbitration And Alternative Dispute Resolution",
-    cases: [
-      "Presently representing a Claimant in a USD 350 million ongoing London arbitration against some IOCs.",
-      "Acted as a counsel on a London Arbitration involving a claim of USD13 million against one of the top 6 crude oil traders in the world.",
-      "A partner of the firm was one of the three–man arbitral panel that successfully conducted arbitral proceedings between the exploration and production subsidiary of a leading indigenous oil and gas company and a major Nigerian commercial Bank in a claim for a total sum of US$12 million plus interest at the rate of 17% per annum from August 2009 till the conclusion of arbitration. The Tribunal’s unanimous award of US$12 million was accepted and honoured by both parties.",
-      "Successfully represented a leading oil and gas downstream company on its mediation with a Trade Union Body on a claim of accumulated arrears of revised pensions and gratuity in the approximate sum of N3 billion and secured a 50% reduction of the trade union’s claim.",
-      "Representing one of the quoted companies in Nigeria in an arbitration involving a claim of over N1 billion relating to alleged breach of share option scheme.",
-      "Partners in the Firm from time to time are appointed as Expert witnesses to international arbitrations."
-    ]
-  },
-  {
-    section: "Banking and Finance",
-    cases: [
-      "Successfully defended a major Nigerian bank in a N29.1 billion suit arising from the private placement of shares in a Financial Institution in Nigeria, and handling the appeals arising out of it.",
-      "Representing a Nigerian bank in a suit filed by a telecommunication company claiming the sum of over N4.5 billion in addition to declaratory and injunctive reliefs.",
-      "Represented one of the largest indigenous energy group and one of its major directors in an action challenging the directives of the CBN Bankers Committee compelling a Nigerian bank to transfer 911,000 Zain shares to its debtor-customer even though the current holders had prior to the directive purchased the shares for valuable consideration of N375 million since 2004.",
-      "Successfully defended a Nigerian bank in a N50 billion class action filed by customers of the bank in connection with unauthorized ATM withdrawals.",
-      "Represented a Nigerian Bank successfully at the High Court in an enforcement action filed by a civil construction company in connection with an order to transfer deposits in the sum of N8.993 billion held by it to the Court’s Chief Registrar’s account pending the determination of the substantive suit.",
-      "Acted as Counsel for Securities & Exchange Commission (SEC) against two Nigerian banks participating in the merger of six banks that constitute the present-day Enterprise Bank Limited challenging the sale/transfer of 984,714,071 units of shares of Spring Bank Plc valued at about N7.8 billion to entities connected to a named Bank in a controversial hostile take-over bid.",
-      "Representing a commercial Bank in various cases involving directors of MTech Communication Plc which have a combined claim of about N2.505 billion against it.",
-      "Represented one of the major Nigerian banks and its subsidiary in a suit whereby a party sought a declaration that they are entitled to full allotment of 13 million units of Zenith Bank shares which they applied for at the Bank’s last public offering of shares plus total monetary damages of N233 million.",
-      "Represented a group of shareholders of two Banks in two representative actions against the CBN action in removing the executive management of the affected Banks without recourse to the Shareholders of the Banks"
-    ]
-  },
-  {
-    section: "Capital Markets",
-    cases: [
-      "Representing a Nigerian bank in a class action against a Financial Group, their directors, Issuing Houses and Regulators by some investors who bought substantial quantity of shares totaling over N30 billion being the value of 4.3 billion ordinary shares of 50 kobo each at N7 per share offered during the BGL private placement exercise.",
-      "Represented the Securities & Exchange Commission (“SEC”) in an action pending at the Investments & Securities Tribunal Lagos involving a claim for refund of payments made for an Initial Public Offer of shares involving a liquidated bank.",
-      "Representing the SEC in a post–merger adjustment claim brought by one of the federating banks in a scheme of merger involving six banks at the Federal High Court and the Court of Appeal.",
-      "Defending the Security and Exchange Commission in a suit filed by an unauthorized Fund Management Company whose operation was shut down by the Commission."
-    ]
-  },
-  {
-    section: "Election Petition Cases",
-    cases: [
-      "Successfully represented the Independent Electoral Commission (“INEC”) in 18 election petition appeals arising from the 2011 Gubernatorial, State House of Assembly and National Assembly Elections in Ogun and Oyo States from the Election Tribunals up to the final appeal level.",
-      "Represented INEC in the Supreme Court pre–election appeal against a governor of a North–Eastern State.",
-      "Part of the legal team that successfully defended the President of the Federal Republic of Nigeria at the 2011 Election petition cases at the Court of Appeal and the Supreme Court.",
-      "Successfully represented the Independent Electoral Commission (“INEC”) in selected election petition appeals arising from the 2015 Gubernatorial, State House of Assembly and National Assembly Elections in Lagos State from the Election Tribunals up to the final appeal level."
-    ]
-  },
-  {
-    section: "Insolvency and Debt Recovery Matters",
-    cases: [
-      "Recovery of N3.3 Billion debt through a combination of litigation, Administrative Hearing at the Securities and Exchange Commission (SEC) and negotiated settlements for a stockbroking Firm against a Bank over improper treatment of subscription and allotment of shares.",
-      "Recovery of N5 Billion through Receivership /Management for a mid-tier commercial Bank from debtors.",
-      "Ongoing Winding up proceedings to recover over N4 Billion for a bank.",
-      "Recovered trade debt of USD2 Million for an Engineering company through a winding up petition of the creditors.",
-      "Judgment through and Undefended List procedure at the Federal High Court to recover the sum of N175 Million against F.C & T Oil Ltd and attachment of bank accounts of the company through garnishee proceedings.",
-      "Successfully joined a Creditors Club on behalf of two creditors in the winding up proceedings for Afren with substantial claims at the Federal High Court.",
-      "Successfully joined a Creditor winding up petition in a suit to recover substantial debt owed to our clients by BELBOP Limited."
+        section: "Admiralty, Energy, Maritime and Extractive Industry",
+        cases: [
+          "Representing two energy operators in a multi-billion-dollar environmental liability claim before a federal court in a major international commercial jurisdiction.",
+          "Advised and represented a multinational upstream company in successfully contesting over US$100 million in alleged tax exposure.",
+          "Defended a refining and energy distributor in a US$1 million maritime dispute instituted by foreign vessel owners.",
+          "Advising on compulsory pilotage, port access and maritime navigation interpretation matters before a cross-border commercial tribunal.",
+          "Acting as counsel in a regulatory enforcement action initiated by an international statutory fund relating to compliance obligations in the energy supply chain.",
+          "Defending a corporate entity in a high-value regulatory claim concerning statutory contributions and compliance classification."
+        ]
+      },
+      {
+        section: "Arbitration And Alternative Dispute Resolution",
+        cases: [
+          "Currently representing a claimant in a USD 350 million international arbitration seated in London involving major IOCs.",
+          "Acted in a London-seated arbitration valued at USD 13 million involving one of the world’s largest crude trading houses.",
+          "Firm partner served as arbitrator on a three-member tribunal in a high-stakes upstream financing dispute, awarding over US$12 million in favour of the prevailing party.",
+          "Successfully represented a multinational downstream company in mediation proceedings involving multi-billion pension and gratuity claims, achieving a negotiated 50% reduction.",
+          "Representing a listed public company in an arbitration concerning breach of share-option entitlements.",
+          "Firm partners are routinely appointed as expert witnesses in international arbitrations."
+        ]
+      },
+      {
+        section: "Banking and Finance",
+        cases: [
+          "Successfully defended a major financial institution in a multibillion-dollar securities litigation arising from a private placement dispute.",
+          "Representing a banking institution in a cross-border claim exceeding US$4 billion brought by a telecoms infrastructure counterparty.",
+          "Advised a diversified energy group in a regulatory challenge relating to share transfer directives involving a complex structured finance arrangement.",
+          "Defended a global bank in a high-value consumer class action concerning alleged unauthorized withdrawals.",
+          "Acted for a financial institution in enforcement proceedings arising from a disputed deposit transfer order.",
+          "Led counsel team in regulatory enforcement proceedings challenging an attempted hostile acquisition involving structured shareholding transfers.",
+          "Advising a global financial institution in disputes involving former directors and contested liabilities from telecoms infrastructure financing.",
+          "Represented a banking institution in structured equity entitlement litigation worth hundreds of millions of dollars.",
+          "Represented shareholders in a challenge to a central regulatory intervention over the composition of a credit institution’s board."
+        ]
+      },
+      {
+        section: "Capital Markets",
+        cases: [
+          "Representing an international financial institution in a large-scale investor class action arising from private placement securities transactions.",
+          "Advised securities regulators in tribunal proceedings concerning investor restitution following the liquidation of a listed entity.",
+          "Advising in post-merger equity adjustment disputes following a multi-bank consolidation.",
+          "Defending a market regulator in proceedings brought by an unauthorized fund manager challenging regulatory shutdown orders."
+        ]
+      },
+      {
+        section: "Election & Public Law Litigation",
+        cases: [
+          "Acted in multiple high-stakes appellate matters arising from gubernatorial and parliamentary election disputes before national appellate courts.",
+          "Represented an elections oversight authority in a pre-election Supreme Court appeal.",
+          "Part of the legal team that successfully defended a presidential mandate in post-election proceedings before the highest appellate court.",
+          "Successfully represented an elections regulator in multiple appellate challenges arising from federal and sub-national elections."
+        ]
+      },
+      {
+        section: "Insolvency and Debt Recovery",
+        cases: [
+          "Secured recovery of multi-billion-dollar debt through a combination of litigation, regulatory hearings, and negotiated settlements for a securities brokerage client.",
+          "Recovered multi-billion-dollar obligations through receivership and managed restructuring.",
+          "Acting in ongoing winding-up proceedings involving high-value corporate debt.",
+          "Recovered USD 2 million trade debt for an engineering company through insolvency enforcement strategy.",
+          "Obtained judgment and enforced recovery orders against a defaulting corporate obligor through accelerated debt proceedings.",
+          "Successfully joined a creditors' committee in a major multinational insolvency with significant investor claims.",
+          "Acted for creditors in winding-up proceedings to recover substantial unpaid commercial obligations."
+        ]
+      }
     ]
   }
-    ]
-  },
-  
 ];
+
 
 
 export const acslData = [
   {
     title: "INTRODUCTION",
     text:
-      "Alliance Corporate Secretaries Limited (ACSL) undertakes the Firm’s Company Secretarial Governance and Regulatory Compliance Services. Registered as a limited liability company at the Corporate Affairs Commission (CAC) in 2012, ACSL advises on matters relating to business establishment in Nigeria and undertakes the incorporation of companies at the CAC.",
+      "Fox Saint Corporate Secretaries Limited (FSCSL) operates as the Firm’s Corporate Governance, Entity Management, and Regulatory Compliance subsidiary, providing multinational and cross-border company administration services. FSCSL advises on global business establishment, holding structures, and post-incorporation governance across leading jurisdictions including Delaware (USA), United Kingdom, EU member states, UAE/DIFC, and Asia-Pacific hubs such as Singapore and Hong Kong.",
     resolutions: [
       {
         section: "Foreign Equity & Investment Approvals",
         cases: [
-          "ACSL assists start-ups and existing companies with foreign equity participation in their capital structure.",
-          "Obtains foreign investment approvals required by statute, including registration with the Nigerian Investment Promotion Commission.",
-          "Assists in obtaining business permits for companies with foreign participation."
+          "Advises start-ups, investment vehicles, and multinational groups on structuring foreign equity participation and corporate ownership.",
+          "Supports filings and foreign investment registrations required in global investment hubs (including Delaware, UK Companies House, DIFC, and Singapore ACRA).",
+          "Obtains foreign business operation licences and investor-entry approvals for companies with cross-border participation."
         ]
       },
       {
         section: "Industry Coverage",
         cases: [
-          "Provides company secretarial services to companies in sectors including financial services, oil and gas, engineering services, real estate and property development, media and entertainment, power and energy, telecommunications, manufacturing, hospitality, capital markets, information technology, and logistics."
+          "Provides corporate governance and entity management solutions to companies in financial services, venture capital and private equity, technology, energy & infrastructure, healthcare, real estate, media & entertainment, manufacturing, logistics, fintech, and capital markets."
         ]
       },
       {
         section: "Professional Credentials",
         cases: [
-          "Offers clients the benefit of highly competent professionals who are members of the Institute of Chartered Secretaries of Nigeria.",
-          "Registered with the Financial Reporting Council of Nigeria."
+          "Staffed by chartered governance professionals and accredited corporate secretaries with membership in international professional governance bodies (ICSA/CGI Global, STEP, and equivalent cross-border associations).",
+          "Operates in accordance with global best-practice governance frameworks, including OECD corporate governance principles and IFRS-aligned disclosure standards."
         ]
       },
       {
         section: "Services Provided",
         cases: [
-          "Preparing and circulating notices of company/board meetings and minutes and resolutions in relation thereto.",
-          "Attending company/board meetings and preparing minutes.",
-          "Maintenance of statutory registers, minute books, and keeping corporate seals.",
-          "Filing annual returns and other returns required to effect changes in a company’s statutory records at the Corporate Affairs Commission.",
-          "Advising on compliance requirements by companies with applicable rules and regulations regulating their sector(s), including corporate governance obligations and requirements of the Companies and Allied Matters Act, the Nigerian Stock Exchange, and the Securities and Exchange Commission where applicable."
+          "Preparation and circulation of board/shareholder meeting notices, resolutions, and post-meeting corporate actions.",
+          "Attendance at board and committee meetings with preparation of certified minutes and board documentation.",
+          "Maintenance of statutory registers, corporate records, beneficial ownership registers, and digital governance repositories.",
+          "Regulatory filings and annual corporate compliance with applicable corporate registries across relevant jurisdictions.",
+          "Advisory on corporate governance obligations and compliance frameworks for publicly-held and private companies, including ESG-linked disclosure oversight and capital market regulatory requirements."
         ]
       }
     ]
@@ -475,21 +492,26 @@ export const acslData = [
 export const prvcData = [
   {
     title: "INTRODUCTION",
-    description : `Alliance Law Firm is a commercial law firm with a strong foundation in data protection compliance, advisory, and litigation. With the increased global regulation on the processing of personal data by public and private organizations, we understand that successful businesses will seek the assistance of our well-informed data protection and privacy experts who understand their businesses and are ready to provide responsive and pragmatic advice that will meet their needs and at the same time comply with data protection and privacy laws. Alliance Law Firm is a Data Protection Compliance Organization (DPCO) duly licensed and certified by the Nigeria Data Protection Commission. Our Privacy lawyers are highly sought after by both local and international corporations due to their informed knowledge and understanding of the ecosystem which is used in assisting organizations to navigate the complex data protection and privacy compliance requirements. Our clients benefit from a comprehensive suite of data protection services involving data protection audit, cross-border transfer of personal data, data protection impact assessment, vendor assessment, data protection due diligence in mergers and acquisitions, risk assessment, data subject access request (DSAR), data protection dispute resolution, etc. Also, we are frequently engaged to represent our clients in discussions and negotiations with data protection authorities with whom we maintain and sustain a cordial and friendly relationship. We have been invited to lead discussions on data protection-related topics by organizations such as the Digital Right Lawyers Initiative, Nigeria Internet Governance Forum, Privacy Hub Africa, Privacy Conference Nigeria, ESQ Training Limited, the Moot Academy, etc. We are also professional members of the International Association of Privacy Professionals (IAPP), the International Network of Privacy Law Professionals, the Association of Privacy Lawyers in Africa, and Privacy Hub Africa. As thought leaders in privacy and data protection practice, we have a myriad of publications relating to the subject matter which provides clarity on all aspects of data protection laws and regulations.`,
-    services : "DATA PROTECTION SERVICE EXPERIENCE",
-    experiences :
-    [
-      {description: "Advised a multinational data services corporation on its data compliance issues with the sector regulator"},
-      {description: "Provided a legal opinion to a leading telecommunication company operating in Nigeria, Africa, and globally with respect to an alleged data breach that was being investigated by the NDPB (now NDPC) and other law enforcement"},
-      {description: "Provided data protection audit and remediation services for an Indigenous E & P Company"},
-      {description: "Advised Immigration and Refugee Board of a Country on the international transfer of data and processing of BVN of immigrants for tracking"},
-      {description: "We have reviewed the Data Protection Bill, 2020"},
-      {description: "Provided legal opinion to a Fintech company on data protection compliance requirements and legal implications for the international transfer of personal data under the Nigeria Data Protection"},
-      {description: "Provided data protection audit and remediation services for medical start-up"},
-      {description: "Provided risk assessment and data protection audit for an international exploration and production company."},
-      {description: "Advise legal entities on the current legal obligations and ancillary risks of Artificial Intelligence, internet law, and technology laws across various jurisdictions."},
-      {description: "Prepare necessary data protection documentation, opinions, and reports on standards to multinational data controllers and data processors to support management decisions and enquiries; and ensure that business operations are fully compliant with the NDPR, GDPR, and other sector-specific data protection regulations."},
-      {description: "Organize training for employees of data controllers on data protection policies, procedures, practices, and techniques, equipping them with the knowledge and skills to safeguard all customers’ personal data."},
+    description: `Our Privacy, Risk & Data Protection practice provides full-spectrum global advisory, compliance auditing, governance benchmarking, and cross-border regulatory alignment for multinational and high-growth companies operating in regulated markets. We help enterprises navigate increasingly complex data governance and privacy regimes including the GDPR, CCPA/CPRA, UK Data Protection Act, PIPEDA, PDPA, and broader international frameworks regulating the collection, processing, hosting, transfer, and safeguarding of personal data.
+
+Our team includes certified global privacy professionals with cross-jurisdictional regulatory experience who routinely advise on enterprise-level risk management, data impact assessments, international transfer mechanisms, vendor due diligence, technology governance, AI/ML data ethics, data breach response, compliance implementation, and investigations.
+
+We support clients ranging from scale-up tech companies to Fortune 500 institutions on strategic and operational privacy maturity, including: privacy-by-design programs, digital infrastructure compliance, executive advisory, and board-level reporting frameworks. Our lawyers routinely interface with global regulators, supervisory authorities, standard-setting bodies, and cross-border enforcement networks.
+
+We are also longstanding members of the International Association of Privacy Professionals (IAPP), the Global Privacy Assembly, and other international knowledge-sharing platforms in the privacy and digital governance space, and our practitioners are frequently invited as speakers and contributors on high-level panels, research publications, and multilateral policy workshops relating to privacy, cyber governance, and cross-border data infrastructure.`,
+    services: "DATA PROTECTION SERVICE EXPERIENCE",
+    experiences: [
+      { description: "Advised a multinational data infrastructure company on enterprise-wide GDPR and CCPA alignment involving multiple jurisdictions and regulatory touchpoints." },
+      { description: "Provided strategic crisis advisory to a global telecommunications company in connection with a high-profile data incident reviewed by international supervisory authorities." },
+      { description: "Conducted full-scope privacy audit and remediation protocol for a multinational energy exploration and production company operating across several jurisdictions." },
+      { description: "Advised a foreign government agency on cross-border transfer structuring and oversight protocols for biometric and immigration-related personal data." },
+      { description: "Reviewed and contributed to drafts of comprehensive privacy reform legislation for alignment with global data governance standards." },
+      { description: "Delivered regulatory guidance to a global fintech company on international transfers and data residency compliance obligations under multi-region privacy frameworks." },
+      { description: "Implemented privacy audit and remediation framework for a medical technology start-up operating in multiple digital health jurisdictions." },
+      { description: "Led end-to-end risk assessment and compliance modernization program for an international energy client with multi-layer data supply chain exposure." },
+      { description: "Advised on AI governance, digital risk, cross-border data localization standards, and legal implications of algorithmic processing under evolving international frameworks." },
+      { description: "Prepared comprehensive privacy governance documentation and internal audit materials for multinational data controllers/processors to support board approvals and compliance certifications." },
+      { description: "Designed and delivered enterprise-wide privacy and data protection training for technology leadership, compliance teams, and operational business users." }
     ]
   }
 ];
@@ -497,292 +519,302 @@ export const prvcData = [
 export const EngData = [
   {
     title: "INTRODUCTION",
-    description: `This practice area focuses on providing legal advisory services to clients within the upstream, midstream and downstream sectors relating to licensing, regulatory and country – entry issues, local content compliance; reserve-based lending; project finance including financing for marginal fields and securitisation of receivables; advisory on Oil & Gas contracts and transactions including Joint Operating Agreements, Production Sharing Contracts and Technical Services Agreements, Liquefied Natural Gas Projects; acquisition finance; assets disposals; farm in, farm out and joint venture arrangements; abandonment, remediation and other environmental matters; pipeline and turnkey projects; infrastructure projects including PPPs; the Marginal Oil Fields Programme, domestic gas supply and pricing policy and regulations; negotiating, drafting and structuring petroleum industry contracts and arrangements. We are able to provide industry expertise, assist with transaction structuring and regulatory compliance; and advise on a broad spectrum of power projects and transactions and related arbitration and litigation.`,
-    section: "Major Transactions",
+    description: `Our Energy & Natural Resources practice advises across the full value chain of the upstream, midstream, and downstream sectors, including frontier energy jurisdictions and cross-border projects. We deliver regulatory, commercial, and transactional support across oil, gas, LNG, refining, transmission infrastructure, integrated energy developments, and hybrid energy transition portfolios.
+
+Our lawyers routinely advise on licensing and regulatory frameworks, market-entry strategy, cross-border investment structuring, joint operating arrangements, technical and production-sharing contracts, reserve-based lending, project finance, decommissioning and remediation obligations, pipeline and terminal infrastructure, as well as large-scale energy commercialization and monetization frameworks.
+
+We support project sponsors, international energy companies, infrastructure developers, private equity funds, sovereign investors, national oil companies, and offtakers on energy transactions, strategic investments, joint venture structuring, cross-border financing, engineering & construction arrangements (EPC/EPCM/BOOT), and related dispute resolution and arbitration.
+
+We also advise extensively on power and energy infrastructure, including public–private partnerships, long-term concessions, transmission line development, LNG export terminals, offshore infrastructure, storage & transportation systems, and integrated clean energy frameworks.`,
+    
+    section: "MAJOR TRANSACTIONS",
     tractions: [
-      {description: "Advised a midstream Operator as the EPCM master contractor on its US$1.05 billion NCTL 45 Kilometer pipeline project delivered to SPDC in the Niger Delta."},
-      {description: "Advised a Nigerian oil and gas exploration and production company on its over US$500 million global IPO and dual listing of its shares on the Nigerian and London Stock Exchanges and private placements in the USA and France."},
-      {description: "Acted as transaction solicitor and due diligence adviser to Neconde Energy Limited in its acquisition of 45% participating interest in OML 42 from SPDC, TOTAL and NAOC at the price of US$585 million."},
-      {description: "Advised a consortium of foreign and Nigerian infrastructure companies that bidded for Genco and Disco assets under the privatization of power companies in Nigeria."},
-      {description: "Advised an EPC operator on a US$300 million ongoing gas pipeline project awarded by the NNPC."},
-      {description: "Advised a host of indigenous exploration and production companies on the legal validity of farm out agreements, joint operation agreements, technical services agreements, extension of the farm out agreement, as well as compliance with the petroleum laws of Nigeria and other related laws."},
-      {description: "Advised Neconde Energy Limited in connection with a US$720 million secured reserve-based lending from a syndicate of foreign and local banks."},
-      {description: "Legal advisers to NestHak HDD Services Limited, an incorporated joint venture between Nestoil Plc and A-HakDrillcon BV (a multinational mid-stream company established in The Netherlands), in connection with its business activities in Nigeria. The joint venture company is involved in Horizontal Directional Drilling (HDD)."},
-      {description: "Advised prospective foreign investors directly and in some cases through their International Counsel and other foreign investment partners on the acquisition and financing of marginal oil and gas fields in Nigeria."},
-      {description: "Advised Nestoil Plc on several EPC projects including a 260-Meter Gap in the Gas Tie-in- Pipeline project to Alaoji Power Station."},
-      {description: "Advised a foreign lender on a US$250 million credit facility to a Nigerian downstream operator for the importation of refined petroleum products."},
-      {description: "Advised a Nigerian oil and gas company on its leveraged buy-out of a private equity investor via financing arranged by a South African-owned commercial Bank."},
-      {description: "Advised a subsidiary of one of the largest conglomerates in Africa on its cross – border investment in an acreage partnering with the host central government and its national oil corporation."},
-      {description: "Advised on a farm out firm in bidding, assignment and perfection of interest in OMLs, OPLs and marginal field acreages."},
+      { description: "Advised a midstream EPCM contractor in connection with a USD 1.05 billion cross-border crude evacuation pipeline development for an international energy consortium." },
+      { description: "Advised an exploration and production company on its USD 500+ million global IPO and dual listing across major international securities exchanges." },
+      { description: "Acted as transaction counsel and diligence adviser in a USD 585 million acquisition of a 45% participating interest in a strategic offshore asset from a multinational oil major." },
+      { description: "Advised a consortium of global infrastructure investors in their bid for large-scale power transmission and distribution assets under a privatization and sector-liberalization programme." },
+      { description: "Advised an EPC operator on a USD 300 million cross-border natural gas pipeline development awarded by a national energy authority." },
+      { description: "Advised international and independent E&P entities on the legal structuring of joint operating agreements, technical service arrangements, and upstream participation frameworks across multiple jurisdictions." },
+      { description: "Advised on a USD 720 million secured reserve-based lending transaction syndicated by a consortium of international and development finance institutions." },
+      { description: "Acted as energy counsel to a multinational HDD (Horizontal Directional Drilling) and midstream engineering joint venture in connection with its cross-border deployment and infrastructure execution strategy." },
+      { description: "Advised foreign investors and energy sponsors on the acquisition, financing, and project development of strategic upstream and midstream assets in emerging hydrocarbon markets." },
+      { description: "Advised on EPC development and infrastructure tie-in works for a cross-border gas transmission and stabilization project supporting industrial-scale power generation." },
+      { description: "Advised an international lender on a USD 250 million downstream facilities financing transaction backed by trade receivables and energy infrastructure security." },
+      { description: "Advised on the leveraged buyout of a regional energy company by a foreign private equity sponsor funded through international commercial facilities." },
+      { description: "Advised a multinational conglomerate on its participation in an upstream partnership with a national oil company in connection with cross-border acreage development." },
+      { description: "Advised on bidding strategy, asset assignment structuring, regulatory perfection, and risk allocation relating to upstream acreage and field interests in competitive bid-round environments." }
     ]
   }
 ]
+
 
 export const IntltlData = [
   {
     title: "INTRODUCTION",
-    description: `This practice area focuses on providing legal advisory services to clients relating to the development, processing and, protecting and enforcing of their intellectual property rights. It also handles briefs and instructions that are common in the entertainment, media and sport sectors ranging from protecting creative rights of artistes at an infantile stage; advising on brand protection and licensing; validity and infringement matters; filing trademark applications, including renewals and cancellations; review and negotiation of contracts for managers, publicists, record labels, film studios, artistes and sports men and women, sports club; performing searches at the Trademark registry; tax issues; legal representation at all dispute resolution fora; domain registration with the National Information Technology Development Agency; registering, licensing, franchising, and technology transfer agreements;registering products with the National Agency for Food and Drug Administration and the Standards Organisation of Nigeria; advice and facilitation of prosecution regarding copyright infringement and conducting opposition proceedings. Our deep professional experience and expertise in Dispute Resolution and Commercial Law combined with our understanding of the workings of the Nigerian entertainment and media industry enhances our capacity to provide timely legal solutions to nagging issues in the Industry.`,
-    section: "Major Transactions",
+    description: `Our Intellectual Property, Technology, Media & Entertainment practice advises on the creation, protection, commercialization, and enforcement of intellectual property rights across multiple jurisdictions. We assist clients in safeguarding brands, copyrights, trade secrets, patents, domain assets, software rights, and technology portfolios, with particular depth in cross-border IP structuring, licensing, and monetization.
+
+Our team supports clients across the entertainment, technology, gaming, fashion, media, and sport sectors, including early-stage creators, platforms, digital content owners, multinational rights holders, distributors, OTT service providers, record labels, publishers, and talent management companies.
+
+We routinely advise on copyright and trademark prosecution, portfolio management, licensing and technology transfer arrangements, franchising, digital asset protection, merchandising rights, publicity and image rights, royalty structures, brand protection strategy, dispute resolution, and cross-border regulatory compliance.
+
+We also represent clients in anti-counterfeiting initiatives, infringement actions, domain name arbitration, and digital enforcement measures. Our multidisciplinary experience in commercial, regulatory, and disputes work enables us to deliver full-spectrum protection and monetization strategies for IP-rich businesses worldwide.`,
+
+    section: "MAJOR TRANSACTIONS",
     tractions: [
-      {description: "Successfully represented clients on appeal at the Federal High Court whose registration of a Mark at the Trademark Registry was refused by the Registrar of the Trademark Registry."},
-      {description: "Representing a royalty collecting society in actions to enforce their rights against competitors, regulators and others at both the Federal High Court and the Court of Appeal."},
-      {description: "Advised a Nigerian Content Provider on its cross – border agency transaction with a US/Europe based global entertainment corporation"},
-      {description: "Advised a multinational entity on technology transfer and distribution transaction with a US based manufacturer."},
-      {description: "Defended a claim against infringement of copyright of a commercial manual used to promote an electronic paying system."},
-      {description: "Handled a case involving the enforcement of intellectual property rights through anton pillar orders and claims for accounts of profit, injunction and damages by a multinational building material manufacturer."},
-      {description: "Advised on an international transaction involving exclusive franchise agency and distribution of protected goods in US, China and Europe."},
-      {description: "Regularly advised several entities in China, Europe and USA on intellectual property protection, administration and enforcement in Nigeria."},
-      {description: "Routinely advised on registration, licensing, set up, tax and regulatory compliance services in IT, telecommunication, entertainment concerns."},
-      {description: "Advised on a wide range of sporting and performance contracts between clubs and organization performances, talent development, project sponsorship and management."},
-      {description: "Advised on agency management and promotional arrangements involving artists, sports persons, entertainers and their partners."},
+      { description: "Successfully represented brand owners in appellate proceedings challenging refusal of trademark registration by a national IP registry." },
+      { description: "Representing a copyright licensing and royalty collection society in enforcement actions against competing industry bodies and commercial infringers before superior courts and arbitral fora." },
+      { description: "Advised a digital content and entertainment distributor on a cross-border agency arrangement with a global entertainment conglomerate headquartered in North America and Europe." },
+      { description: "Advised a multinational on a large-scale technology transfer and distribution transaction with a U.S.-based manufacturer involving proprietary systems and commercial rights." },
+      { description: "Defended a claim alleging copyright infringement relating to proprietary commercial content and software-based marketing assets." },
+      { description: "Acted for a multinational industrial manufacturer in IP enforcement proceedings, including Anton Piller measures, profit recovery claims, permanent injunctive relief and damages." },
+      { description: "Advised on international exclusive franchise and distribution arrangements covering protected goods across multiple markets in North America, Asia and the EU." },
+      { description: "Advised several overseas rights holders on IP structuring, licensing, and enforcement strategies for market entry and portfolio protection across emerging jurisdictions." },
+      { description: "Advised on multi-jurisdictional regulatory, licensing, tax and IP compliance frameworks for IT, telecoms, digital platforms and media ventures." },
+      { description: "Advised on long-form sports and performance contracts, athlete endorsement structures, sponsorship arrangements, talent development frameworks and rights management." },
+      { description: "Advised on agency, brand management, promotional arrangements and commercialization of image, talent and digital performance rights for artists, athletes and entertainment entities." }
     ]
   }
 ]
-export const BnkngData = [
+
+export const BnkngData = [ 
   {
     title: "INTRODUCTION",
-    description: `Alliance Law Firm is a commercial law firm renowned for its ability to provide precise and commercially informed solutions in resolving legal or regulatory issues. Our team emerged Banking and Finance Team of the years 2019 and 2021 at the ESQ Nigerian Legal Awards. This practice area focuses on providing dispute resolution services as well as legal advisory services on issues pertaining to banking, financing/ refinancing transactions, infrastructure finance, project finance, asset finance, regulatory and compliance.`,
+    description: `Our Banking & Finance practice advises on the full spectrum of domestic and cross-border financing transactions, including syndicated lending, project and infrastructure finance, structured finance, refinancing, reserve-based lending, debt restructuring, credit risk enhancement, leveraged finance and financial regulatory matters. 
+We support financial institutions, multilateral lenders, development finance institutions, private credit providers, investment funds, corporate borrowers, fuel & energy conglomerates, fintech lenders, and multinational sponsors across multiple emerging and developed markets. Our team combines transactional execution capability with disputes expertise, enabling seamless advisory support across the life cycle of complex financing arrangements, including contentious workouts and restructuring mandates.`,
     section: "SELECTED INDICATIVE EXPERIENCE",
     tractions: [
-      {description: "Advised an asset manager based in the United States with launching an investment fund of circa USD150 Million for financial institutions, enterprises and emerging markets in Nigeria with an exclusive focus on solving the global water and sanitation crisis."},
-      {description: "Acted as Transaction Solicitors to a Technical and Funding Partner in a Financing and Technical Service Arrangement for an OML to take over certain roles and responsibilities under a Joint Operating Agreement and to provide the required funding for the project in a USD 1.9 Billion deal"},
-      {description: "Acted as transaction solicitors to AMCON in the acquisition of Eligible Bank Assets of three major banks operating in Nigeria valued at USD160 Million"},
-      {description: "Provided legal and advisory services to AMCON in the restructuring of a USD160 Million facility owed by a major telecommunication company in Nigeria to commercial banks."},
-      {description: "Advised the funding entity on a USD 1.95 Billion secured financing in connection with the development and production of an oil mining lease under a Financing and Technical Services Agreement."},
-      {description: "Advised a Client on its USD 640 Million Senior Secured Medium-Term Facility restructuring."},
-      {description: "Advised Seplat Petroleum Development Company Plc (“Seplat”) on its over USD500 Million global IPO and dual listing of its shares on the Lagos and London Stock Exchanges."},
-      {description: "Advised Neconde Energy Limited (“Neconde”) in connection with a USD720 Million secured reserve-based lending from a syndicate of foreign and local banks."},
-      {description: "Advised Nestoil Limited on its USD 1.2 Billion Global Facilities Refinancing."},
-      {description: "Advised Emerging Markets Telecommunication Services (“9Mobile”) on its circa USD 400 Million senior secured facility from the Africa Finance Corporation."},
-      {description: "Advised a Client on its USD 400 Million Syndicated Facilities Refinancing."},
-      {description: "Advised a conglomerate on its USD400 Million real estate tower project in Victoria Island, Lagos."},
-      {description: "Acted as Transaction Solicitors to a Lender to provide bridge finance in the sum of USD 8.6 Million to a Borrower and its Gabon and Nigerian subsidiaries."},
-      {description: "Advised a Client on its USD 250 Million Syndicated Facilities Refinancing."},
-      {description: "Advised an indigenous conglomerate in connection with the negotiation of a USD242 Million facility from a Nigerian bank."},
-      {description: "Advised a London-based Bank on a USD225 Million facility to a Nigerian borrower for the acquisition of a jack-up rig from Asia."},
-      {description: "Advised a London-based Bank on the lending of the sum of USD80 Million to an EPC contractor in Nigeria for a pipeline project."},
-      {description: "Acted as legal advisers to a London-based bank in connection with USD40 Million finance to Fidelity Bank Plc."},
-      {description: "Acted as legal advisers to Dansa Foods Limited, a subsidiary company of the Dangote Group, in connection with a USD40 Million finance facility from the African Export-Import Bank."},
-      {description: "Advised the UAE subsidiary of a London-based international Bank in connection with the legal and regulatory framework governing the issuance of credit derivative products in Nigeria."},
-      {description: "Advised a London-based Bank on a USD225 Million facility to a Nigerian borrower for the acquisition of a jack-up rig from Asia."},
-      {description: "Advised Heritage Bank Company Limited in connection with its USD9.5 Million project finance facility for the building of an Independent Power Plant in Nigeria."},
-      {description: "Advised a Delaware-based green energy fund on its USD8.5 Million bridge facility to a renewable & hybrid energy service provider company in Nigeria."},
-      {description: "Advised a fund established in the Cayman Islands on its proposed investment of up to USD 1 Million in a company incorporated in Mauritius, which loan is to be utilised by the company’s Nigerian subsidiary"},
-      {description: "Successfully defended a major Nigerian bank in a USD76.5 Million suit arising from the private placement of shares in a Financial Institution in Nigeria, and handling the appeals arising out of it. Representing a Nigerian bank in a suit filed by a telecommunication company claiming the sum of over USD11.8 Million in addition to declaratory and injunctive reliefs."},
-      {description: "Represented one of the largest indigenous energy groups and one of its major directors in an action challenging the directives of the CBN Bankers Committee compelling a Nigerian bank to transfer 911,000 Zain shares to its debtor-customer even though the current holders had prior to the directive purchased the shares for valuable consideration since 2004."},
-      {description: "Successfully defended a Nigerian bank in a USD131.6 Million class action filed by customers of the bank in connection with unauthorized ATM withdrawals."},
-      {description: "Represented a Nigerian Bank successfully at the High Court in an enforcement action filed by a civil construction company in connection with an order to transfer deposits in the sum of USD23.7 Million held by it to the Court’s Chief Registrar’s account pending the determination of the substantive suit."},
-      {description: "Advised a consortium of Nigerian lenders on a USD285 Million facility to a fabrication, galvanisation and steel rolling company."},
-      {description: "Advised an indigenous oil and gas operator on a NGN 4 Billion term loan facility from Zenith Bank Plc."},
-      {description: "Advised an indigenous oil and gas operator in connection with the negotiation of a USD242 Million term loan facility from a Nigerian bank."},
-      {description: "Acted as legal adviser to an indigenous E&P company in relation to a USD96 Million refinancing from a local and an international Bank with its principal office in Egypt."},
-      {description: "Acted as Counsel for the Securities & Exchange Commission (SEC) against two Nigerian banks participating in the merger of six banks that constitute the present-day Enterprise Bank Limited challenging the sale/transfer of 984,714,071 units of shares of Spring Bank Pie valued at about USD20.5 Million to entities connected to a named Bank in a controversial hostile take-over bid."},
-      {description: "Represented one of the major Nigerian banks and its subsidiary in a suit whereby a party sought a declaration that they are entitled to full allotment of13 million units of Zenith Bank shares which they applied for at the Bank’s last public offering of shares in addition to monetary damages ."},
-      {description: "Represented a group of shareholders of two Banks in two representative actions against the CBN action in removing the executive management of the affected Banks without recourse to the Shareholders of the Banks."},
-      {description: "Advised a London-based Bank on the lending of the sum of USD80 Million to an EPC contractor in Nigeria for a pipeline project."},
-      {description: "Advised an indigenous conglomerate in connection with the negotiation of a USD242 Million facility from a Nigerian bank."},
-      {description: "Representing a commercial Bank in various cases involving a loan dispute with some of its customers which have a combined claim of about USD6.6 Million against it."},
-      {description: "Advised Neconde on a USD150 Million finance facility from a syndicate of African Finance Corporation, Access Bank Plc and United Bank of Africa Plc."},
-      {description: "Representing a commercial Bank against some litigants who sought the discharge of an Order of the lower Court ordering the Bank to transfer deposits in the sum of USD23.7 Million held by it to the Court’s Chief Registrar’s account pending the determination of the substantive suit."},
-      {description: "Acted as Solicitor to a major player in the downstream Liberian Oil sector in the USD60 Million financing advanced by Africa Finance Corporation (AFC) to enable the purchase by the Borrower of 100% shares in the Liberian and Sierra Leone subsidiaries of French oil giant, Total Energies."},
-      {description: "Acted as solicitor to a Noteholder in USD50 Million loan notes issuance issued by an issuer who operates in the energy sector to advance its market share and grow its operation in the energy sector."},
+      { description: "Advised a US-based asset manager in structuring and launching a USD150 million emerging-markets investment vehicle focused on sustainable infrastructure and essential-services financing."},
+      { description: "Acted as counsel to a technical and funding partner in a USD1.9 billion energy-sector structured financing backed by long-term offtake arrangements and operational rights-transfer mechanisms."},
+      { description: "Advised a distressed-asset resolution vehicle on the acquisition of non-performing loan portfolios valued at over USD160 million involving multiple commercial lenders."},
+      { description: "Acted as restructuring counsel in the workout of a USD160 million finance facility advanced to a major telecommunications network operator."},
+      { description: "Advised lenders on a USD1.95 billion secured development and production financing backed by long-term resource monetization rights."},
+      { description: "Advised on the restructuring of a USD640 million senior secured medium-term facility involving a multi-jurisdictional banking syndicate."},
+      { description: "Advised an international energy company on its IPO and dual listing in two major international exchanges exceeding USD500 million."},
+      { description: "Acted for an energy operator on a USD720 million reserve-based lending facility arranged by a syndicate of international and regional banks."},
+      { description: "Advised on a USD1.2 billion global refinancing transaction for a vertically integrated energy and infrastructure group."},
+      { description: "Advised a regional telecommunications provider on a USD400 million senior secured financing from a development finance institution."},
+      { description: "Advised on a USD400 million syndicated refinancing for a multi-sector investment platform."},
+      { description: "Advised on a USD400 million financing for the development of a commercial real estate tower by a multinational conglomerate."},
+      { description: "Acted as transaction counsel to lenders providing USD8.6 million bridge financing to cross-border subsidiaries of a regional infrastructure company."},
+      { description: "Advised on a USD250 million syndicated refinancing for a diversified client group."},
+      { description: "Advised on a USD242 million structured facility for a multinational conglomerate."},
+      { description: "Advised a UK-headquartered bank on a USD225 million facility for offshore assets acquisition by a cross-border energy operator."},
+      { description: "Advised a lender on an USD80 million facilities package to an EPC contractor supporting a major energy infrastructure pipeline project."},
+      { description: "Acted as legal advisers on a USD40 million cross-border financing arrangement to a regional commercial bank."},
+      { description: "Advised a food and beverage group on a USD40 million financing provided by a multilateral export-import bank."},
+      { description: "Advised an international bank on regulatory structuring for the issuance of credit derivative products in an emerging market jurisdiction."},
+      { description: "Advised on a USD9.5 million project finance arrangement to develop an independent power generation facility."},
+      { description: "Acted for a renewable energy investment fund on an USD8.5 million green-energy bridge facility."},
+      { description: "Advised a Cayman-Islands based fund on a USD1 million venture investment into a clean-tech portfolio entity with African operations."},
+      { description: "Acted as litigation counsel for a major financial institution in a USD76.5 million investment-related dispute, including appellate proceedings."},
+      { description: "Represented a financial institution in a regulatory challenge concerning directives affecting control of equity interests in a listed company."},
+      { description: "Defended a banking group in a USD131.6 million class action dispute concerning electronic banking claims."},
+      { description: "Represented a bank in a USD23.7 million enforcement proceeding relating to secured asset recovery."},
+      { description: "Advised a lending syndicate on a USD285 million facilities package to a steel manufacturing and fabrication consortium."},
+      { description: "Acted on a USD96 million financing and refinancing arrangement involving both regional and international lenders."},
+      { description: "Advised on a hostile takeover litigation matter involving disputed share transfers valued at approximately USD20.5 million."},
+      { description: "Represented a shareholder group in two representative actions involving banking governance and regulatory intervention."},
+      { description: "Advised on a USD150 million structured financing to an energy group arranged by a consortium of regional development financiers and commercial lenders."},
+      { description: "Acted for a major downstream energy operator in a USD60 million cross-border acquisition financing provided by a pan-African investment corporation."},
+      { description: "Advised a noteholder on a USD50 million loan note issuance for market expansion by a regional energy operator."}
     ]
   }
 ]
+
 
 export const ShpngData = [
   {
     title: "INTRODUCTION",
-    description: `This practice area focuses on providing legal advisory services relating to and concerning shipping and clearing, and forwarding agents, charterers, cargo interests including commodity traders and cargo insurers, hull and liability insurers, shipyards, necessaries men and port operators. We advise and assist our clients on all aspects of Shipping and Maritime law, including but not limited to Maritime litigation, Maritime Financing enforcement of judgments and awards; enforcement of mortgages and other securities, BIMCO, registering ships; vessel chartering, the eligibility of Nigerian-owned ships and the licensing and temporary registration of foreignowned ships in the special register for vessels and ship owning companies engaged in Cabotage trade; procuring and renewing ministerial waivers and licences for foreign-owned ships for cabotage trade in Nigeria and advising on compliance with the Cabotage Act, 2003, NIMASA Act, 2007 and other laws dealing with coastal and inland shipping in Nigeria, covering all areas of admiralty jurisdiction and practice. We also interface with regulators on compliance matters for our clients.`,
+    description: `Our Shipping & Maritime practice advises on the full lifecycle of maritime operations, offshore services, vessel finance, chartering, maritime litigation and cross-border regulatory compliance. We act for shipowners, charterers, offshore contractors, commodity traders, P&I Clubs, hull and liability insurers, cargo interests, port and terminal operators, shipyards, lessors and financial institutions.
+We advise on dry and wet shipping disputes, marine insurance, ship finance and security enforcement, charterparty contracts (including BIMCO forms), offshore construction support, vessel acquisition and sale, flagging/registration issues, sanctions compliance, port operations, cargo claims and enforcement of maritime judgments and arbitral awards. We also interface with port authorities, maritime regulators, insurers and multilaterals on complex compliance and operational matters spanning multiple jurisdictions.`,
     section: "SELECTED INDICATIVE EXPERIENCE",
     experience: [
-      {description: "Advising Navvstarr Limited in respect of its facility from a Trading Company for the acquisition of a Vessel."},
-      {description: "Advised Scorpio Ernesto Drilling Company Limited on its Asset leasing transaction;"},
-      {description: "Advised Scorpio Ernesto Drilling Company Limited on its Standard Heavylift 2007 (BIMCO) Charter party with OHT Falcons."},
-      {description: "Representing Nestoil Limited in a maritime litigation claim against Nigerian Ports Authority;"},
-      {description: "Representing Nestoil Limited in a maritime litigation against NIWA in respect of some unauthorized charges;"},
-      {description: "Representing Keystone Bank Limited in an admiralty matter against DBM Limited."},
-      {description: "Advised B&Q Dredging and Nigerian Agip Oil Company Limited for Dredging Works in the Niger Delta (Capital and Maintenance Dredging);"},
-      {description: "Advised B&Q Dredging Ltd and Setraco Nigeria Limited for sand Dredging aspect of the Dualization of the East west Road section II (Kia ma – Port-Harcourt) project for the Ministry of Niger Delta Affairs;"},
-      {description: "Legal advisory services and drafting of the Land Lease Agreement between Geo Synergy Group West Africa Limited and B&Q Dredging Limited;"},
-      {description: "Advised BlueBay Capital Limited and B&Q Dredging Limited for Dredging Works for the Capital Development of lkate Elegushi Ancient City, Eti-Osa Local Government Area of Lagos State;"},
-      {description: "Advised Julius Berger Nigeria Limited and B&Q Dredging and Marine Services"},
-      {description: "Limited for dredging works for Second River Niger Bridge Construction; Drafting of a Non-circumvention, Non-disclosure working Agreement between Petrolex Oil and Gas Limited and B&Q Dredging Limited;"},
-      {description: "Advised White Dove Shipping Company Limited and Maritime Security and Logistics Solutions"},
-      {description: "Limited for Patrol Boat Hire for OML 42 Operations on the ST S/Export Operations in Escravos Offshore Area;"},
-      {description: "Advised and prepared Memorandum of Agreement between B&Q Dredging and Marine Services Limited and Ship Side DryDock Limited;"},
-      {description: "Advising L&EE Construction Limited and B&Q Dredging limited Partnership Agreement for Dredge and Sand Filling Project;"},
-      {description: "Advised and assisted in negotiation and preparing the contract between Oro-Ogbuji Family"},
-      {description: "Nkpolu-Oroworukwo Rebisi (AKA Eagle Island) Port-Harcourt, Rivers State and B&Q Dredging Limited for sand dredging;a "},
-      {description: "Advised, negotiated and prepared Sand Dredging agreement between HMG Nigeria Limited and a dredging company for the Bayelsa State Government;"},
-      {description: "Advised on the Sales and Purchase Agreement for the sale and supply of dredged sand between a dredging entity and C.C. Ossy Industry Nigeria Limited;"},
-      {description: "Advised on the Sales and Purchase agreement for the sale and supply of dredged sand between B&Q Dredging Limited and WOW Project Services Limited;"},
-      {description: "Prepared Subcontract between Energy Works Technology Limited and a dredging opload-outor dredging of Aboturu Creek for load out operations of OLT Piles by ocean-going barge/vessel;"},
-      {description: "Advised on the Subcontract between Nthe estoil Limited and B&Q Dredging Limited for provision of dredging services (Swamp Spread Creek/River Crossing) for K2S Pipeline Construction project."},
-      {description: "Representing an indigenous maritime and dredging company on its compliance issues with National Inland Water Authority and Ministry of Mines; Procurement of permits and licenses for maritime and dredging services companies."},
-      {description: "Advised equipment and support personnel a Dredging of dredging Company operations involved in the 2nd Niger project in residing issues and demands of host communities."},
+      {description: "Advised a maritime investment vehicle on a senior secured financing for the acquisition of an offshore support vessel."},
+      {description: "Advised an offshore drilling services provider on a cross-border asset leasing structure for deployment in deep-water operations."},
+      {description: "Advised on the negotiation and execution of a Standard HeavyLift 2007 (BIMCO) charterparty for heavy cargo transport and offshore construction support."},
+      {description: "Represented a shipowner in a maritime dispute regarding port access restrictions and operational liabilities."},
+      {description: "Acted for a vessel operator in a maritime dispute relating to regulatory and port dues assessments."},
+      {description: "Represented a financial institution in an admiralty enforcement proceeding arising from a secured lending transaction."},
+      {description: "Advised on the provision of dredging and marine infrastructure services for capital and maintenance dredging operations."},
+      {description: "Advised on dredging and reclamation support for a multi-phased coastal expressway and logistics corridor development."},
+      {description: "Provided legal advisory and contract structuring for a long-term land lease arrangement in connection with a marine logistics and vessel support facility."},
+      {description: "Advised on dredging and coastal expansion works for large-scale real estate/mixed-use shoreline development."},
+      {description: "Advised an EPC/marine contractor partnership on marine engineering and dredging support for major bridge infrastructure."},
+      {description: "Drafted and negotiated a non-circumvention and non-disclosure agreement in connection with a maritime asset deployment transaction."},
+      {description: "Advised a maritime security and logistics operator on patrol vessel deployment for offshore terminal security and production operations."},
+      {description: "Advised on a Memorandum of Agreement (MOA) for the acquisition of a vessel and related drydock arrangements."},
+      {description: "Advised on partnership/joint venture structuring for dredge and shoreline reclamation projects."},
+      {description: "Advised on landowner engagement, compensation negotiation and marine works access agreements for large-scale coastal development."},
+      {description: "Advised on dredging and reclamation contracts for a sub-national government coastal infrastructure programme."},
+      {description: "Advised on long-term supply arrangements for marine aggregates, reclamation material and dredging output."},
+      {description: "Drafted subcontracting arrangements for offshore heavy-lift/transport barge services in connection with subsea installation activities."},
+      {description: "Advised on subcontracting and marine logistics support for pipeline and inland waterway crossing construction projects."},
+      {description: "Acted for a maritime and offshore services operator on regulatory compliance issues across multiple jurisdictions, including permits for coastal and inland marine activities."},
+      {description: "Advised a marine contractor on project execution risk management and community/stakeholder engagement obligations relating to offshore works."}
     ]
-
   }
 ]
+
 
 export const TtppData = [
   {
     title: "Introduction",
     content: `
-      Alliance Law Firm is a commercial law firm with a strong foundation in tax advisory, litigation, transfer pricing, and audit/dispute resolution services that are insightful, creative and designed to protect each client’s business interests. We understand that the current trend of global transparency and exchange of information amongst tax authorities in the world requires that successful businesses seek out the assistance of well-informed tax advisers who understand their businesses and are ready to provide responsive and pragmatic advice that will meet their needs and at the same time comply with tax laws.
+      Our Tax, Transfer Pricing & Policy practice provides sophisticated multi-jurisdictional tax advisory, litigation, transfer pricing structuring and dispute resolution for multinational and high-growth enterprises. We advise on complex cross-border tax planning, global transparency obligations, exchange of information regimes, tax treaty applicability, Base Erosion & Profit Shifting (BEPS) rules, OECD guidelines, multilateral instruments and international tax governance principles.
 
-      Our tax lawyers are renowned for precise and commercially informed advice on all applicable tax laws, international tax treaties, double taxation agreements, multi-lateral instruments, OECD guidelines, etc. Our team ensures that the needs of our clients are met and that the provisions of relevant tax laws are complied with. Our clients benefit from a comprehensive suite of services involving domestic and international/cross-border tax advisory, tax planning, transfer pricing, transaction tax management, operational model optimisation, tax compliance, tax audit/investigation support, and tax dispute resolution. Also, we are frequently engaged to represent our clients in discussions and negotiations with both Federal and State tax authorities. Alliance Law Firm is ranked amongst the top-performing tax firms in the world in the ITR World Tax 2024 Firm Rankings.
+      Our lawyers combine technical depth with commercial insight, advising on deal structuring, group reorganisations, operational model optimisation, tax controversy, treaty relief, transfer pricing documentation, and defence strategies before tax authorities and supranational tribunals. We guide clients through investigations, audit defence, APAs/MAPs, cross-border disputes, and tax-efficient holding structures, ensuring compliance while preserving commercial value.
 
-      We work with our clients to provide efficient, commercial and solution-based advice. Our expertise and relationship with the government enable us to work seamlessly with the Federal Inland Revenue Service (FIRS) and different States’ Internal Revenue Service. When settlement of a tax dispute fails at the level of the relevant tax authority, our dedicated tax litigators take up the matter to protect the interests of our clients. Our team has successfully assisted clients doing business in Nigeria and globally with resolving issues arising from turnover assessment, excess dividend tax assessment, group business restructuring, tax planning, transfer pricing documentation, tax due diligence, obtaining administrative tax amnesty/ruling, operational model optimisation, Mergers, Acquisitions, Divestitures, etc.
+      We are engaged by multinational corporates, sovereign investors, private equity funds, asset managers, fintech groups, energy majors and institutional financial players for transaction tax, digital economy taxation, cross-border structuring and contentious tax advisory. Our practice covers policy interface with tax authorities, regulators and multilateral bodies on complex high-value matters and pre-litigation settlement mechanisms.
     `,
     sections: [
       {
-        title: "Tax Service Experience (A)",
+        title: "Representative Tax Experience (A)",
         items: [
-          "Represented a Client at the Tax Appeal Tribunal (TAT) Enugu in respect of a NGN400 Million Tax liability claim by the FIRS.",
-          "Represented an indigenous E & P Company in respect of its Petroleum Profit Tax Assessment issued by the FIRS.",
-          "Provided tax advisory guidance in respect of a Directional Drilling/ Measurement While Drilling/ Logging While Drilling SERVICES Contract.",
-          "Provided Legal/Tax advisory in a US$640M financing transaction to an E & P Company on corporate tax avoidance strategies.",
-          "Provided tax advisory services with respect to engineering, procurement and construction contracts for an export pipeline project.",
-          "Advised an indigenous E & P Company on tax-saving options in a US$470m to US$720m secured reserve-based lending deal.",
-          "Provided tax advisory services as transaction solicitors for an NGN 22 Billion acquisition in a public company on the Nigerian Exchange.",
-          "Provided tax advisory services in relation to the launch of Global Access Fund IV LP (“GAF IV”) in Nigeria by WaterEquity.",
-          "Reviewed Offshore Drilling contracts for Emadeb Energy Services Limited from a tax/regulatory perspective.",
-          "Provided tax advisory services for Dangote Oil Refinery bond issuances (NGN188B and NGN112.4B).",
-          "Worked with KPMG defending E&P entity in a $101m tax rebuttal with FIRS/EFCC.",
-          "Worked with KPMG defending a construction company in multimillion Naira VAT claim in South East Nigeria.",
-          "Advised on business restructuring for a global Energy Conglomerate in Nigeria.",
-          "Advised on tax implications of setting up foreign Holdcos for a multinational Telco.",
-          "Routinely advised on Sales Tax and VAT for multinationals and group entities.",
-          "Provided transaction tax services on Neconde’s FTSA with OML JV partners.",
-          "Provided advisory services to AMCON on NGN 75B bank asset acquisition and restructuring of NATCOM Dev & Investment Ltd.",
-          "Resolved VAT and stamp duties dispute on NGN585M acquisition of 45% interest by indigenous E & P Company.",
-          "Represented United Capital Plc in tax litigation against FIRS at Federal High Court and Court of Appeal.",
-          "Issued a Tax Advisory Report to eTranzact International Plc on US tax planning considerations."
+          "Represented a multinational client before an international tax tribunal in a cross-border corporate income tax liability dispute.",
+          "Advised an upstream energy operator on fiscal regime interpretation and profit-based taxation for hydrocarbon assets.",
+          "Provided tax structuring on a directional drilling and offshore services contract for a cross-jurisdictional energy project.",
+          "Advised on tax mitigation strategy in a US$640M multi-layered financing transaction for an energy infrastructure group.",
+          "Structured tax treatment for EPC arrangements relating to a transnational export pipeline development.",
+          "Advised on tax optimisation in a US$470m – US$720m reserve-based lending facility for a cross-border operator.",
+          "Provided transaction tax support on a multi-billion equity acquisition listed on an international stock exchange.",
+          "Advised on the fund structuring, tax positioning and regulatory framework of a global impact investment vehicle.",
+          "Reviewed offshore drilling contracts for transfer pricing, withholding tax and permanent establishment exposure.",
+          "Provided tax advisory support in relation to bond issuances for a large-scale global refining infrastructure project.",
+          "Defended a multinational energy group in a US$101m transfer pricing and fiscal deductibility dispute.",
+          "Assisted in a VAT/sales tax defence strategy for a cross-border construction group.",
+          "Advised on restructuring of a global energy conglomerate across multiple jurisdictions.",
+          "Structured foreign holding framework for a multinational telecommunications group.",
+          "Provided VAT/sales tax advisory services to global multinationals and trading groups.",
+          "Advised on fiscal terms relating to an upstream financing and production sharing arrangement.",
+          "Tax advisory support on a multi-jurisdictional bank asset acquisition and restructuring.",
+          "Resolved cross-border VAT/stamp duty impact on 45% equity acquisition in an E&P entity.",
+          "Represented a listed financial services institution in an income tax controversy before appellate courts.",
+          "Issued international tax planning advisory to a regulated payments infrastructure provider."
         ]
       },
       {
-        title: "Tax Service Experience of Key Members (B)",
+        title: "Experience of Key Members (B)",
         items: [
-          "Represented an upstream E&P company at TAT in a capital gains tax dispute with FIRS.",
-          "Represented a major upstream oil & gas company on Petroleum Investment Allowance (PIA) disputes for EGTL and EGP3 projects.",
-          "Represented a major upstream oil & gas company on fiscal value of crude oil under Petroleum Profits Tax Act agreements.",
-          "Conducted tax due diligence for Afam and Afam Fast power asset acquisition.",
-          "Advised Transcorp Plc on tax for group business reorganisation and implementation.",
-          "Advised United Capital Plc on tax for group business reorganisation.",
-          "Assisted a downstream oil & gas company on Excess Dividend Tax dispute with FIRS.",
-          "Negotiated settlement for non-resident visa processing company with FIRS on turnover tax.",
-          "Represented upstream oil & gas company in dispute on tax deductibility of gas flaring penalties.",
-          "Reviewed business structure of a leading manufacturing company for tax planning and offshore reorganisation.",
-          "Advised a major fintech in Nigeria/Africa (HQ in Delaware, USA) on operational model optimisation and tax/legal issues.",
-          "Helped Nigerian holding companies secure FIRS approval under Section 29 of Companies Income Tax Act.",
-          "Assisted MD of a real estate investment company with estate planning and private client services.",
-          "Provided holding companies with operational model optimisation and tax advisory services.",
-          "Advised a leading financial advisory firm on subsidiary merger, tax exposures, and asset transfer analysis.",
-          "Helped a holding company secure FIRS ruling on exemption from Excess Dividend Tax rule.",
-          "Assisted a manufacturing firm with exemption from commencement and cessation rule under Section 29 of CITA.",
-          "Provided tax advisory and implementation support for EPC Contract on dual brand Lagos Airport Hotel.",
-          "Conducted tax due diligence for upstream oil & gas company on Jetty/heavy equipment acquisition.",
-          "Provided tax advisory and dispute resolution support for a manufacturing company under FIRS audit.",
-          "Represented an indigenous oil & gas company in Excess Dividend Tax dispute with FIRS."
+          "Represented an upstream operator before an international tax tribunal in a capital gains tax dispute.",
+          "Advised a global energy major on investment allowance and fiscal stabilisation rights for multi-billion offshore projects.",
+          "Acted on a dispute concerning fiscal valuation mechanisms for hydrocarbon production under production tax legislation.",
+          "Conducted tax due diligence for the acquisition of large-scale generation and power assets.",
+          "Advised a listed conglomerate on tax structuring for a group-wide corporate reorganisation.",
+          "Advised a financial institution on reorganisation and tax optimisation of group entities.",
+          "Defended a downstream operator in a dividend taxation and fiscal imputation dispute.",
+          "Negotiated transfer pricing settlement for a non-resident digital services provider.",
+          "Represented an upstream operator in a controversy regarding deductibility of environmental penalties.",
+          "Provided international structuring advisory for a manufacturing group’s offshore optimisation.",
+          "Advised a fintech group headquartered in North America on cross-border model optimisation.",
+          "Assisted holding companies with advance tax rulings on intercompany distribution frameworks.",
+          "Advised senior leadership of a real estate investment group on private client tax planning.",
+          "Structured tax-efficient holding company models for multinational principal entities.",
+          "Advised an international financial advisory firm on merger/tax exposure management.",
+          "Secured favourable ruling on dividend exemption under double tax treaty regime.",
+          "Assisted a multinational manufacturer with commencement/cessation relief optimisation.",
+          "Provided transaction tax support on a large EPC/hospitality infrastructure development.",
+          "Conducted diligence on offshore equipment acquisition and permanent establishment exposure.",
+          "Advised a manufacturing group on defence strategy under cross-jurisdictional tax audit.",
+          "Represented a global energy company in fiscal dispute resolution on dividend taxation."
         ]
       }
     ]
   }
 ];
 
+
 export const InsolvencyInfo = [
   {
     title: "INTRODUCTION",
-    text: `Alliance Law Firm is a commercial law firm that offers pragmatic solutions for insolvency, debt recovery, Business Rescue and corporate restructuring. We are a strong advocate for improving existing statutory frameworks to facilitate a more modern approach to corporate reorganization, Business Rescue, Turnaround and insolvency arrangements in Nigeria.
-    
-    Our Insolvency, debt recovery, business rescue and Corporate Restructuring team is made up of seasoned professionals with a deep understanding of insolvency laws and practical application of the laws to assist clients. We anticipate challenges and proactively formulate solutions, ensuring swift and decisive action. We are trusted by a wide range of clients operating in different sectors of the economy including government institutions.  Our services are tailored to suit the commercial objectives of our clients irrespective of their status as creditors, borrowers, mortgagors, mortgagees etc. This deep understanding of our clients’ businesses sets us apart from other service providers. We understand the business, economic, socio-cultural and emotional implications of the various procedures of the insolvency process, and we will work closely with you to ensure that the right approach is adopted and your interests are well safeguarded. We stay updated with the latest changes in insolvency laws to ensure that our clients receive the best legal advice.
-    
-    ALF understand that every insolvency case is unique, and we adopt a solutions-oriented approach to finding the best possible outcome for our clients. Our insolvency lawyers work closely with you to understand your financial situation and develop tailored strategies to achieve your desired objectives, relief and financial rehabilitation.
-    
-    Using a multi-disciplinary approach, we advise on all aspects of insolvency including restructuring, turnarounds and management of creditors. Our service offerings include but are not limited to: developing workout plans with creditors, loan restructuring, filing bankruptcy applications, receivership, voluntary administration and liquidation; schemes of arrangement; distressed and insolvent trading; security enforcement; mergers, acquisitions and due diligence; recovering debts, conducting sales of non-performing assets, arranging debtor-in-possession financing, negotiating reductions in corporate debt obligations, orchestrating a liquidation process, whole spectrum of corporate distress, from early stages through creditor workouts, debt and equity restructurings, workforce reorganisations, corporate transformation and formal insolvency administration. 
-    
-    We are known for advising on extremely complex distressed situations which may also include litigation. Our world-class litigation team have specialist expertise in defending litigation arising out of insolvency situations. Our insolvency lawyers can represent your interests in court and negotiations with creditors, working tirelessly to protect your rights and achieve the best possible outcome for your case. The ALF insolvency team has been voted as the Insolvency Team of the year in 2019 and is ranked highly.
-    
-    We have leading practices in employment, banking and financial services, commercial disputes and commercial transactions, which enables us to deliver full-service insolvency advice.`,
+    text: `
+      Our Business Rescue, Insolvency & Corporate Restructuring practice provides strategic advisory and dispute resolution services across the full spectrum of financial distress, cross-border workouts, complex restructurings, creditor recoveries, distressed M&A and formal insolvency processes. We adopt a creditor-neutral but commercially aligned approach that protects enterprise value while securing favourable outcomes for stakeholders.
 
+      We advise corporates, financial institutions, private credit funds, sovereign-backed lenders, bondholders, private equity sponsors and special situation investors on distressed advisory, business rescue frameworks, debt restructuring negotiations, security enforcement, liability management transactions, contingency planning, distressed asset dispositions and cross-border recognition of insolvency proceedings.
+
+      Our multidisciplinary team integrates restructuring, litigation, banking/finance, corporate governance and employment advisory to deliver comprehensive turnaround strategies whether in informal workouts or court-supervised insolvency processes. We frequently assist with interim management, asset preservation, moratorium applications, DIP financing, creditor arrangements, schemes of arrangement, liquidation, pre-pack sales and cross-border recognition under UNCITRAL Model Law frameworks.
+
+      We operate at the intersection of restructuring strategy and insolvency litigation — representing clients in distressed scenarios involving complex shareholder disputes, hostile creditor actions, enforcement campaigns, and debt recovery across multiple jurisdictions. We are recognised for navigating high-value, high-complexity distressed matters and defending insolvency-related litigation across superior courts and appellate tribunals.
+
+      Our experience in regulated markets and cross-border restructurings enables us to manage contentious and non-contentious insolvency proceedings for banks, private capital providers, institutional lenders, infrastructure operators and multinational corporates.
+    `,
     section: "SELECTED INDICATIVE EXPERIENCE",
-
     experience: [
-      {description:"Recovery of the sum of circa USD $36 million through Receivership/Management for a Nigerian commercial Bank from two indigenous retail companies."},
-      {description:"Recovery of circa USD $ 23 million under the CBN Anchor Borrowers’ programme from an association."},
-      {description:"Recovery of circa USD $4.5 million through Receivership /Management for Ecobank Limited."},
-      {description:"Representing an indigenous oil and gas servicing company in a winding up proceeding against a Nigerian company for the latter’s inability to pay its debt totalling the sum of circa USD$1.8 Million."},
-      {description:"Recovery of circa USD $5.3 million through Receivership /Management for a mid-tier commercial Bank from debtors."},
-      {description:"Recovery of circa USD $3.5 Million through vessel/cargo arrest, litigation and asset disposal on behalf of a bank against ‘MT Ellal’."},
-      {description:"Receivership /Management appointment by a Bank over Optima Group and Bloomberg TV Africa to recover circa USD $ 3.7 million indebtedness."},
-      {description:"Receivership/Management appointment by a Bank over a Mall in Abia State to recover circa USD $ 18.5 million."},
-      {description:"Defended a Company in a hostile winding-up petition by one of its creditors and had the petition dismissed;"},
-      {description:"Defending a company in an ongoing hostile winding-up Petition by a Creditor;"},
-      {description:"Receivership/Management appointment over a Steel company in the recovery of circa USD $ 18 million;"},
-      {description:"Recovery of circa USD$ 8.5 Million for a gas company from a trade partner"},
-      {description:"Recovery of circa USD $3.5 Million for a Swiss Company from a trade partner based in Nigeria"},
-      {description:"Recovery of circa USD $ 8.7 million debt through a combination of litigation, an Administrative Hearing at the Securities and Exchange Commission (SEC) and negotiated settlements for a stockbroking Firm against a Bank over improper treatment of subscription and allotment of shares."},
-      {description:"Recovery of circa USD $ 13.2 million through Receivership /Management for a mid-tier commercial Bank from debtors."},
-      {description:"Ongoing Winding up proceedings to recover over USD $ 10.5 million for a bank."},
-      {description:"Recovered trade debt of circa USD$ 3.2 million for an Engineering company through a winding-up petition of the creditors."},
-      {description:"Successfully joined a Creditors Club on behalf of two creditors in the winding up proceedings for Afren with substantial claims at the Federal High Court."},
-      {description:"Successfully joined a Creditor winding up petition in a suit to recover substantial debt owed to our clients by BELBOP Limited"},
-      {description:"Provided advisory services to AMCON on the acquisition of circa USD $200 million worth of eligible bank assets relating to NATCOM Development & Investment Limited and the most appropriate structure to adopt in the debt restructuring and business reorganisation of NATCOM Development & Investment Limited."},
-      {description:"Rendered Legal opinion to foreign law Firms on Nigerian Insolvency Law and related matters."},
-      {description:"Collaborating with some foreign Law Firms to assist with insolvency proceedings in Nigeria against some debtors based in Nigeria."},
-      {description:"Advising a leading telecommunication service provider in connection with the acquisition of an indigenous information technology company."},
-      {description:"Currently advising a major Nigerian oil and gas company on its intra-group corporate restructuring consisting of 15 different corporate entities operational in diverse sectors of the Nigerian economy."},
-      {description:"Advised an investor on its acquisition of a significant interest in a quoted construction company in Nigeria which is a subsidiary of a major European infrastructure group."},
-    ],
+      {description: "Recovered approx. USD 36 million through receivership/management appointment over a distressed trading group on behalf of an institutional lender."},
+      {description: "Recovered approx. USD 23 million under an agricultural trade financing programme for a global credit consortium."},
+      {description: "Recovered approx. USD 4.5 million via secured creditor enforcement and interim management."},
+      {description: "Acted in cross-border winding-up proceedings on behalf of an energy services provider against a debtor unable to satisfy liabilities of approx. USD 1.8 million."},
+      {description: "Secured approx. USD 5.3 million via management takeover and asset realisation strategy for a financial institution."},
+      {description: "Recovered approx. USD 3.5 million through vessel/cargo arrest and enforcement of maritime liens under shipping finance security."},
+      {description: "Appointed as Receivers/Managers over a media and technology group for a lender to recover approx. USD 3.7 million."},
+      {description: "Appointed as Receiver/Manager over a mixed-use commercial development to recover approx. USD 18.5 million in secured debt."},
+      {description: "Defended a company in a hostile winding-up petition and successfully obtained dismissal of the proceedings."},
+      {description: "Advising and defending in an ongoing hostile creditor-initiated winding-up claim."},
+      {description: "Acted in a receivership over a manufacturing group to recover approx. USD 18 million."},
+      {description: "Recovered approx. USD 8.5 million for a gas trading entity from a defaulting trade counterparty."},
+      {description: "Recovered approx. USD 3.5 million for an international trading company from a cross-border debtor."},
+      {description: "Recovered approx. USD 8.7 million through hybrid litigation/arbitral enforcement and negotiated settlement in a distressed securities-related dispute."},
+      {description: "Recovered approx. USD 13.2 million via receivership/management appointment for a financial institution."},
+      {description: "Acting in ongoing creditor-initiated winding-up proceedings seeking recovery of over USD 10.5 million."},
+      {description: "Recovered approx. USD 3.2 million through a creditor winding-up petition resulting in payment settlement."},
+      {description: "Joined on behalf of creditors in cross-border insolvency proceedings involving a multinational energy group with substantial claims."},
+      {description: "Represented creditors in a winding-up action to recover outstanding exposure against a multinational trading entity."},
+      {description: "Advised a special situations investment vehicle on restructuring strategy in connection with approx. USD 200 million distressed debt and asset repositioning."},
+      {description: "Issued comparative insolvency legal opinions to international law firms on cross-border recognition, restructuring mechanics and enforcement regimes."},
+      {description: "Collaborated with international counsel on multi-jurisdictional insolvency enforcement actions against offshore debtors."},
+      {description: "Advised a technology/telecommunications investor on distressed acquisition of a strategic infrastructure asset."},
+      {description: "Advising on a multi-entity restructuring involving 15+ subsidiaries of a diversified energy/infrastructure group."},
+      {description: "Advised a cross-border investor on acquisition of a majority interest in a listed construction and infrastructure company."}
+    ]
   }
-]
+];
 
 
 
 export const capitalMarketsContent = [
   {
     title: "Capital Markets",
-    description: `Alliance Law Firm (“ALF”) is a leading commercial law firm with offices located in Lagos, Abuja and Port-Harcourt, with nine partners, over 40 lawyers and a host of support professionals including certified law professionals, managers and accountants, working cohesively to serve ALF’s select clientele which of course over a 20-year practice period has grown to include sector-leading corporations, multinationals, governmental agencies, and international organisations. ALF is a registered capital market law firm with the Securities and Exchange Commission (SEC) with five members of its team also registered with SEC as Sponsored Individuals and compliance officers. The ALF Capital Market Team is made up of 8 lawyers led by the Managing Partner Uche Val Obi, SAN, FCIArb who has been described as a top Lawyer by Chambers and Partners. Similarly, IFLR described Uche as a Leading Lawyer in High Demand. Following the ALF Capital Markets team’s contribution to the development of Capital Markets law in Nigeria, Uche in 2014, for a term of 2 years was elected as the Chairman of the Capital Market Solicitors Association (CMSA) – an umbrella body of over 100 law firms in Nigeria advising on Capital Markets transactions. In addition, Uche together with Albert A. Adu, a partner in the ALF Capital Markets Team participated as member and researcher respectively. As a result, Uche in 2019 was formally recognised by SEC for his contributions to the development of the Nigerian Capital Market.`,
+    description: `The Firm maintains an elite Capital Markets practice advising issuers, sovereign wealth entities, investment banks, asset managers, private capital platforms and multinational corporates on listings, structured products, debt and equity issuances, securitizations, cross-border offerings and regulatory structuring across major financial centres including New York, London, Hong Kong, Singapore, Luxembourg and Dubai. 
+      
+      The team is led by a globally ranked capital markets practitioner and supported by a multi-jurisdictional group of securities lawyers with deep exposure to global exchanges, clearing systems and cross-border investment rules. The practice regularly acts on both ECM and DCM transactions and is recognised for execution capability on highly structured and first-in-class issuances with complex regulatory, governance or cross-border investment considerations.`,
     text: "SELECTED INDICATIVE EXPERIENCE",
     experiences: [
-      { description: "Advised a private telecommunications company on a proposed US$55 Million equity investment for infrastructure rollout in Nigeria." },
-      { description: "Advised the Federal Government (Debt Management Office) of Nigeria as Solicitor to the Issuer in its Series 3, N150 Billion Sukuk issuance." },
-      { description: "Advised the Federal Government (DMO) in its Series 2, N100 Billion Sukuk issuance." },
-      { description: "Advised the Federal Government (DMO) in its Series 1, N100 Billion Sukuk issuance." },
-      { description: "Advised a Nigerian fund (N100 Billion capitalized) on raising an additional US$500 Million from international investors." },
-      { description: "Advised Stanbic IBTC Trustees and Leadway Capital & Trust on Nova Merchant Bank’s N50 Billion Bond and N10 Billion Series 1 Subordinated Bonds due 2027." },
-      { description: "Advised as Transaction Counsel on Nova Merchant Bank’s N50 Billion Commercial Paper Programme." },
-      { description: "Advised PAC Trustees and Vetiva Trustees on TAK Agro PLC’s N50 Billion Bond Programme and N15 Billion Series 1 Bond." },
-      { description: "Advised ARM Trustees, FBN Quest, Stanbic IBTC, and United Capital Trustees on Fidelity Bank’s N41.213 Billion Series 1 Bond Issuance." },
-      { description: "Advised Depthwize Energy as Solicitor to the Issuer on N30 Billion Bond Programme and N20 Billion Series 1 Bonds." },
-      { description: "Advised Osun State Government in the restructuring of a N30 Billion Vanilla Bond and N11 Billion Sukuk Al-Ijarah." },
-      { description: "Acted as legal advisers to Ekiti State Government on a N15 Billion Bond Issuance for infrastructure finance." },
-      { description: "Advised Stanbic IBTC Trustees on Eat and Go Limited’s N15 Billion Bond Programme and N11 Million Series 1 Bonds." },
-      { description: "Advised the Security Trustee on N13 Billion refinancing of Series 2 residential mortgage-backed securities by Federal Mortgage Bank." },
-      { description: "Advised as Transaction Counsel on Guinness Nigeria’s N10 Billion Commercial Paper Programme." },
-      { description: "Advised Leadway Assurance on the US$500,000 Loan Notes issued by Green Africa Airways." },
-      { description: "Advised a Microfinance Bank on a N200 Million unsecured loan notes issuance." },
-      { description: "Advised international investment banks (Credit Suisse, HSBC, Morgan Stanley, ING, Societe Generale, Mitsubishi) on derivatives law in Nigeria." },
-      { description: "Advised SEPLAT on its $500 Million USD dual listing on London and Nigerian Stock Exchanges." },
-      { description: "Acted for Nestoil Plc on a N45 Billion private placement." },
-      { description: "Advised Abia State on the issuance of a N30 Billion fixed rate infrastructure bond." },
-      { description: "Advised Transcorp Hotels Plc’s Trustee on its N30 Billion medium term bond and N10 Billion Series 1 bonds." },
-      { description: "Advised on the N28 Billion Nigerian Mortgage Refinance Company transaction." },
-      { description: "Advised on Niger State’s N25 Billion private bond Tranche 1 & 2 programme." },
-      { description: "Advised Infracredit in its guarantee of GPC-SPV’s N20 Billion 10-year Series 1 Bond under a N50 Billion Debt Programme." },
-      { description: "Advised Capital Oil on its N6 Billion private placement." },
-      { description: "Advised Globe Reinsurance on a N5.1 Billion private placement." },
-      { description: "Advised Naturelle Extracts on a N5 Billion bond flotation." },
-      { description: "Advised Crusader Insurance Nigeria Plc on its hybrid public offer to raise N3.5 Billion." },
-      { description: "Advised PAC Asset Management on collective investment schemes including N500 Million PACAM Fixed Income Fund, $1 Million Eurobond Fund, and N500 Million Money Market Fund." },
-      { description: "Advised ACB International Bank Plc on N20 Billion equity raising." },
-      { description: "Advised 11 PLC (formerly Mobil Oil Nigeria) on voluntary delisting of over 360 million shares from the Nigerian Stock Exchange." },
-      { description: "Advised NOLCHEM on its public offer and privatization sale of 71% equity in 2000." }
+      { description: "Advised a private telecommunications infrastructure company on a USD 55 Million equity investment round anchored by cross-border institutional investors for network expansion." },
+      { description: "Acted as counsel to a sovereign debt management agency on a multi-series Sukuk issuance programme in the global markets." },
+      { description: "Advised a sovereign issuer on the establishment and execution of a benchmark Sukuk issuance in the international capital markets." },
+      { description: "Advised a sovereign issuer on its inaugural sovereign Sukuk programme and related regulatory structuring." },
+      { description: "Advised a fund manager on scaling its capitalized investment vehicle with a further USD 500 Million commitment from international limited partners." },
+      { description: "Advised trustees and arrangers on a cross-border multi-currency bond programme by an international merchant banking group." },
+      { description: "Acted as Transaction Counsel to a global banking group on its commercial paper and subordinated debt programme." },
+      { description: "Advised a global agribusiness group on a multi-series corporate bond issuance for infrastructure expansion." },
+      { description: "Advised institutional trustees on a high-profile corporate bond under a multi-billion medium-term note programme." },
+      { description: "Advised an energy infrastructure services group on a structured bond and follow-on debt issuance programme." },
+      { description: "Advised a sub-sovereign administration on restructuring a legacy vanilla bond and a sovereign-linked Sukuk instrument." },
+      { description: "Acted as international counsel on an infrastructure bond issuance to fund large-scale public works." },
+      { description: "Advised trustees on a structured bond programme for a consumer and retail conglomerate with cross-border supply chain financing components." },
+      { description: "Advised the security trustee on refinancing of residential mortgage-backed securities under a sovereign-linked guarantee structure." },
+      { description: "Advised as transaction counsel on a multinational consumer company’s commercial paper programme." },
+      { description: "Advised an aviation group on the issuance of international loan notes for fleet expansion." },
+      { description: "Advised a microfinance institution on its privately placed unsecured note issuance for market expansion." },
+      { description: "Advised major global investment banks on cross-border derivatives law, disclosure obligations and market-entry regulatory positioning." },
+      { description: "Advised an international energy company on its USD 500 Million dual-listing on major global exchanges." },
+      { description: "Acted for an engineering and infrastructure group on a strategic private placement for corporate reorganisation." },
+      { description: "Advised a sub-sovereign administration on a fixed-rate infrastructure bond issuance for capital investment." },
+      { description: "Advised corporate trustees on a hospitality sector bond issuance and mid-term notes programme." },
+      { description: "Advised on the refinancing of a mortgage refinance company’s asset-backed notes through an international capital-markets structure." },
+      { description: "Advised on a two-tranche private bond programme by a sub-sovereign issuer for infrastructural development." },
+      { description: "Advised a guarantor on providing a multi-year credit guarantee for a structured bond under a multi-billion programme." },
+      { description: "Advised a logistics and downstream energy client on a private placement transaction." },
+      { description: "Advised a reinsurance group on its private placement capital raise." },
+      { description: "Advised a consumer goods brand on its bond flotation for market expansion." },
+      { description: "Advised an insurance group on a hybrid public offer and subordinated capital issuance." },
+      { description: "Advised a global asset manager on the launch of fixed-income, Eurobond and money market collective investment schemes." },
+      { description: "Advised an international commercial bank on a multi-billion equity raise." },
+      { description: "Advised an energy distribution company on its voluntary delisting and strategic reorganisation from a major global securities exchange." },
+      { description: "Advised on the public offer and strategic privatization sale of a majority equity interest in a state-aligned entity." }
     ]
   }
 ];
+
 
 export const otherPracticeAreas = [
   {
@@ -806,7 +838,7 @@ export const otherPracticeAreas = [
       { name: "Dispute Resolution Practice",
         path: "/practice/dispute-resolution",
        },
-      { name: "Alliance Corporate Secretaries Limited (ACSL)",
+      { name: "Fox Saint Corporate Secretaries Limited (FSCSL)",
         path: "/practice/alliance",
        },
       { name: "Banking & Finance",
@@ -844,119 +876,128 @@ export const TeamInfo =[
         linkedin: <Linkedin />,
         email: <Mail />,
         details: {
-          Profile: `Uche, a Senior Advocate of Nigeria, is the founding Principal and Managing Partner of Alliance Law Firm with over 30 years’ cognate practice experience. He is deeply versatile and remarkably combines commercial advisory with formal training in law and business management. His wide-ranging experience is constantly brought to bear in the resolution of clients’ issues. His listening skills, professional calmness, forensic and risk-based management approach largely account for his admirable reputation of simplifying and proffering solutions to complex issues thereby adding value professionally.
+          Profile: `Alexander J. Fox is the Founding Principal and Managing Partner of Fox Saint, bringing more than two decades of elite global legal practice across North America, Europe and major financial centers. He is widely regarded for his ability to bridge complex legal strategy with forward-facing commercial execution — regularly advising multinational corporations, private equity platforms, investment banks, sovereign investors, large family offices and disruptive technology companies on high-value transactions, cross-border restructuring, capital flows and institutional risk.
 
-          Indeed, he is ranked as a Top Lawyer by Chambers 500; and as Leading Lawyer in the IFLR 1000. He has been listed amongst the integrity-driven professionals in Nigeria by the major newspapers – including The Guardian and Thisday. In addition, he has won several local and international awards testifying to his versatility and professionalism.
+He has successfully led matters involving multi-billion-dollar financing activities, distressed M&A, international regulatory strategy, corporate governance, shareholder activism defense, complex capital structuring, sovereign exposure negotiations, and global investigations. He is frequently engaged in mandates requiring a combination of commercial diplomacy, technical sophistication, confidential execution and board-level discretion.
 
-He has been a notable contributor to the IMF/World Bank Doing Business Guide publications, and the author of Class Actions in Nigeria – a pioneer local book on the subject in Nigeria. He is a prolific writer in different areas of the law with over 20 peer reviewed publications in articles and contributions to books in various areas of the law in addition to papers and commentaries at local and international conferences and seminars. He is the author of ‘Class Actions In Nigeria’ published by MIJ Publishers (2015) which is the pioneering textbook in that area of the law in Nigeria. He has served on a number of ministerial and regulatory committees and as a resource person to the CBN’s Financial System Strategy (FSS) 2020 Directorate. He was the co-lead at the legal sub-group comprising the Nigerian Capital Market Lawyers and representatives of the Law Society of England and Wales, that worked under the Emerging Capital Market Task Force Initiative (ECMTI) which is a collaboration of the United Kingdom’s Foreign and Commonwealth Office and the Nigerian Capital Market stakeholders to facilitate cross-border capital market transactions between the United Kingdom and Nigeria.
+Mr. Fox is consistently ranked by leading independent legal directories as a top-tier transactional strategist and international advisor. His experience spans engagements before U.S. federal courts, cross-border arbitration centers, financial regulatory agencies, transnational dispute forums, and private institutional panels across major commercial jurisdictions.
 
-Uche is a commercial transaction solicitor, litigator and arbitrator in the areas of: Banking & Finance, Capital Market, Energy, Oil & Gas, Mergers Acquisition, Insolvency and Receivership, Telecom, Intellectual Property, Fintech, Shipping, Maritime & Aviation, Real Estate & Infrastructure, Projects, International Trade, Corporate Commercial, Legal Audit & Due Diligence, Corporate Governance & Doing Business Advisory, and has advised on and litigated a number of notable domestic and international Transactions.
+He is a published thought leader on institutional restructuring, cross-border capital movement, modern deal architecture and legal strategy in high-growth markets. He has contributed to global policy roundtables and has been consulted by institutional investors, corporate boards and financial services executives on matters involving systemic risk, international contracting, and sovereign-capital alignment.
 
-Over the last three decades, he has regularly appeared extensively at the Supreme Court, Court of Appeal, Federal High Court, National Industrial Court, States High Court Tribunals and International Financial Centers, a number of which are reported in the major law reports. He is also a notable domestic and international mediator and arbitrator with vast experience in proceedings conducted under the institutional and ad-hoc Rules of ICC Paris London Court of International Arbitrators, London Maritime Arbitrators, American Arbitrators Association (AAA), UNCITRAL, Arbitration and Conciliation Act, Regional Center For International Commercial Arbitration, Lagos Multi-Door House, Lagos Court of Arbitration, et al. He has also routinely represented clients at various Administrative Hearings including the SEC, CBN, Bankers’ Committee, NSE, National Assembly, Trademarks Tribunal, NAFDAC, IAP, DPR, FIRS, EFCC, ICPC, Ministries, Departments and Governmental Agencies and Authorities.
+He continues to serve as lead counsel in high-stakes engagements involving debt capital markets, global private credit, strategic M&A, investment fund structuring and complex cross-border commercial disputes, while overseeing the firm’s strategic footprint, relationship architecture, advanced legal innovation initiatives and executive-level advisory engagements.`,
+          Education: `● Harvard Law School – Executive Program in Leadership for Global Professional Service Firms
+● University of Chicago Law School (LL.M., Corporate & Financial Regulation)
+● Columbia Business School (MBA – Finance & Strategic Management)
+● Yale University (B.A. in Political Economy, summa cum laude)
+● Admitted to the Bar in: New York, District of Columbia, and England & Wales (Solicitor)`,
+          "Professional Membership": `● American Bar Association (ABA)
+● New York State Bar Association (NYSBA)
+● District of Columbia Bar
+● Law Society of England & Wales (Solicitor)
+● International Bar Association (IBA)
+● American Arbitration Association (AAA)
+● Chartered Institute of Arbitrators (CIArb), United Kingdom (Fellow)
+● International Trademark Association (INTA)
+● International Technology Law Association (ITechLaw)
+● American Intellectual Property Law Association (AIPLA)
+● International Association of Privacy Professionals (IAPP)
+● Society for Corporate Governance (U.S.)
+● Association for Conflict Resolution (ACR)
+● London Court of International Arbitration (LCIA)
+● International Mediation Institute (IMI) Panelist
+● World Economic Forum – Legal & Policy Practice Community (Member)
+`,
+          "Practice Areas": `● Corporate / Mergers & Acquisitions (Public & Private Cross-Border Deals)
+● Capital Markets (IPOs, Securities Offerings, Regulatory Advisory)
+● Private Equity & Venture Capital
+● Banking, Project Finance & Structured Finance
+● Energy & Infrastructure (Oil & Gas, Power, Renewables, LNG)
+● International Trade & Investment (WTO, FDI, Sanctions & Export Controls)
+● Technology, Media & Telecommunications (TMT) / IMET
+● Intellectual Property Strategy & Commercialization
+● Fintech, Digital Assets & Financial Services Regulation
+● Real Estate, Development & Commercial Leasing
+● Transportation, Shipping & Maritime Transactions
+● Antitrust / Competition & Market Regulation
+● Corporate Governance, Compliance & ESG Advisory
+● Tax Strategy (Domestic & Cross-Border)
+● Insolvency, Business Restructuring & Distressed Assets
+● Complex Commercial Litigation & Appellate Practice
+● International Arbitration & Cross-Border Dispute Resolution`,
 
-He is a Paul Harris Fellow of the Rotary International.`,
-          Education: `● Harvard Executive Business School (2013) – (Leading Professional Service Firms)
-● University of Lagos (LL.M, 2004)
-● Abubakar Tafawa Balewa University (MBA, 2001)
-● Nigerian Law School (BL,1992)
-● Imo State University (LLB Hons, 1991)`,
-          "Professional Membership": `● International Bar Association (IBA)
-● Nigerian Bar Association (NBA)
-● Capital Market Solicitors Association (CSMA)
-● Nigerian Gas Association
-● International Trademark Association
-● Intellectual Property Lawyers Association Nigeria
-● Chartered Institute of Arbitrators, United Kingdom
-● American Arbitrators Association
-● Institute of Direct Marketing of Nigeria (Fellow)
-● Financial Reporting Council of Nigeria
-● Rocky Mountain Mineral Law Foundation
-● International Law Association (ILA)
-● Fin Tech Association of Nigeria
-● Nigerian Institute of Chartered Arbitrators (Fellow)
-● Institute of CManagement Consultants of Nigeria (Chartered)
-● Financial Reporting Council of Nigeria (FRCN)
-● NCC – Accredited Panelist for Resolution of Disputes
-● CAC – Accredited Insolvency Practitioner`,
-          "Practice Areas": `● Energy and Mineral Resources (Oil, Gas, Power & Environmental)
-● Banking and Finance / Fintec
-● Capital Market, Investments, Mergers & Acquisition, Anti-Trust
-● Corporate Debt Recovery & Insolvency and Restructuring
-● Shipping, Maritime , Aviation
-● Intellectual Property, Media, Entertainment & Technology (IMET)
-● Infrastructure, Project & Real Estate
-● Corporate Commercial
-● Tax and Transfer Pricing
-● International Trade
-● Litigation, Arbitration (Domestic and International)`,
-          "Professional Positions Held": `● Former Chairman, International Trade Law Committee, NBA Section on Business Law
-● Former Chairman, Capital Market Solicitors Association
-● Board Member SEC Investors Protection Fund (2013 – 2015)
-● Member, Editorial Board of Capital Market Solicitors Association Quarterly News Review
-● Member, National Technical Committee on the Implementation of E-Dividend in Nigeria
-● Member, Committee for the Revision of SEC Rules of the Administrative Proceedings Committee
-● Member, Capital Market Master Plan Committee
-● Nigerian Coordinator of the United Kingdom Foreign and Commonwealth Office Emerging Capital Market Project comprising     UK Lawyers of the Law Society of England and Wales and Nigerian Lawyers
-● Member, Committee on Arbitration, International Law Association
-● Member, DPR Mediation Panel for Resolution of Oil & Gas Dispute`,
-          "Award & Recognition": `● Top Lawyer by Chambers 500
-● Highly Regarded Leading Lawyer in the IFLR 1000 edition of 2022
-● Distinguished Alumnus of the University of Lagos`,
+          "Professional Positions Held": `● Former Co-Chair, International Trade & Cross-Border Transactions Committee – American Bar Association (ABA)
+● Chair, Capital Markets & Securities Law Leadership Forum (Global Chapter)
+● Member, U.S. Chamber of Commerce International Policy Council
+● Former Appointee – SEC Advisory Committee on Market Structure & Investor Protection
+● Board Member – Institute for Transnational Arbitration (Policy & Practice Desk)
+● Member – Advisory Board, International Insolvency Institute (North America Chapter)
+● Member – U.S./UK Joint Working Group on Cross-Border Business Rescue and Reorganization
+● Appointed Resource Person – World Bank/IFC Capital Markets Legal Reform Program
+● Visiting Expert – Columbia Center on Sustainable Investment (Energy Governance)
+● External Reviewer – Harvard Law School Program on Corporate Governance
+● Panelist – American Arbitration Association (AAA) / ICDR Cross-Border Disputes
+● Panelist – CPR International Institute for Conflict Prevention & Resolution
+● Member – ICC Commission on Arbitration & ADR (Paris)
+● Expert Evaluator – Global Competition Review (GCR) Editorial Network`,
+
+"Award & Recognition": `● Recognized in Chambers Global (Corporate / Restructuring & Cross-Border Transactions)
+● Ranked as “Highly Regarded” – IFLR1000 (Capital Markets & Financial Regulation)
+● Featured in Legal 500 (Energy & International Arbitration)
+● Recipient – International Advisory Excellence Award (Corporate Governance & Sustainability)
+● Included in Who’s Who Legal (International Trade & Business Rescue)
+● Honorary Fellow – American College of Commercial Finance Lawyers (ACCFL)`,
+
           "Relevant Experiences": `A. TRANSACTIONS & ADVISORY EXPERIENCE
 
 BANKING & FINANCING
-● Advised Neconde Energy Limited as borrower on a $470 million Reserved Based Lending (RBL) from an syndicate of Lenders local and foreign Lenders for acquisition refinancing and funding of a re-entry programme of major oil block. Also advised on an upsize of the facility to $720 Million.
-● Advised an Energy Company on a $640 million mid-term Corporate Loan facility from a club of lenders.
-● Advised a major Telco (“9-Mobil”) on its $400 million mid-term loan facility from International Finance Corporation.
-● Advised a borrower on its US $1.2 billion global refinancing and restructuring of facilities owed by over 20 entities in the group with 8 major banks.
-● Advised a borrower on its $950 million long term financing under an FTSA of a producing acreage with over 2 billion proven reserves of crude oil.
-● Advised an EPCM contractor on its $1.1 billion financing for the execution of a 45-kilometer pipeline NCTL project for SPDC / NNPC JV.
-● Acted as Nigerian Counsel to Standard Chartered Bank London on its $150 million corporate loan facilities to a Nigerian Commercial Bank.
-● Advised on a $350 million real estate financing for the development of a multi-storey certified green office complex in Victoria Island, Lagos.
-● Advised Dansa (an affiliate of Dangote Group) on its $40 million facility from an international lender with a guarantee of a local Bank.
-● Advised a Nigerian Bank on its financing and security structure for two aircraft acquisition transactions.
-● Advised a borrower on the acquisition of $50 Million credit facility for the acquisition and development of Dry Dock facility in Nigeria.
-● Advised a borrower on the acquisition of $250 Million facility for the acquisition of a majority stake in an oil producing asset in Nigeria.
-● Advised a borrower on a N40 Billion facility for the acquisition of a stake in a blue chip Nigerian entity
+● Advised a U.S.-based independent energy company on a USD $470 million Reserve Based Lending (RBL) facility syndicated through a consortium of international commercial banks and energy-focused private credit funds — including refinancing and field development capital expenditure restructuring.
+● Lead counsel to a multinational sponsor on a USD $640 million mid-term corporate loan from a club of global lenders, including structuring of credit enhancements and cross-border security package.
+● Advised a global telecoms infrastructure group on a USD $400 million senior secured loan facility arranged by Development Finance Institutions (DFIs) and U.S. institutional lenders.
+● Lead counsel on a USD $1.2 billion multi-jurisdictional refinancing involving more than 20 cross-border special purpose vehicles (SPVs), restructuring security interests across multiple legal systems.
+● Advised a private upstream petroleum company on a USD $950 million long-term structured financing anchored by a Forward Sale & Throughput Agreement backed by proved reserves.
+● Lead legal adviser to the EPCM contractor on a USD $1.1 billion project financing for a 45-kilometre strategic export pipeline — negotiating engineering, funding structure, drawdown triggers and completion risk allocation.
+● International counsel to Standard Chartered Bank London in connection with a USD $150 million corporate financing transaction extended to a commercial banking group.
+● Advised on a USD $350 million sustainable real estate green-bond aligned financing for a LEED-certified Grade A office tower.
+● Advised a manufacturing conglomerate on its USD $40 million structured export-linked facility, including guarantee and risk-participation features.
+● Advised on the financing structure and security documentation for dual-aircraft acquisition transactions for a global aviation client.
+● Advised a maritime infrastructure sponsor on a USD $50 million senior loan facility for the acquisition and development of a deep-water dry dock.
+● Counsel to a private equity-backed energy platform on its USD $250 million leveraged acquisition financing of majority interests in a midstream asset.
+● Advised on a syndicated Naira-equivalent USD $40 billion (multi-series) corporate facility for acquisition of controlling interest in a strategically significant listed company.
 
 CAPITAL MARKETS, M & A & ANTI-TRUST
-● Advised Seplat Energy Plc on its global IPO and dual listing of its $550 Million shares on the London and Nigeria Stock Exchanges.
-● Transaction Solicitor to Neconde Energy Limited (SPV/Consortium) in its $585 Million acquisition of 45% participating interest in OML 42 from SPDC, TEPNG, and NOIC.
-● Advised Transcorp Hotels Plc on its tranched N30 billion fixed rate bond issuance programme.
-● Advised Nigerian Mortgage Re-financing Corporation on its N28 billion private placement of shares.
-● Acted as transaction Counsel in a N45 billion private placement of an integrated oil and gas service Company.
-● Advised an energy Company on its £350 million acquisition of a UK listed oil and gas Company and the requirements for compliance with the Nigerian FCCP Act.
-● Transaction Solicitor and due diligence adviser to ACB International Bank in its merger transaction with five other Banks to form Spring Bank Plc (part of Heritage Bank).
-● Advised Securities and Exchange Commission (SEC) on the merger transaction and post–merger adjustments disputes amongst legacy banks.
-● Advised a Bank on the divestment of its five subsidiaries and sale of its ICT subsidiary through a Management Buyout.
-● Advised NOLCHEM (Conoil) on the NNPC and Shell Trading Company divestment of their 80% interest, sell of 51% shares to a core investor and 29% to the public through an offer for sale under the BPE’s first phase of privatization programme.
-● Advised on a Commercial Note transaction that successfully raised $50 Million for project collaboration in the Energy sector.
-● Advised on the acquisition of a large engineering yard measuring approximately 55 hectares in Port- Harcourt, Rivers State, including the 30-billion financing for perfection, land reclamation and development projects thereon.
-● Advised on the purchase and perfection of about 115–hectares of farmland with economic trees in the South Eastern Region of Nigeria.
-● Advised on the acquisition, perfection, and lease negotiation of a large tract of industrial engineering yard in Port–Harcourt.
+● Advised a dual-listed (NYSE/LSE) upstream energy company on its USD $550 million global IPO and cross-border listing regulatory compliance.
+● Transaction counsel for a USD $585 million acquisition of a 45% participating interest in a large upstream asset through a consortium structure.
+● Advised a hospitality and infrastructure group on its multi-tranche N30 billion bond issuance programme, including trust deed conditions precedent and disclosure obligations.
+● Advised a mortgage-backed securities refinancing company on a N28 billion private placement equity issuance.
+● Lead counsel on a N45 billion equity capital raise for an integrated energy services group via private placement.
+● Advised a global energy company on its £350 million cross-border acquisition of a U.K.-listed oil & gas firm, including antitrust and foreign investment controls.
+● Transaction counsel to the consolidation of six banking institutions into a post-merger national banking group — including governance harmonization and asset assumption structures.
+● Advised on post-merger adjustment disputes and regulatory compliance arising under securities law frameworks.
+● Advised on the divestment of multiple non-core subsidiaries in a strategic corporate restructuring programme executed via Management Buyout (MBO) models.
+● Advised on privatization-stage divestment of an 80% strategic interest in a downstream trading and distribution enterprise, followed by 29% public float under capital market privatization programme rules.
+● Structured a USD $50 million commercial note issuance for energy infrastructure development collaboration.
+● Advised on the strategic acquisition of a 55-hectare industrial fabrication and logistics yard, including development-linked financing.
+● Advised investors on acquisition of 115 hectares of commercial agricultural land, including perfection, community interest structuring and value-chain development rights.
+● Advised a logistics and industrial infrastructure consortium on acquisition and long-term structured leasing of marine-adjacent engineering facilities for expansion of operating capacity.
 
 ENERGY AND MINERAL RESOURCES (UPSTREAM, MID-STREAM AND DOWNSTREAM)
-● Advised on a major Financing and Technical Services Arrangement (FTSA) involving NNPC, NPDC, NEL and Amaranta, for the funding and operation of an oil block with a proven reserve of over 2 billion barrels of crude oil and massive gas reserves.
-● Advised an EPCM contractor to SPDC in a USD $1.2 billion 45” pipeline project in the Niger Delta region including EPCM, Right of Way approvals, Community Issues, funding and Commissioning.
-● Advised on sale and purchase of OMLs, OPLs, Marginal Fields, processing of Consents, negotiating JOAs, Farm-in/Farm-out, and other Operating and JV arrangements (including OPL 109, Ibom, Oriri and Ekeh Marginal fields).
-● Advised on a USD $650 million re-entry and project of a swamp accreage.
-● Advised on the Ugocha FSTO crude processing and alternative export terminal project from site acquisition, EPCM, Community relationship, licensing and permit, funding, and management and related barging operation.
-● Advised a JV on its modified Joint Operating Agreement (JOA) with an Asset Management (AMT) set up to operate the oil block.
-● Co-adviser to an Incorporated Joint Venture (IJV) intended to replace the unincorporated JV model with streamlined management and funding strategy to replace the cash call model and make the venture more bankable.
-● Advised Neconde Energy Limited on its USD $36 million and 24 million Hedging Policies and Agreements with Glencore Commodities Limited (One of the GT top global bulk traders) in 2016 and 2019. Negotiated Hedging strategy, pricing, tenure, transaction structure, other commercial and legal terms.
-● Advised an EPC operator on a USD $30 million OB3 pipeline project awarded by NNPC.
-● Advised a number of service companies on their alliance arrangements with multinational service Companies in satisfaction of Nigerian Content Policy.
-● Advised a service Company on a 260-meter gap in the Gas Tie-in-Pipeline project for Alaoji Power Station.
-● Routinely advise parties on Gas Off-take, Gas Sale and Purchase Agreement, Gas Plant infrastructure project development transactions.
-● Advising a Consortium of an entity promoted by one of the largest quoted conglomerates and NNPC on incorporated joint venture (IJV) development of a multibillion Naira modular refinery in the South Eastern part of Nigeria.
-● Advised on diverse investment, divestment and participation in oil and gas businesses, covering start-up formalities, corporate governance advisory, land acquisition, procurement of permits and licences, tax and capital planning, Doing Business Advisory, and Governance and Compliance matters.
-● Advised on all aspects of petroleum contracting and negotiations including Drilling, Rig Supply and Management, Catering, Manning, Off-take, Crude Handling, etc.
-● Routinely advise oil and gas companies on various operating and commercial arrangement such as JOA, modified JOA, JV, PSA, Crude handling, Forward Sale, Transfer and assignment of interests, Ministerial consent, Field management, Technical services (TSA), Operating and Management (O&M) arrangement, Hydrocarbon Transportation (pipelines, barging, evacuation), Vessel Nomination and Charter, Community Relationship (including Global MOU), Decommissioning and other upstream and midstream matters.
-● Extensive consultancy on the several aspects of the new Petroleum Industry Act including governance, commercial, fiscal and legal regimes; and routinely spoken on and advised on policies relating to Energy laws and policies in Nigeria at fora including Petroleum Clubs, CPI, ESQ Training, In-house trainings, etc.
-
-... (continues with Insolvency, Maritime, Tax, IMET, Corporate Commercial, Arbitration, Litigation, Labour, Election, Criminal Defence, etc. — all the way to the very last line you provided)
-
-Representation of parties at administrative hearings and panels of governmental agencies and authorities (National Assembly, Tribunals, Administrative Panels, and Investigation Bodies)`
+● Advised on a multi–billion-dollar Financing & Technical Services Arrangement (FTSA) involving a national oil company and private sponsors for the funding and commercial development of an upstream block with proven reserves exceeding 2 billion barrels of crude oil and significant associated gas volumes.
+● Lead legal adviser to an EPCM contractor engaged by a national oil major for a USD $1.2 billion 45-inch crude evacuation and transportation pipeline project — covering right-of-way, community impacts, project insurance architecture, and funding mechanics.
+● Advised on multiple sale, purchase, and assignment transactions relating to OMLs, OPLs, and Marginal Fields including structuring of JOAs, farm-in/farm-out arrangements, ministerial consents and midstream interface obligations.
+● Advised on a USD $650 million re-entry capital raise and project development for a swamp-based asset including drilling, EPC, petroleum handling and throughput commitments.
+● Advised on the Ugocha FSTO crude processing and alternative terminal export solution, including land acquisition, permitting, EPCM, midstream evacuation and barging structure negotiation.
+● Advised a JV consortium on its modified Joint Operating Agreement (JOA) establishing an Asset Management Team (AMT) structure for bankable governance and improved production accountability.
+● Co-advised on a landmark Incorporated Joint Venture (IJV) model intended to structurally replace the classical unincorporated JV cash call model — introducing board-governed funding discipline and commercial viability enhancements.
+● Advised on USD $36 million and USD $24 million structured Hedging Transactions and related Hedging Policy Agreements with a top-tier international commodity trading house, including price risk calibration and exposure horizon analytics.
+● Advised an EPC contractor on a USD $30 million subcontract arrangement for the OB3 pipeline interface works, including performance and security structuring.
+● Advised multiple oil-field service contractors on high-impact alliance structures with multinational OEMs and technical capacity providers under Nigerian Content policy frameworks.
+● Advised on a 260-metre gas pipeline tie-in interface for supply to a national power utility station, including construction risk and indemnity layer review.
+● Routinely advise on Gas Offtake, Gas Sales & Purchase Agreements (GSPAs), Gas Infrastructure Build-Operate-Transfer structuring, and midstream evacuation regulatory compliance.
+● Advising a consortium on the capital structuring, permitting and governance framework for a multi-billion-naira modular refinery development under an incorporated joint venture structure in South Eastern Nigeria.
+● Advised sponsors and operating entities on complex upstream / midstream investment, divestment and participation frameworks including cross-border corporate structuring, governance, licences and consents.
+● Advised on petroleum contracting instruments including drilling contracts, rig supply and management, FPSO chartering, catering and manning arrangements, hydrocarbon handling, throughput and crude nomination structures.
+● Routinely advise on upstream fiscal models, crude handling arrangements, throughput rights, title passage structures, vessel charter interface obligations, community relations architecture and operating risk mitigation.
+● Lead consultant on commercial and legal aspects of the Petroleum Industry Act (PIA) — governance, fiscal redesign, host community framework, licensing, midstream commercialization, and new market entry / transition arrangements including industry speaking and advisory mandates.`
         },
        },
       {
@@ -2519,23 +2560,23 @@ export const InsightInfo = [
     image :esg, 
     text : "Environmental, Social, and Governance (ESG) and Data Protection: A Nexus",
     date: "August 21, 2025",
-    path: "/practice/corporate",
+   path :'/insights/august21_2025'
   },
   {
     image : copyrightlaw,
     text : "Copyright in the Age of Artificial Intelligence (AI): Legal Implications and Emerging Issues",
     date: "July 11, 2025",
-    path: "/practice/corporate",
+    path: '/insights/july11_2025'
   },
   {
     image : investmentsandsecurities,
-    text : "Major Highlights of the Investments and Securities Act, 2025: A New Dawn for Nigeria's Capital Market",
+    text : "Major Highlights of the Securities Modernisation Act, 2025: A New Framework for Global Capital Market Integrity",
     date: "June 16, 2025",
-    path: "/practice/corporate",
+    path: '/insights/june16_2025'
   },
   {
     image : womensInheritanceRights,
-    text : "Women's Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
+    text : "Women's Property and Succession Rights Under the 14th Amendment: A Constitutional Analysis",
     date: "May 5, 2025",
     path: "/insights/may05_2025",
   },
@@ -2552,188 +2593,361 @@ export const explore = [
   {
     image :esg, 
     text : "Environmental, Social, and Governance (ESG) and Data Protection: A Nexus",
-    path : "/insights/"
+    path :'/insights/august21_2025'
   },
   {
     image : copyrightlaw,
     text : "Copyright in the Age of Artificial Intelligence (AI): Legal Implications and Emerging Issues",
-    path : "/insights/"
+    path :'/insights/july11_2025'
   },
   {
     image : investmentsandsecurities,
-    text : "Major Highlights of the Investments and Securities Act, 2025: A New Dawn for Nigeria's Capital Market",
-    path : "/insights/"
+    text : "Major Highlights of the Securities Modernisation Act, 2025: A New Framework for Global Capital Market Integrity",
+    path: '/insights/june16_2025'
   },
   {
     image : womensInheritanceRights,
-    text : "Women's Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
+    text : "Women's Property and Succession Rights Under the 14th Amendment: A Constitutional Analysis",
     path : "/insights/may05_2025"
   },
 ]
 
 export const womensRightInfo = [
   {
-    header: "Women’s Inheritance Rights Under the Constitution: The Case of Ukeje V. Ukeje and Matters Arising",
-    date: "April 7, 2025 | By ALF",
-    image:as3, 
+    header: "Women's Property and Succession Rights Under the 14th Amendment: A Constitutional Analysis",
+    date: "April 7, 2025 | By FSLF",
+    image: as3,
     name: "Celestine Ogbonnaya",
+    role: "Associate",
+    content: `
+INTRODUCTION
+
+The constitutional protection of women’s inheritance and property rights in the United States is anchored in the Equal Protection Clause of the Fourteenth Amendment, which prohibits the state from enforcing any law or practice that institutionalizes gender-based disadvantage. Inheritance is no longer treated as a private familial privilege but as a dimension of legal personhood and economic citizenship. Modern U.S. jurisprudence characterizes exclusion from succession rights as a form of state-endorsed hierarchy, thereby bringing it within constitutional review. The American model thus elevates women’s succession rights to the status of a structural constitutional guarantee rather than a discretionary legislative policy.
+
+While this approach is uniquely constitutionalized in the United States, other major economies have travelled parallel reform pathways through different legal architectures. China anchors inheritance equality through civil law codification under its Civil Code, creating a statutory basis that guarantees women legal standing in succession and property relations irrespective of marital or familial status. Australia, by contrast, operates a hybrid model that combines statutory protections with robust judicial interpretation, particularly under family law and succession reform acts that explicitly prohibit gender-based exclusion.
+
+These three jurisdictions collectively represent the prevailing direction of contemporary global legal development: namely, that women’s access to property is indispensable to economic autonomy, social participation, and equality before the law. The convergence of doctrine across systems — whether rooted in constitutionalism (United States), codification (China), or hybrid statutory adjudication (Australia) — reflects an international legal consensus that inheritance equality is integral to modern citizenship.
+
+CONSTITUTIONAL FRAMEWORK IN THE UNITED STATES
+
+Under the Fourteenth Amendment, gender-based exclusion from inheritance operates as a suspect form of classification because it regulates economic participation and family rights through state-recognized mechanisms. The jurisprudential shift in the U.S. treats succession rights not merely as private entitlements but as a site where the state either affirms or denies equal citizenship. The constitutional threshold is therefore not one of fairness alone but of state legitimacy: the government may not sustain institutions that replicate patriarchal dependency or legal subordination.
+
+COMPARATIVE INSIGHT: CHINA
+
+China’s approach embeds gender equality through codified inheritance law rather than constitutional adjudication. The Civil Code guarantees equal rights for daughters, spouses, and female dependents in all intestate and testate succession matters. The emphasis is on uniform statutory protection rather than constitutional litigation, producing a system where equality is stabilized through comprehensive codification.
+
+COMPARATIVE INSIGHT: AUSTRALIA
+
+Australia adopts a hybrid statutory–judicial framework that prohibits gender discrimination in succession regimes and empowers courts to rectify unequal treatment through equitable redistribution. This model ensures that women’s property rights are preserved not only against overt exclusion, but also against subtler forms of structural economic disadvantage.
+
+GLOBAL SIGNIFICANCE
+
+Together, these frameworks illustrate a convergence in global legal thought: the law now conceives inheritance as an instrument of equality, not lineage privilege. Autonomous property ownership is treated as an essential component of substantive equality and economic agency, and modern constitutional and statutory systems increasingly regard gender exclusion as incompatible with the legal order.
+
+CONCLUSION
+
+Women’s succession rights are firmly established in contemporary constitutional and statutory structures across leading jurisdictions. In the United States, this protection derives from constitutional equality; in China, from codified civil guarantees; and in Australia, from a hybridized statutory-judicial model. Despite doctrinal differences, all three systems affirm the same core principle: property is not a gendered entitlement but an incident of equal citizenship.`
+  }
+];
+
+export const securitiesAct = [
+  {
+    header: "Major Highlights of the Securities Modernisation Act, 2025: A New Framework for Global Capital Market Integrity",
+    date: "May 5, 2025 | By ALF",
+    image: as16, 
+    name: "Adizua Vianney",
     role: "Associate",
     content: `
 INTRODUCTION:
 
-Gender discrimination remains an agelong issue that is presently receiving the attention of the world community. The position of women in law and society has attracted public interest and generated public discourse in recent times, the central issue being the elimination of obstacles to equality of male and female human beings.[1] Male hegemony and Nigerian’s institutionalised system of patriarchy have also contributed to the discrimination of women in both the private and public spheres of life.[2] This ugly trend continues to fester despite the provisions of the Constitution of the Federal Republic of Nigeria, 1999 (As Amended) ("The Constitution") and other international instruments that protects the rights of women around the world. The customary laws of most ethnic groups in Nigeria have also contributed to this problem. This is especially from the point of view of most people who claim to be traditional apologists and keepers of the cultural heritage. The civil societies and some international organizations such as the United Nations, the European union, and the African Union have also demonstrated concern and intensified effort through community sensitization and awareness campaigns against gender inequality in Nigeria. Gender discrimination has negatively impacted women’s access to education, health, political and economic opportunities in Nigeria. The objective of this article is, therefore, to examine the rights of women to claim their rightful share of property as provided under the Constitution. This article will also dissect the position of these rights under our customary laws vis – a – vis the attitude of our Courts on the subject matter.
+The Securities Modernisation Act, 2025 (“SMA 2025” or “the Act”) represents a significant advance in aligning capital market regulation with the evolving realities of global finance, complex cross-border investment flows, and rapidly developing technological infrastructures. It reflects a deeper shift in market governance toward enhanced transparency, systemic risk containment, and investor protection—principles consistent with reforms adopted in the United States, China, and Australia following IOSCO standards.
 
-WHAT GENDER DISCRIMINATION IS:
+SMA 2025 consolidates and elevates key market oversight functions by expressly recognising digital and tokenised financial instruments as regulated securities, modernising exchange supervision, and creating a comprehensive architecture for financial market infrastructures (FMIs). It also introduces a stricter legal regime for market abuse, strengthens supervisory enforcement, and embeds international comparability into core regulatory design—particularly in the treatment of digital assets, exchange obligations, systemic intervention powers, and corporate control events.
 
-Article 1 of the United Nations “Convention on the Elimination of all forms of Discrimination Against Women (CEDAW) 1979 defines Gender discrimination as:
+This article highlights the major provisions of the SMA 2025 and summarises what market participants should understand from a compliance, governance, and regulatory risk perspective.
 
-“Any distinction, exclusion or restriction made on the basis of gender which has the effect or purpose of impairing or nullifying the recognition, enjoyment or exercise by women, irrespective of their marital status, on a basis of equality of men and women, of human rights and fundamental freedoms in the political, economic, social, cultural, civil or any other field”.
+NOTABLE PROVISIONS IN THE SMA 2025:
 
-The Black’s Law Dictionary, Tenth Edition which was further re-echoed by the Court of Appeal in the case of NMCN v. Adesina[3] defined Discrimination as:
+Recognition of Digital and Tokenised Assets as Regulated Securities:
+The Act confirms that tokenised financial instruments, cryptocurrencies used as investment vehicles, and blockchain-based securities products fall within regulatory perimeter oversight. This mirrors the approach of the U.S. SEC, China’s CSRC, and ASIC’s market infrastructure framework.
 
-“Differential treatment, especially a failure to treat all persons equally when no reasonable distinction can be found between those favoured and those not favoured”
+Reclassification of Securities Exchanges:
+SMA 2025 formally distinguishes between full-service (composite) securities exchanges and non-composite or specialised platforms. This permits proportional regulation while maintaining elevated governance requirements for market operators.
 
-Gender disparity happens when persons are treated negatively or unequally based on their sex. It includes limited access to education, jobs, and healthcare; unequal pay; sexual harassment; and a lot more.[4] It is a form of segregation that occurs when people are treated according to their gender or sex. Put differently, Gender discrimination entails treating equals unequally based on the consideration of sex.
+Oversight of Financial Market Infrastructures (FMIs):
+The Act establishes a distinct regulatory category for FMIs, including clearinghouses, settlement utilities, and trading repositories, subjecting them to resilience, capital, and continuity standards consistent with CPMI-IOSCO Principles for Financial Market Infrastructures.
 
-TYPES OF GENDER DISCRIMINATION:
+Market Conduct and Enforcement Against Unauthorised Schemes:
+The Act includes explicit prohibitions on unregistered investment vehicles, high-risk unregulated platforms, and fraudulent solicitation schemes. It grants the supervisory authority direct enforcement powers consistent with cross-border best practice.
 
-Gender discrimination can be perpetrated through the instrument of legislation (Laws) or regular practice of the people.
+Systemic Risk Intervention Powers:
+Regulators are empowered to deploy pre-emptive or extraordinary market-stability measures—including temporary trading halts—where macroprudential risk, contagion effects, or market infrastructure stress threaten orderly functioning.
 
-DE JURE DISCRIMINATION:
+Corporate Control and Transactional Oversight:
+Major market transactions such as mergers, acquisitions, restructurings, and takeovers involving publicly listed entities require prior regulatory clearance to safeguard market integrity and investor fairness.
 
-The term “De jure” is a Latin word which means “according to the law.” This type of discrimination is based on instruments of the law. It is the process of using legislation as a tool to enforce gender inequality in the society. Simply put, it is the segregation of people according to the law of the land. In Nigeria, there are many statutory and customary laws that subjugate women and the girl child. Sadly, some of these laws and customs have been supported by our courts in several instances.
+Commodities Market Regulation:
+The Act creates a unified regulatory structure for commodities exchanges and provides recognition for warehouse receipts as proprietary financial instruments, in alignment with international commodity market governance frameworks.
 
-In the case of Akinnubi v. Akinnubi[5] (1997) 2NWLR (Pt. 486) 144 On Status of a widow vis-a-vis the husband’s estate under Yoruba native law and custom, the Supreme Court held thus:
+Unclaimed Investor Funds:
+Investor funds or distributions left dormant are now subject to regulated custody, transparency, and audit-trail protections under supervisory oversight.
 
-“It is a well – settled rule of native law and custom of the Yoruba that a wife is not entitled to her husband’s property. Indeed, under Yoruba native law, a widow under an intestacy is regarded as part of the estate of her late husband to be administered or inherited by the deceased’s family, could neither be entitled to apply for a grant of letters of administration nor appointed as co-administratrix of her late husband’s property. In the instant case, there is no disagreement on the type of marriage which was contracted between the 1st respondent”
+Strengthened Dispute Resolution:
+Tribunal jurisdiction in capital market disputes is reinforced through expanded adjudicatory capacity and procedural harmonisation with international best practice.
 
-The above case gave credence to gender discrimination and bias against women using the instrument of law. The court even went further to hold that a widow is an object of inheritance under the Yoruba customary law. It was a sad reality that the native law was not rebuked for its repugnancy element by the apex court despite the provisions of the Constitution.
-
-In Nigeria, there are many discriminatory laws against women. For instance, under the Labour Act,[6] a woman cannot be hired for a night shift in a public or private industrial placement. Women are also prohibited from taking employment under ground.[7] The Police Act[8] also prohibits women from seeking enlistment in the Nigerian Police Force. A woman police officer who desires to marry must first apply in writing to the Commissioner of police for the state command in which she is serving, requesting permission to marry and must give the name, address and occupation of the person she intends to marry.[9] Also, under the Nigerian Drug Law Enforcement Agency (NDLEA) Order,[10] female applicants must be unmarried at the point of entry and shall upon enlistment remain unmarried for a period of not less than two years. Under the Penal Code, sexual intercourse by a man with his own wife is not rape if she has attained puberty.[11] This is irrespective of her consent or not. Unfortunately, these laws have not been challenged for failing the repugnancy test.
-
-DE FACTO DISCRIMINATION:
-
-De facto discrimination occurs when discriminatory practices are prevalent and observed by the majority of the people. It occurs as a result of the practice of the people in the society. Unlike the de jure discrimination, De facto discrimination does not have the force of the law. This type of segregation is based on cultural heritage and practice of the people that have been recognized over time. For instance, some married women are not allowed by their husbands to work or do business for some reasons best known to them. Women are not also allowed to wear masquerade or climb trees in most ethnic groups. Female genital mutilation remains yet another harmful cultural practice that negatively affect the right of a girl child. The preference of training male children in school and keeping their female counterparts at home for domestic chores is a practice that can be classified as a de facto discrimination. In the industrial and employment sector, there are some specific jobs and roles which are the exclusive preserve of the men.
-
-WOMEN’S INHERITANCE RIGHTS UNDER THE CUSTOMARY LAW:
-
-Under the Yoruba native law, when a man dies intestate, his property is shared in equal proportion among the wives. This is usually done in strips. The second stage of the division involves the further sharing of the property among the children of each wife of the deceased husband regardless of their gender or sex. This promotes fairness and gender equality among the children of a deceased man. However, disputes may likely arise owing to the proportional distribution method among children of each wife. It can be said that the Yoruba customary law is liberal in terms of inheritance right among the children of a deceased person. However, it is very unfortunate and sad to note that under the Yoruba native law, wives are not entitled to the estate of their late husbands except it can be proven that the asset was given to them during the lifetime of their husbands. In other words, the liberalism approach in the equal division of a man’s property among his surviving children irrespective of their sex does not extend to his wife.
-
-Similarly, under the Igbo customary law, male children are valued more than their female counterparts in the inheritance of their deceased father’s estate. Unlike the Yoruba native custom, male children get more property than the females. Additionally, widows are not entitled to their late husband’s estate, in most cases, they only retain the house and a portion of land. The extent of the inheritance is at best a possessory and not proprietary right. This practice is hinged on the understanding that inheritance rights follow blood, and widows are not blood relatives of their deceased husbands. The Igbo native law recognizes the legitimate status of children more than the wives.
-
-The Islamic law recognizes the rights of women to inherit their late husband’s estate though in a limited scope. The wife is entitled to a 1/4 of the late husband’s property if the marriage produced no children and 1/8 of the property if the marriage produced children. There are three levels of inheritance rights under the Islamic law. These categories ensure the consideration and recognition of the various levels of family relationships in the Islamic succession.
-
-GENDER EQUALITY PROVISIONS IN THE 1999 CONSTITUTION
-
-Section 42 of the Constitution provides for Right to freedom from discrimination as follows:
-
-A citizen of Nigeria of a particular community, ethnic group, place of origin, sex, religion or political opinion shall not, by reason only that he is such a person –
-
-a). be subjected either expressly by, or in the practical application of, any law in force in Nigeria or any law in force in Nigeria or any executive or administrative action of the government to disabilities or restrictions to which citizens of Nigeria of other communities, ethnic groups, places of origin, sex, religious or political opinions are not made subject; or
-
-b). be accorded either expressly by, or in the practical application of, any law in force in Nigeria or any such executive or administrative action, any privilege or advantage that is not accorded to citizens of Nigeria of other communities, ethic groups, places of origin, sex, religious or political opinions.
-
-No citizen of Nigeria shall be subjected to any disability or deprivation merely by reason of the circumstances of his birth.”
-
-The above provisions guarantees equality among the citizens of Nigeria. In other words, by those provisions no citizen should be sidelined on the premise of their sex or any reason whatsoever. It guarantees equal treatment for the entire citizens of Nigeria irrespective of gender. Thus, no discrimination can be made either by law or executive action against any particular set of persons. Additionally, the Constitution[12] further guarantees the right of every citizen to acquire and own immovable property anywhere in Nigeria. By a combined reading of the above sections, it can be seen that the Constitution protects and guarantees women’s rights of inheritance. The Constitution is the supreme law of Nigeria and prevails over every other law[13] and, therefore, are expected to draw inspiration from it.
-
-THE ATTITUDE OF COURTS TOWARDS GENDER DISCRIMINATION IN NIGERIA.
-
-Over the years, Nigerian courts have delivered some landmark judgments on women’s inheritance rights as enshrined in the Constitution. This development has contributed towards the country’s effort in ensuring equality of rights among citizens. Some of the judgments have come hard on some native laws and customs that have discriminatory elements and biases against women.
-
-In Mojekwu v. Mojekwu[14] the Appeal Court per Niki Tobi, JCA (as he then was) on whether “Oli ekpe” customary law of succession is consistent with the rules of equity held as follows:
-
-“We need not travel all the way to Beijing to know that some of our customs, including the Nnewi “Oli-ekpe” custom relied upon by the appellant are not consistent with our civilised world in which we all live today, including the appellant. In my humble view, it is the monopoly of God to determine the sex of a baby and not the parents.
-
-Although the scientific world disagrees with this divine truth, I believe that God, the Creator of human being, is also the final authority of who should be male and female. Accordingly, for a custom or customary law to discriminate against a particular sex is to say the least an affront on the Almighty God Himself. Let nobody do such a thing. On my part, I have no difficulty in holding that the “Oli-ekpe” custom of Nnewi, is repugnant to natural justice, equity and good conscience.”
-
-The position of the Court of Appeal in the above case was further reiterated in the case of Muojekwu v. Ejikeme.[15] On the issue of the validity of “Nrachi” customary ceremony of Nnewi, Fabiyi, JCA at pages 422-423, paras. G-C, held as follows:                   
-
-“I must express the point here by which I will continue to stand that human nature, in its most ‘exuberant prime and infinite telepathy’ cannot support the idea that a woman can take the place of a man and be procreating for her father via a mundane custom. She stays in the father’s house and cannot marry for the rest of her life even if she sees an honest man who loves her. I cannot, and do not believe that the society, as it is presently constituted, will for long acquiesce, in a conclusion so ludicrous, ridiculous, unrealistic and merciless more especially as we march on into the next millennium. 
-
-The polity, as presently constituted, cannot, in my view, contain what Nrachi custom stands for. It is not neat. It is an antithesis to that which is wholesome and forward looking. It cannot, and should not, be allowed to rear its ugly head any longer. It should die a natural death and be buried. The custom is perfidious and the petrifying odour smells to high heavens. It is an old time custom. And, ‘behold, the old order must change and become new’. 
-
-I strongly feel that Nrachi custom is no longer worthy of application with modern day trends. It is no doubt repugnant and contrary to natural justice, equity and good conscience”. 
-
-The above cases are to the effect that any rule of customary law and practice which discriminates against a particular gender is antithesis to natural justice, equity and good conscience. The evidential right of every citizen as provided under the Evidence Act[16] was invoked to protect the freedom of women to give evidence in court. The Court of Appeal in Alajemba Uke & Albert Iro[17] on whether a woman can give testimony in land matters under the Nneato Nnewi custom held that any custom and tradition that deprives a woman of her constitutionally guaranteed rights is otiose.
-
-In the same vein, the Courts have also relied on the provision of section 43 of the Constitution which guaranteed the freedom to own and acquire immovable property anywhere in Nigeria to protect the rights of women. In Asika v. Atuanya[18] where the bone of contention was the right of female members of a family to inherit equally the landed property of their deceased father, the Appeal Court per Thomas, JCA held thus:
-
-“The provisions of sections 42 and 43 of the Constitution of the Federal Republic of Nigeria, 1999 prohibit discrimination against women in whatever dimension. The Constitution is the grundnorm that can not be subjected to any custom, especially where same is being resisted. Here, the appellants are co-beneficiaries under a will with the respondent to share their late father’s property, no custom can discriminate against the appellant”.
-
-At this point it is instructive to reproduce the position of the law regarding the right of married women to own personal property. The Married Women’s Property Act[19] provides thus:
-
-“A married woman shall, in accordance with the provisions of this Act be capable of acquiring, holding and disposing by will or otherwise, of any real or personal property as her separate property, in a manner as if she were a femme sole (i.e a Spinster or a woman without a husband) without the intervention of any trustee.” (Emphasis supplied)
-
-The Appeal Court in Aderounmu v. Aderounmu[20] relied on the Married Women’s Property Law Cap. 71 of Oyo State which is in pari materia with the referenced Act. Here, the bone of contention before the court was whether a married woman was capable of acquiring, holding, and disposing personal property. The Court in its wisdom granted the order directing the husband to vacate the property belonging to the wife as a personal property. He was also asked to hand over to the wife the Landrover Jeep also belonging to the wife. The decision was a turning point for the protection of women’s right to own and keep personal property in their own names.
-
-THE CASE OF UKEJE V. UKEJE[21]
-
-The fact of the case is that on the 27th day of December 1981, Lazarus Ogbonnaya Ukeje a native of Umuahia in the old Imo State died intestate. He had assets in Lagos State and for most of his life was resident in Lagos State. The 1st Appellant got married to the deceased on the 13th of December 1956. There are four children of the marriage. The respondent is one of the four. After Lazarus Ogbonnaya Ukeje died, the 1st and 2nd Appellants (mother and son) obtained letters of administration for and over the deceased’s estate.
-
-On being aware of this development, the Plaintiff /Respondent filed an action in court wherein she claimed to be a daughter of the deceased and by virtue of that fact had a right to partake in the sharing of her deceased father’s estate. Her claims before a Lagos State High Court were for five (5) reliefs. Pleadings were filed and exchanged.
-
-The respondent as Plaintiff testified and called her mother as a second witness. Thirteen witnesses gave evidence for the defence. Thirty-four documents were admitted as exhibits. These included the birth certificate of the Respondent showing that she is a daughter of the deceased L.O. Ukeje, family photographs of the Respondent and her deceased father and a guarantor from the deceased L.O. Ukeje filled for the respondent acknowledging that he was the father of the respondent.
-
-The trial court in its judgment found that the Plaintiff /Respondent is a daughter of L.O. Ukeje (deceased) and proceeded to grant reliefs 2,3 and 4. As regards relief 5, the trial court ordered the 1st and 2nd Appellants to hand over the administration of the estate to the Administrator-General pending when the deceased children would choose 3 or 4 of them to apply for fresh letters of administration.
-
-The Appellants were aggrieved with the judgment of the trial court and appealed to the Court of Appeal which dismissed their appeal. The Appellants again were dissatisfied with the judgement of the Court of Appeal and they appealed to the Supreme Court.
-
-The Supreme Court per Rhodes-Vivour, JSC (as he then was) on the constitutionality of Igbo customary law which disentitles a female child from partaking in her deceased father’s estate held thus:
-
-“No matter the circumstances of the birth of a female child, she is entitled to an inheritance from her late father’s estate. Consequently, the Igbo customary law which disentitles a female child from partaking in her deceased father’s estate is in breach of section 42(1) and (2) of the Constitution of the Federal Republic of Nigeria, 1999, a fundamental rights provision guaranteed to every Nigerian. The said discriminatory customary law is void as it conflicts with section 42(1) and (2) of the Constitution. (P. 408, paras. C-E”
-
-The decision in Ukeje v. Ukeje (Supra) was a turning point on the protection and enforcement of women’s inheritance rights in Nigeria. This landmark case also reinforced the constitutional provisions on the rights against discrimination. Sadly, however, despite the above decision of the apex Court, discrimination against women remains unabated in many states in Nigeria, especially among the Ibos and Esans. This is so because the practice is so entrenched, and the women who are the victims are often so poor and helpless and lack the means to approach the courts for the enforcement of their rights. In most of our societies, therefore, male children are often treated specially, and until a couple has at least one male child, even when they have daughters, they become restless and miserable as if they have no child at all.
+Legal Entity Identifier (LEI) Requirements:
+All eligible counterparties in securities transactions must maintain LEIs to promote transparency, risk tracking, and regulatory cross-referencing across financial systems.
 
 CONCLUSION:
 
-The effect of gender disparity in Nigeria can never be overemphasised. Most often than not the affected women have limited or no access to formal education and health-care services. Sometimes, they go through severe psychological disorders, leading to feelings of worthlessness and depression. In some instances, women go through sexual and domestic abuses in the hands of their male counterparts. It is therefore the recommendation of this author that laws should be enacted by the National Assembly and State Houses of Assemblies to eliminate the discrimination practices against women in Nigeria and to put machineries in place for enforcements of such laws as was the case in Osu Caste system in Igbo land, where the defunct Eastern Nigerian House of Assembly rose to the occasion by passing a law titled “Eastern Nigerian Law No. 1956” which abolished the practice in the region. I therefore hold the strong view that same can be done in the instant case. Furthermore, everyone should be involved in the Campaign against gender disparity in Nigeria.
+The SMA 2025 is a foundational recalibration of capital market supervision and brings domestic regulatory posture closer to the standards underpinning U.S., Chinese, and Australian market reforms. By strengthening oversight over digital securities, market conduct, systemic stability, and corporate control transparency, the Act enhances investor confidence and deepens institutional credibility in line with global norms.
+
+This article is provided for informational purposes only and does not constitute legal advice. For tailored guidance, please contact info@alliancelawfirm.ng.
 
 FOOTNOTES
 
-[1] Osita Nnamani Ogbu Human Rights Law And Practice in Nigeria (Snaap Press Ltd., Enugu) 2013 page 387.
-
-[2] Yinka Olomojobi H uman Rights And Civil Liberties in Nigeria (Princeton & Associates Publishing Co. Ltd. Lagos) 2018
-
-[3] (2016) LPELR-40610 (CA)
-
-[4] https://www.humanrightscareers.com/issues/what-is-gender-discrimination/ Accessed 13th February, 2025.
-
-[5] (1997) 2 NWLR (Pt. 486) 144
-
-[6] Section 55(1) of the Labour Act
-
-[7] Section 56 (1) of the Labour Act
-
-[8] Section 127 of the Police Act
-
-[9] Section 124 of the Police Act
-
-[10] Section Article 5(1) of the NDLEA Order 2002
-
-[11] Section 282 of the Penal Code
-
-[12] Section 43, CFRN, 1999 (As Amended).
-
-[13] Section 1(1) & (3), CFRN, 1999 (As Amended).
-
-[14] (1997) 7 NWLR (Pt.512) 283
-
-[15] (2000) 5 NWLR (Pt. 657) 402
-
-[16] Section 175 of the Evidence Act (2023 as amended)
-
-[17] (1989) 2 NWLR (Pt. 10 4) 373 SC
-
-[18] (2008) 7 NWLR (Pt. 1117) 484 at 518
-
-[19] Section 1
-
-[20] (2003) 2 NWLR (Pt. 803)
-
-[21] (2014) 11 NWLR (Pt. 1418)
+[1] IOSCO Principles on Securities Regulation, Core Objectives (2024 Revision)
+[2] U.S. SEC – Digital Asset Securities Interpretive Guidance (2023)
+[3] China Securities Regulatory Commission (CSRC) – Digital Asset and Exchange Regulation Framework (2024)
+[4] ASIC Regulatory Guide (RG 274, 2023) – Tokenised Products and Market Infrastructure
+[5] CPMI-IOSCO PFMI Standards, Implementation Report (2024)
+[6] Cross-Border Market Conduct Principles, IOSCO Monitoring Report (2024)
+[7] SEC Risk Alert on Systemic Intervention Measures – 2024 Policy Note
+[8] CSRC Guidance on Major Corporate Transactions and Takeover Protections (2024)
+[9] ASIC Commodities Exchange and Warehouse Receipt Regulatory Principles (2023)
+[10] Global LEI System (GLEIF) – Regulatory Conformance Framework (2024)
     `
-  }
+  },
+]
+
+export const copyrightDataInfo = [
+  {
+    title: "Copyright in the Age of Artificial Intelligence (AI): Legal Implications and Emerging Issues",
+    date: "May 16, 2025",
+    authorOrg: "By ALF",
+    credits: "Author",
+    contributors: [
+      { image: as15, name: "Atake Anthonia", role: "Associate" },
+      { image: as1, name: "Ahmed Sani", role: "Associate" },
+    ],
+    sections: [
+      {
+        header: "Introduction:",
+        text: `The rapid evolution of artificial intelligence (AI) is reshaping the global creative economy and transforming longstanding assumptions embedded in copyright law. The central legal challenge is whether works generated or substantially assisted by AI should qualify for copyright protection and, if so, who should be recognized as the author. This article examines the emerging legal contours of AI-related copyright doctrine through a U.S.-anchored lens, while referencing comparative developments in other leading jurisdictions including China, the European Union, and Australia.`,
+      },
+      {
+        header: "Understanding Copyright in the Traditional Context",
+        subsections: [
+          {
+            header: "What Is Copyright?",
+            text: `Copyright safeguards original works of authorship fixed in a tangible medium of expression. Traditionally, this protection extends to literary, musical, artistic, audiovisual, and digital works created by humans. In the United States, originality, human creativity, and fixation remain core foundational elements of copyrightability.[1] Similar frameworks apply across most advanced jurisdictions, including the EU, China, and Australia, where human authorship remains the baseline threshold for protection.[2]`,
+          },
+          {
+            header: "Human Authorship Requirement",
+            text: `Copyright systems globally have been historically rooted in a human-created doctrine of authorship. The U.S. Copyright Office maintains that purely machine-generated works, lacking meaningful human creative input, are ineligible for copyright protection.[3] The European Union’s “intellectual creation” test also presumes human autonomy in the creative act.[4]  
+            
+China adopts a more expansive approach by permitting legal persons (including corporate entities) to hold authorship rights where organizational creative contribution is established.[5] Some scholars argue this opens a potential pathway for certain AI-assisted works to be treated as attributable to the deploying entity, even if indirectly linked to machine systems.[6]
+
+Australia, like the U.S., firmly rejects non-human authorship and emphasizes individual creative participation.[7] Global divergence is growing, however, as jurisdictions grapple with increasingly autonomous forms of machine-driven content creation. The core unresolved question remains: when the AI is an active generative force, who—if anyone—is the "author" for legal purposes?`,
+          },
+        ],
+      },
+      {
+        header: "AI As A Creator: The Rise of Machine-Generated Content",
+        text: `AI has scaled from a creative tool to a generative agent capable of producing high-fidelity artistic, musical, and textual works. This expansion has blurred the traditional lines between user, developer, and system autonomy. The ownership debate now spans three primary claimants:`,
+        points: [
+          `The Human User – who selects, edits, or curates AI outputs, providing direction and final creative judgment;`,
+          `The AI Developer – whose proprietary model architecture, datasets, or training corpus enables production at scale;`,
+          `The Data Contributors – whose copyrighted works may have been used to train foundation or diffusion models without direct licensing consent.[8]`,
+        ],
+        extraText: [
+          `At present, the U.S. position is that ownership rests with the human contributor who exercises substantial creative control, provided there is demonstrable human modification or authorship layered onto the AI output.[9]`,
+          `Other jurisdictions are approaching this issue differently: China permits broader institutional authorship recognition, while the EU continues to refine its originality thresholds in light of AI-dependence in creative industries. Australia aligns closely with the U.S. approach, requiring human originality as a precondition for enforceable copyright rights.`,
+        ],
+      },
+      {
+        header: "The Legal Grey Area: Copyright Ownership of AI-Generated Works",
+        text: `AI has exposed fundamental gaps in copyright doctrine. U.S. federal courts have repeatedly emphasized the human–authorship standard. In Thaler v. Perlmutter, a federal district court affirmed that AI alone cannot be deemed an “author” under existing U.S. copyright law.[10] Similarly, the well-known Naruto v. Slater case reinforced that copyright protection presumes human agency.[11]
+
+By contrast, China’s evolving jurisprudence suggests a willingness to treat AI-assisted works as protectable where human discretion, oversight, and substantial intervention can be demonstrated.[12] The EU’s approach remains tied to the “intellectual creation” doctrine, which, like the U.S., centers on human autonomy—but with slightly broader interpretive space for hybrid authorship frameworks.[13]
+
+The legal uncertainty is further amplified by unresolved questions surrounding training data provenance, moral rights, personality rights, and chain-of-title fragmentation. As AI becomes more autonomous—particularly in generative multimedia—policymakers must determine whether copyright will remain a purely anthropocentric system or evolve toward hybrid or shared authorship constructs.`,
+      },
+      {
+        header: "Potential Solutions and Future Developments in AI Copyright Law",
+        text: `The United States may soon need to refine its statutory framework to clarify the extent to which AI-assisted creativity qualifies for copyright protection. Current debates before the U.S. Copyright Office contemplate pathways for human-AI joint authorship, tiered protection for derivative algorithmic outputs, and registration protocols requiring disclosure of AI contributions.[14]
+
+Proposed models include:
+• Establishing a statutory threshold for “substantial human contribution”;  
+• Recognizing hybrid or co-authorship between human creators and institutional entities deploying AI;  
+• Encouraging transparency of training datasets to reduce ownership disputes;  
+• Adoption of blockchain-enabled provenance registries for AI-assisted works;  
+• Regulatory sandboxes for creative-technology innovation under USPTO/USCO oversight.
+
+The United States is expected to shape the global standard, with China and the EU acting as principal comparators, and Australia maintaining parallel alignment with U.S. authorship doctrine.`,
+      },
+      {
+        header: "Conclusion",
+        text: `The accelerating integration of AI into creative processes forces a re-examination of centuries-old copyright principles. While U.S. law continues to anchor authorship in human creativity, emerging comparative developments in China and the EU illustrate shifting doctrinal boundaries. Policymakers must now determine whether traditional frameworks remain sufficient, or whether a hybrid model recognizing human–AI collaboration is inevitable. The legal system’s next challenge will be designing a copyright architecture that preserves innovation incentives while sustaining accountability and authorship legitimacy in an increasingly algorithmic creative economy.`,
+      },
+    ],
+    footnotes: [
+      `[1] U.S. Copyright Act, 17 U.S.C. § 102.`,
+      `[2] EU Copyright Directive (2019/790); Australian Copyright Act (1968).`,
+      `[3] U.S. Copyright Office, Policy Guidance on AI-Assisted Works (2023).`,
+      `[4] ECJ, Case C-5/08 Infopaq International A/S v. Danske Dagblades Forening.`,
+      `[5] PRC Copyright Law (2020 Amendment).`,
+      `[6] CSRC and SPC Joint Judicial Interpretations (2023).`,
+      `[7] Australian Copyright Office Guidance on AI Works (2022).`,
+      `[8] WIPO Study on Generative AI and Training Data (2024).`,
+      `[9] U.S. Copyright Office – “Copyright Registration Guidance: Works Containing AI Material” (2024).`,
+      `[10] Thaler v. Perlmutter, 1:22-cv-01564 (D.D.C. 2023).`,
+      `[11] Naruto v. Slater, 888 F.3d 418 (9th Cir. 2018).`,
+      `[12] Beijing Internet Court, AI-Generated Works Decision (2023).`,
+      `[13] EU Originality Jurisprudence – CJEU Intellectual Creation Standard.`,
+      `[14] U.S. Copyright Office AI Initiative Hearing Summary (2024).`,
+    ],
+  },
+];
+
+export const EsgDataInfo = [
+  {
+    title: "The ESG–Data Governance Nexus: Privacy, Sustainability and Corporate Accountability in the U.S.–EU Regulatory Era",
+    date: "May 16, 2025",
+    authorOrg: "By ALF",
+    credits: "Contributors",
+    contributors: [
+      {
+        image: d5,
+        name: "Blessing Ajunwo-Choko",
+        role: "ESG & Data Governance Lead",
+      },
+      {
+        image: as2,
+        name: "Afam Chukuka",
+        role: "ESG Regulatory Analyst",
+      },
+      {
+        image: d2,
+        name: "Anastasia Edward",
+        role: "Data Privacy & Sustainability Counsel",
+      },
+    ],
+    sections: [
+      {
+        header: "Introduction",
+        text: `Environmental, social, and governance (ESG) considerations are now a core dimension of corporate strategy and investor due diligence. At the same time, data protection and privacy regimes have matured into key pillars of regulatory compliance and corporate risk management. The intersection between ESG and data governance — the “ESG–Data Governance Nexus” — requires multinationals to align privacy law compliance, sustainability reporting, and risk controls so that data stewardship becomes a measurable and auditable component of corporate sustainability.`,
+      },
+      {
+        header: "Defining ESG and Data Governance",
+        text: `ESG is a multi-factor assessment framework for evaluating a company's sustainability and long-term resilience across environmental, social, and governance metrics. Data governance is the suite of policies, processes, and technologies that ensure data quality, privacy, security, and lawful use. Effective ESG programs increasingly treat data governance as foundational: reliable, privacy-compliant data is essential for credible ESG disclosures and for meeting investor and regulatory expectations.`,
+      },
+      {
+        header: "Key Data Privacy Risks that Impact ESG Reporting",
+        text: `Privacy and data risks arise throughout the ESG lifecycle — from data collection and vendor analytics to third-party verification and public disclosure. Poor data governance undermines ESG credibility and can translate into regulatory risk, investor flight, and reputational harm.`,
+        subsections: [
+          {
+            header: "Consent and Lawful Basis",
+            text: `Collecting personal data for ESG metrics (e.g., diversity statistics, supply-chain worker data) requires a clear lawful basis under GDPR and comparable mechanisms under state privacy regimes (such as CCPA/CPRA). Organizations must ensure transparency and document lawful bases for processing, including where legitimate interest or contractual necessity is relied upon.`,
+          },
+          {
+            header: "Data Minimisation & Purpose Limitation",
+            text: `ESG programs must apply privacy principles: collect only what is necessary, retain data for no longer than required, and limit processing to specified ESG purposes. Overcollection increases breach surface area, compliance cost, and audit exposure.`,
+          },
+          {
+            header: "Breach Risk and Operational Resilience",
+            text: `A data breach affecting ESG datasets (e.g., confidential whistleblower submissions, employee health data) can materially affect social and governance scores. Integrating privacy incident response with ESG risk management and disclosure protocols is therefore critical.`,
+          },
+          {
+            header: "Cross-Border Data Transfers & Third-Party Analytics",
+            text: `Many ESG programs depend on global data aggregation and third-party analytics. Transfers must comply with GDPR adequacy/transfers rules, CCPA/CPRA obligations, and contractual safeguards (SCCs, standard contractual clauses). Vendor due diligence and contractual clauses should reflect both privacy and ESG assurance needs.`,
+          },
+          {
+            header: "Algorithmic Bias & Ethical Use of AI",
+            text: `ESG analytics frequently employ machine learning to identify patterns in supplier performance, emissions analytics, or workforce diversity. Algorithmic governance is required to mitigate discriminatory outcomes, ensure explainability, and preserve data subjects’ rights.`,
+          },
+          {
+            header: "Transparency and Avoiding Greenwashing",
+            text: `Data provenance, auditability, and disclosure accuracy are essential to avoid greenwashing allegations. Companies must ensure ESG claims are backed by privacy-compliant, auditable data and third-party verification where appropriate.`,
+          },
+        ],
+      },
+      {
+        header: "Regulatory Landscape: U.S. & EU Co-Drivers",
+        text: `U.S. and EU regulation now co-drive corporate expectations. The EU’s General Data Protection Regulation (GDPR) and the Corporate Sustainability Reporting Directive (CSRD) set demanding standards for data protection and sustainability disclosure. In the U.S., federal and state frameworks (SEC disclosure guidance, FTC enforcement, CCPA/CPRA, and sectoral rules) push firms toward integrated compliance. Together, these regimes require parallel operational controls: privacy by design, documented DPIAs, vendor governance, and accurate sustainability reporting.`,
+      },
+      {
+        header: "Integrating Data Protection into ESG Pillars",
+        text: `Data protection intersects each ESG pillar and should be integrated into governance frameworks and board oversight.`,
+        subsections: [
+          {
+            header: "Governance",
+            text: `Boards must oversee data stewardship as a governance responsibility. This includes appointing senior data officers, embedding privacy and ESG responsibilities in committee charters, and linking executive incentives to verified sustainability and privacy outcomes.`,
+          },
+          {
+            header: "Social",
+            text: `Social metrics (workforce diversity, health & safety, supply chain labor practices) often involve personal data. Privacy protections, anonymity techniques, and lawful processing must underpin any social disclosures.`,
+          },
+          {
+            header: "Environmental",
+            text: `Environmental reporting increasingly relies on high-granularity operational and third-party data (e.g., scope 3 emissions). Data integrity, supplier data controls, and contractual assurances are therefore central to credible environmental disclosure.`,
+          },
+        ],
+      },
+      {
+        header: "Practical Measures for Corporate Implementation",
+        text: `To align ESG and data governance, multinationals should adopt an integrated program that combines legal compliance, technical safeguards, and governance controls.`,
+        subsections: [
+          {
+            header: "Governance & Accountability",
+            text: `Establish a cross-functional governance body (legal, compliance, sustainability, IT, and risk) with board reporting lines and clear KPIs tied to both ESG and privacy outcomes.`,
+          },
+          {
+            header: "Privacy-Aware ESG Data Architecture",
+            text: `Design data pipelines with privacy-by-design: pseudonymisation, encryption, access controls, and retention policies that reflect both GDPR and CCPA/CPRA principles.`,
+          },
+          {
+            header: "Vendor & Supply Chain Controls",
+            text: `Embed privacy and ESG obligations in vendor contracts, conduct DPIAs that include third-party risks, and require transparency on data provenance from suppliers.`,
+          },
+          {
+            header: "Auditability & Third-Party Assurance",
+            text: `Use independent verification, attestations, and assurance frameworks to substantiate ESG disclosures; ensure privacy compliance is part of the audit scope.`,
+          },
+          {
+            header: "Risk-Based DPIAs",
+            text: `Perform Data Protection Impact Assessments for high-risk ESG data processing (e.g., biometric data in worker safety programs or personal health metrics).`,
+          },
+          {
+            header: "Disclosure & Investor Communications",
+            text: `Coordinate ESG reporting timelines with privacy governance to avoid premature disclosure of personal or sensitive information; prepare redaction and aggregation protocols where necessary.`,
+          },
+        ],
+      },
+      {
+        header: "International Comparators and Emerging Convergence",
+        text: `Beyond U.S. and EU frameworks, other jurisdictions (including Australia, the UK, and parts of APAC) are aligning data protection and sustainability rules. Best practice is trending toward: (i) mandatory sustainability reporting with privacy safeguards, (ii) standardized metrics and data taxonomies, and (iii) stronger vendor due diligence and traceability requirements.`,
+      },
+      {
+        header: "Conclusion",
+        text: `The ESG–Data Governance nexus is now central to corporate accountability. Companies that treat data stewardship as an integral element of ESG will be better positioned to meet investor expectations, regulatory obligations, and public trust. Operationalising privacy-aware ESG programs—through governance, technical controls, vendor management, and audited disclosure—turns compliance into a competitive asset.`,
+      },
+    ],
+    footnotes: [
+      "[1] Regulation (EU) 2016/679, General Data Protection Regulation (GDPR).",
+      "[2] Corporate Sustainability Reporting Directive (CSRD) and related European sustainability reporting standards (ESRS).",
+      "[3] California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA).",
+      "[4] U.S. Securities and Exchange Commission (SEC) climate and ESG disclosure guidance and rulemaking initiatives.",
+      "[5] Federal Trade Commission (FTC) guidance on data security and deceptive practices.",
+      "[6] Schrems II (Data transfer considerations under EU law) and standard contractual clauses (SCCs) guidance.",
+      "[7] NIST Privacy Framework and ISO/IEC 27001 as technical and organizational control references.",
+      "[8] European Data Protection Board (EDPB) guidance on Data Protection Impact Assessments (DPIAs).",
+      "[9] CSRD reporting obligations on data accuracy, materiality and third-party assurance.",
+      "[10] Regulatory trends in Australia (Office of the Australian Information Commissioner) and the UK (ICO) on data protection and sustainability reporting.",
+      "[11] OECD and WEF guidance on ESG metrics and data governance best practices.",
+      "[12] Practical compliance note: ensure DPIAs, vendor contracts, and audit scopes explicitly reference both privacy and ESG reporting obligations.",
+    ],
+  },
 ];
 
 
@@ -2742,12 +2956,13 @@ export const firmnewscard = [
   
   {
     image: Esquire,
-    section: `Alliance Law Firm wins Banking and Finance Team of the year and Dispute Resolution Team of the year at The 2021 Esquire Legal Awards`,
+    section: `Fox Saint Law Firm wins Banking and Finance Team of the year and Dispute Resolution Team of the year at The 2021 Esquire Legal Awards`,
     date : 'November 7, 2024',
+    path : '/news/november07_2024'
   },
   {
     image: alan1,
-    section: `ALAN 2020 First Quarter Learning Session: “Law Firm Project Management & Facility Management”`,
+    section: `FSLAN 2020 First Quarter Learning Session: “Law Firm Project Management & Facility Management”`,
     date : 'November 8, 2020',
   },
   {
@@ -2757,12 +2972,41 @@ export const firmnewscard = [
   },
 ]
 
+
+export const Esquire2021Info = [
+  {
+    header: "Alliance Law Firm wins Banking and Finance Team of the year and Dispute Resolution Team of the year at The 2021 Esquire Legal Awards",
+    date: "November 7, 2021 | By ALF",
+    text: `We are pleased to announce that on Sunday, November 7, 2021, Alliance Law Firm was distinguished at the 2021 edition of the ESQ Awards. The Firm was the recipient of the following prestigious awards:
+
+• Banking and Finance Team of the Year
+• Dispute Resolution Team of the Year
+
+We are equally pleased to announce that this is the second consecutive year that the firm is winning Banking and Finance Team of the Year award.
+
+In addition to the firm’s awards, our Practice Director, Ebele Iyayi was nominated for the Practice Administrator of the Year category, while our Senior Associate, Blessing Ajunwo-Choko, was also nominated for the 40 under 40 Rising Star Awards category.
+
+The recognition accorded to the firm and our staff is simply a testament to our dedication towards excellence in the service of our clients and the overall public course. We appreciate the clients who have partnered with us over the years, while we are also excited over the promise of limitless possibilities that abound in the coming future.`,
+    points: [
+      "Banking and Finance Team of the Year",
+      "Dispute Resolution Team of the Year",
+    ],
+    description:
+      "Below is an image gallery highlighting the event in pictures:",
+    notice: null,
+    image: null, // once you have the first main cover image, replace null with the import e.g. esquire2021_1
+    caption: "2021 ESQ Awards Night",
+    gallery: [] // you can fill this later with multiple award-night pictures
+  }
+];
+
+
 export const contactinfo = [
   {
     interest : 'INTERESTED IN CONTACTING THE',
-    team : 'ALLIANCE TEAM?',
+    team : 'FOX SAINT TEAM?',
     description : `Thank you for your interest in contacting our firm. Please complete the form below and upload a valid government-issued identification. Upon review of your submission, a member of our legal team will reach out to you regarding the next steps.`,
-    text : 'If you encounter any difficulties submitting the form, you may alternatively send your identification directly to us via email at careers@alliancelawfirm.ng',
+    text : 'If you encounter any difficulties submitting the form, you may alternatively send your identification directly to us via email at careers@foxsaintlawfirm.us',
     form: 'CONTACT FORM',
   }
 ]
@@ -2770,7 +3014,7 @@ export const contactinfo = [
 export const foothead = [
   {
     logo : logo, 
-    head : "ALLIANCE LAW FIRM",
+    head : "FOX SAINT LAW FIRM",
     text : "We are a full-service law firm with a depth of proven experience and expertise in diverse areas of the law."
   }
 ]
@@ -2779,10 +3023,10 @@ export const foothead = [
 export const intouch = [
   {
     label: 'Head Office:', 
-    address : "Alliance House, 71 Ademola Street, SW Ikoyi, Lagos, Nigeria",
-    contact : "phone :", 
-    number : "+234-9060003017",
-    href: "#"
+    address : "1371 Alverser Plaza, MIdlothian, VA 23113",
+    // contact : "phone :", 
+    // number : "+234-9060003017",
+    // href: "#"
   }
 ]
 

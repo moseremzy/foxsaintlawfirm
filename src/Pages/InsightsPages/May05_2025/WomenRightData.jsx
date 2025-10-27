@@ -8,9 +8,9 @@ const WomenRightData = () => {
       {womensRightInfo.map((item, index) => (
         <section
           key={index}
-          className='w-[80%] md:mt-20 flex flex-col justify-center items-center mb-10'
+          className='w-[90%] flex flex-col justify-center items-center mb-10'
         >
-          <h1 className='mt-5 py-3 px-10 font-bold text-xl md:text-3xl text-center'>
+          <h1 className='py-3 px-10 font-bold text-xl md:text-3xl text-center'>
             {item.header}
           </h1>
           <p className='text-[15px] text-gray-500 mb-4'>
@@ -23,14 +23,14 @@ const WomenRightData = () => {
           </article>
 
 
-          <section
+          {/* <section
            className='px-3 md:px-20 w-full mt-10'>
             <h1 className='font-semibold text-xl'>Author</h1>
             <img src={item.image} alt={item.name}
             className='size-[200px] mt-10 pl-2' />
             <p>{item.name}</p>
             <p>{item.role}</p>
-          </section>
+          </section> */}
         </section>
       ))}
     </div>

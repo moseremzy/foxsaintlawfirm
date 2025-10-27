@@ -24,9 +24,9 @@ const TeamCard = () => {
         </p>
 
         <button className="bg-blue-950 rounded-2xl py-3 px-5 text-sm text-white font-semibold">
-          <Link to={item.path} className="">
+          {/* <Link to={item.path} className="">
             {item.section}
-          </Link>
+          </Link> */}
         </button>
       </section>
         </section>

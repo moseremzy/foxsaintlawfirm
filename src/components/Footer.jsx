@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/FSLogo2.png";
 import { practiceAreas } from "../constants";
 import { intouch } from "../constants";
 
@@ -20,30 +20,30 @@ const Footer = () => {
           <div className="flex items-center gap-3 lg:gap-1">
             <img
               src={logo}
-              alt="Alliance Logo"
-              className="w-14 h-14 object-contain"
+              alt="Fox Saint Logo"
+              className="h-16 w-auto scale-150"
             />
             <h2 className="text-[26px] font-semibold lg:text-[22px]">
-              ALLIANCE LAW FIRM
+              FOX SAINT LAW FIRM
             </h2>
           </div>
           <p className="text-[14px] mb-7 lg:w-[280px] lg:text-[15px] ">
             We are a full-service law firm with a depth of proven experience and
             expertise in diverse areas of the law.
           </p>
-          <p className="font-semibold mt-2 mb-7 lg:mb-2">Members of</p>
-          <div className="flex justify-between">
+          {/* <p className="font-semibold mt-2 mb-7 lg:mb-2">Members of</p> */}
+          {/* <div className="flex justify-between">
             <img src={logo} alt="" className="w-16 h-16 object-contain" />
             <img src={logo} alt="" className="w-16 h-16 object-contain" />
             <img src={logo} alt="" className="w-16 h-16 object-contain" />
-          </div>
+          </div> */}
         </div>
 
         {/* Practice Areas */}
         <div className="flex flex-col">
           <p className="font-bold text-xl mb-4">Practice Areas</p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {practiceAreas.slice(0, 8).map((item, index) => (
+            {practiceAreas.slice(0, 6).map((item, index) => (
               <li key={index}>
                 <a href={item.href} className="none active:text-purple-500 text-[14px] md:hover:text-amber-400 text-md md:active:text-purple-500">
                   {item.text}
@@ -73,7 +73,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-sm py-4 border-t">
-        &copy; {new Date().getFullYear()} Alliance Law Firm. All rights
+        &copy; {new Date().getFullYear()} Fox Saint Law Firm. All rights
         reserved.
       </div>
     </footer>

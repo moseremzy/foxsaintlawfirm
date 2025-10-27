@@ -12,7 +12,7 @@ const IntellectualBanner = () => {
           className="text-4xl md:text-[58px] font-semibold"
           style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.8)" }}
         >
-          Energy, Extractive Industry and Power Practice
+          Intellectual Property, Media, Entertainment $ Technology Practices
         </h1>
       </div>
     </section>

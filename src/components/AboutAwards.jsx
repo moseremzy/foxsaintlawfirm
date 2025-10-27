@@ -54,13 +54,13 @@ const AboutAwards = () => {
           </section>
         ))}
 
-       <a
+       {/* <a
   href="/assets/Alliance-Law-Firm-Profile-Jan-2025.pdf"
   download="Alliance-Law-Firm-Profile-Jan-2025.pdf"
   className="bg-white hover:animate-pulse text-indigo-950 font-bold px-5 py-3 rounded-2xl shadow transition mt-20"
 >
   DOWNLOAD FIRM'S PROFILE
-</a>
+</a> */}
 
 
       </section>

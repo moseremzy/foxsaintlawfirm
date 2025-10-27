@@ -3,7 +3,7 @@ import { Menu, X, Instagram, Linkedin, Facebook } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/FSLogo2.png";
 import { navItems } from "../constants";
 import { locations } from "../constants";
 import { contacts } from "../constants";
@@ -25,10 +25,13 @@ const Navbar2 = () => {
                   {/* name-logo  */}
                   <div className=" flex items-center flex-shrink-0  ">
                     <Link to="/">
-                      <img className="h-16 w-10 mr-2" src={logo} alt="logo" />
+                      <img   className="h-16 w-auto scale-150"  src={logo}
+  alt="logo"
+/>
+
                     </Link>
-                    <span className="text-lg tracking-tight font-sans font-semibold">
-                      ALLIANCE LAW FIRM
+                    <span className="text-[21px] tracking-tight font-sans font-semibold text-[#D3B45E]">
+                      FOX SAINT LAW FIRM
                     </span>
                   </div>
         
@@ -37,9 +40,9 @@ const Navbar2 = () => {
                     {navItems.map((item, index) => (
                       <li
                         key={index}
-                        className={`hover:text-orange-500 ${
+                        className={`hover:text-[#D3B45E] ${
                           location.pathname === item.path
-                            ? "text-orange-500 font-semibold"
+                            ? "text-[#D3B45E] font-semibold"
                             : "text-indigo-950"
                         }`}
                       >
@@ -53,22 +56,22 @@ const Navbar2 = () => {
                   <div className="lg:hidden md:flex flex-col justify-end">
                     <button onClick={toggleNavbar}>
                       {mobileDrawerOpen ? (
-                        <X className="text-orange-500 active:text-indigo-950" />
+                        <X className="text-[#D3B45E] active:text-indigo-950" />
                       ) : (
-                        <Menu className="active:text-orange-500" />
+                        <Menu className="active:text-[#D3B45E]" />
                       )}
                     </button>
                   </div>
                 </div>
                 {mobileDrawerOpen && (
-                  <div className="absolute top-full left-0 z-20 bg-amber-50 text-black font-semibold text-[15px] w-full px-12 py-3 flex flex-col items-center lg:hidden animate-slideDown">
+                  <div className="absolute top-full left-0 z-20 bg-gray-100 text-black font-semibold text-[15px] w-full px-12 py-3 flex flex-col items-center lg:hidden animate-slideDown">
                     <ul className="flex flex-col items-center">
                       {navItems.map((item, index) => (
                         <li
                           key={index}
                           className={`py-5 ${
                             location.pathname === item.path
-                              ? "text-orange-500 font-semibold"
+                              ? "text-[#D3B45E] font-semibold"
                               : "text-indigo-950"
                           }`}
                         >
