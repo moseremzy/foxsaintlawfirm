@@ -59,6 +59,7 @@ import msi1 from "../assets/profile-pictures/msi1.jpeg"
 import alan1 from "../assets/profile-pictures/alan1.webp"
 import Esquire from "../assets/profile-pictures/Esquire2.jpg"
 
+
 export const locations = [
   {label: "China", href: "#"},
   {label: "United States", href: "#"},
@@ -73,12 +74,12 @@ export const navItems = [
   { label: "Insights", path: "/insights" },
   // { label: "Firm News", path: "/news" },
   // { label: "Careers", path: "/careers" },
-  { label: "Contact Us", path: "/contact" },
+  // { label: "Contact Us", path: "/contact" },
 ];
 
 export const contacts = [
   // { label: "Phone", icon: <Phone />, contact: "+234-9060003017", href: "#" },
-  { label: "Email", icon: <Mail />, contact: "info@foxsaintlawfirm.us", href: "#" },
+  // { label: "Email", icon: <Mail />, contact: "info@foxsaintlawfirm.com", href: "#" },
   { label: "Address", icon: <MapPinCheck />, contact: "1371 Alverser Plaza, MIdlothian, VA 23113", href: "#" },
 ];
 

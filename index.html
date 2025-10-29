@@ -11,21 +11,56 @@
     <script type="module" src="/src/main.jsx"></script>
 
     <!-- GOOGLE TRANSLATE BEGIN -->
-    <script
-      type="text/javascript"
+    <script type="text/javascript" 
       src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
     </script>
-    <script type="text/javascript">
+
+    <script>
       function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-          { pageLanguage: 'en' },
-          'google_translate_element'
-        );
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,fr,es,ar', // optional
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
       }
     </script>
+
     <!-- GOOGLE TRANSLATE END -->
 
     <!-- JivoChat widget -->
-    <script src="//code.jivosite.com/widget/9QbNsve8KJ" async></script>
+    <script src="//code.jivosite.com/widget/uTqJcgDXbx" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script>
+      
+    // REMOVE THOSE GOOGLE TRANSLATE NONSENSE FROM THE TOP
+    setInterval(() => {
+
+    $("body").css({'position': 'relative', 'min-height': '100%', 'top': '0px'})
+
+    let google_body_elem = $('.skiptranslate');
+
+    let another_google = $('#goog-gt-')
+
+    another_google.remove()
+
+    google_body_elem[0].attributes[1].nodeValue = "display: none;"
+
+    let text = $('.VIpgJd-ZVi9od-l4eHX-hSRGPd')
+
+    text[0].attributes[0].nodeValue = "dissapear"
+
+    let google_select_elem = $('.goog-te-combo');
+
+    google_select_elem.change(function(){
+
+    google_body_elem[0].attributes[1].nodeValue = "display: none;" //make the files dissapear
+
+    })
+
+    },1000) 
+
+
+    </script>
   </body>
 </html>
