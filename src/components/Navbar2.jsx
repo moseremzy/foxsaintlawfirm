@@ -23,12 +23,9 @@ const Navbar2 = () => {
                 {/* content items container  */}
                 <div className=" flex justify-between gap-20 items-center">
                   {/* name-logo  */}
-                  <div className=" flex items-center flex-shrink-0  ">
+                  <div className=" flex items-center ">
                     <Link to="/">
-                      <img   className="h-16 w-auto scale-150"  src={logo}
-  alt="logo"
-/>
-
+                      <img  className="h-16 w-auto scale-150"  src={logo} alt="logo"/>
                     </Link>
                     <span className="text-[21px] tracking-tight font-sans font-semibold text-[#D3B45E]">
                       FOX SAINT LAW FIRM
